@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ab30dc1cc3b43210c9043eec05013142" sys_domain="global" table="x_1092529_bms_ba_0_bases" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 19:37:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b30dc1cc3b43210c9043eec05013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1092529_bms_ba_0_bases" name="x_1092529_bms_ba_0_bases" sys_domain="global" view="Default view">ab30dc1cc3b43210c9043eec05013142</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1092529_bms_ba_0_bases" sys_domain="global" view="Default view">8baec818c3b43210c9043eec05013137</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 19:37:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 19:47:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1829cdcc3b43210c9043eec050131b4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1092529_bms_ba_0_bases" name="x_1092529_bms_ba_0_bases" sys_domain="global" view="Default view">ab30dc1cc3b43210c9043eec05013142</sys_ui_form>
+            <sys_ui_section caption="Geographic Coordinates" display_value="Geographic Coordinates" name="x_1092529_bms_ba_0_bases" sys_domain="global" view="Default view">59829cdcc3b43210c9043eec050131b1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 19:47:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 19:37:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f730dc1cc3b43210c9043eec05013147</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1092529_bms_ba_0_bases" name="x_1092529_bms_ba_0_bases" sys_domain="global" view="Default view">ab30dc1cc3b43210c9043eec05013142</sys_ui_form>
+            <sys_ui_section caption="Inegration Status" display_value="Inegration Status" name="x_1092529_bms_ba_0_bases" sys_domain="global" view="Default view">eb30dc1cc3b43210c9043eec05013141</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 19:47:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1092529_bms_ba_0_bases</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 19:37:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab30dc1cc3b43210c9043eec05013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1092529_bms_ba_0_bases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ab30dc1cc3b43210c9043eec05013142</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 19:37:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

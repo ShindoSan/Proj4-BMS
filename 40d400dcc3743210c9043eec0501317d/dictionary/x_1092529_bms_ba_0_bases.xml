@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aeae8c98c3b43210c9043eec05013118" label="Bases" max_length="40" name="x_1092529_bms_ba_0_bases" type="collection">
+        <element label="Base Manager" max_length="32" name="base_manager" reference="sys_user" type="reference"/>
+        <element label="Temperature in Celcius" max_length="40" name="temperature_in_celcius" type="integer"/>
+        <element label="Max. Capacity" max_length="40" name="max_capacity" type="integer"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Error massage" max_length="40" name="error_massage" type="string"/>
+        <element choice="3" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Success" sequence="0" value="success"/>
+                <element inactive_on_update="false" label="Failure" sequence="1" value="failure"/>
+            </choice>
+        </element>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Avaible Vacancies" max_length="40" name="avaible_vacancies" type="integer"/>
+        <index name="index">
+            <element name="base_manager"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="03a3d450c3f43210c9043eec050131a3" extends="task" label="Base Assignment" max_length="40" name="x_1092529_bms_ba_0_base_assignment" type="collection">
+        <element label="Function" max_length="32" name="function" reference="x_1092529_bms_ba_0_functions" type="reference"/>
+        <element label="Base" max_length="32" name="base" reference="x_1092529_bms_ba_0_bases" type="reference"/>
+    </element>
+</database>
