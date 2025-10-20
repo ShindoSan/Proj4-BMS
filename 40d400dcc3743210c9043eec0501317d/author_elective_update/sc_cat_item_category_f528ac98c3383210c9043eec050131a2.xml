@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="BMS - Base Management System">6d286098c3383210c9043eec05013163</sc_cat_item>
+        <sc_category display_value="BMS - Base Management System">61e76898c3383210c9043eec05013104</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 21:22:08</sys_created_on>
+        <sys_id>f528ac98c3383210c9043eec050131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BMS - Base Management System.BMS - Base Management System</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sc_cat_item_category_f528ac98c3383210c9043eec050131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 21:22:08</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sc_cat_item_category_f528ac98c3383210c9043eec050131a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="BMS - Base Management System">6d286098c3383210c9043eec05013163</sc_cat_item><sc_category display_value="BMS - Base Management System">61e76898c3383210c9043eec05013104</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 21:22:08</sys_created_on><sys_id>f528ac98c3383210c9043eec050131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BMS - Base Management System.BMS - Base Management System</sys_name><sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package><sys_policy/><sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope><sys_update_name>sc_cat_item_category_f528ac98c3383210c9043eec050131a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 21:22:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>244218256</payload_hash>
+        <record_name>BMS - Base Management System.BMS - Base Management System</record_name>
+        <reverted_from/>
+        <source>a6ed8c58c3b43210c9043eec050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 21:22:08</sys_created_on>
+        <sys_id>b128ac98c3383210c9043eec050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a0380437c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 21:22:08</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b528ac98aa383210d367132ad588a0a6</update_guid>
+        <update_guid_history>b528ac98aa383210d367132ad588a0a6:244218256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="BMS - Base Management System.BMS - Base Management System">fe5864d8c3383210c9043eec050131e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 21:23:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>22bfb043a07f41ba8d6a8e53819d3ae4</sys_id>
+        <sys_metadata>f528ac98c3383210c9043eec050131a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BMS - Base Management System.BMS - Base Management System</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_scope_delete display_value="">303dd74e85754d878c50280329d64d71</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f528ac98c3383210c9043eec050131a2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f528ac98c3383210c9043eec050131a2">b128ac98c3383210c9043eec050131a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 21:23:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

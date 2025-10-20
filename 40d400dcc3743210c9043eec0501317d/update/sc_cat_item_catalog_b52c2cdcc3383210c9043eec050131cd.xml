@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="BMS - Base Management System">d72860d8c3383210c9043eec05013101</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 21:39:37</sys_created_on>
+        <sys_id>b52c2cdcc3383210c9043eec050131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.BMS - Base Management System</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b52c2cdcc3383210c9043eec050131cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 21:39:37</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
