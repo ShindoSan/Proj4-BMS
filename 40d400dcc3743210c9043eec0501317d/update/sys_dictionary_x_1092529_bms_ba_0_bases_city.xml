@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>City</column_label>
@@ -14,8 +14,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>state</dependent>
+        <dependent_on_field>state</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -53,11 +53,11 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_dictionary_x_1092529_bms_ba_0_bases_city</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 19:35:26</sys_updated_on>
+        <sys_updated_on>2025-10-21 14:31:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

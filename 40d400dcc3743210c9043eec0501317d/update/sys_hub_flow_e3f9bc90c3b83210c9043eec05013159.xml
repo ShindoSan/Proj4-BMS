@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>base_integration</internal_name>
-        <label_cache>[{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"94629fd5-e225-4a3a-8240-587ed7913439":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f989510a-fd68-4bff-8381-9c01a9b5d00e"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Bases Record","reference":"x_1092529_bms_ba_0_bases","reference_display":"Bases","type":"reference","base_type":"reference","usedInstances":{"1a0509de-6f63-40ea-a34e-ad5d027b343b":["record"]},"attributes":{}},{"name":"flow_variable.integration_success","label":"Flow Variables➛Integration Success","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"bba12961-06be-42bc-8c02-b341546db823":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08824290-7d78-4ab9-bd24-9cc95944e5c5"}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"bba12961-06be-42bc-8c02-b341546db823":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"46f94c35-1fbb-4d53-95ee-704f3f2376e6"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"bba12961-06be-42bc-8c02-b341546db823":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0911b309-ad42-4e5f-80f6-d95a965d880e"}}]</label_cache>
+        <label_cache>[{"name":"d1e08a01-f4ca-47da-859a-875159d4b611.duration","label":"11 - BMS - Convert seconds into Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","usedInstances":{"56b0291d-74d7-474b-8f10-4f5ca9a06ddc":["timer_duration"]},"attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6f8db53a-c1d5-49c1-aee7-5e9f3aea2a43"}},{"name":"539fee42-c707-4878-8b1b-5ce2de90d937.__action_status__.code","label":"7 - Integration Yahoo Weather API➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"5f30e3ad-5c4e-4bcf-826b-cde531c841d1":["condition"]},"attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Bases Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"state","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"image":"","used":false,"label":"Acre (AC)","reference":false,"selected":false,"missing":false,"rawLabel":"Acre (AC)","value":"ac","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Alagoas (AL)","reference":false,"selected":false,"missing":false,"rawLabel":"Alagoas (AL)","value":"al","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Amapá (AP)","reference":false,"selected":false,"missing":false,"rawLabel":"Amapá (AP)","value":"ap","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Amazonas (AM)","reference":false,"selected":false,"missing":false,"rawLabel":"Amazonas (AM)","value":"am","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Bahia (BA)","reference":false,"selected":false,"missing":false,"rawLabel":"Bahia (BA)","value":"ba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Ceará (CE)","reference":false,"selected":false,"missing":false,"rawLabel":"Ceará (CE)","value":"ce","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Distrito Federal (DF)","reference":false,"selected":false,"missing":false,"rawLabel":"Distrito Federal (DF)","value":"df","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Goiás (GO)","reference":false,"selected":false,"missing":false,"rawLabel":"Goiás (GO)","value":"go","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Maranhão (MA)","reference":false,"selected":false,"missing":false,"rawLabel":"Maranhão (MA)","value":"ma","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Mato Grosso (MT)","reference":false,"selected":false,"missing":false,"rawLabel":"Mato Grosso (MT)","value":"mt","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Mato Grosso do Sul (MS)","reference":false,"selected":false,"missing":false,"rawLabel":"Mato Grosso do Sul (MS)","value":"ms","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Minas Gerais (MG)","reference":false,"selected":false,"missing":false,"rawLabel":"Minas Gerais (MG)","value":"mg","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Pará (PA)","reference":false,"selected":false,"missing":false,"rawLabel":"Pará (PA)","value":"pa","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Paraíba (PB)","reference":false,"selected":false,"missing":false,"rawLabel":"Paraíba (PB)","value":"pb","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Paraná (PR)","reference":false,"selected":false,"missing":false,"rawLabel":"Paraná (PR)","value":"pr","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Pernambuco (PE)","reference":false,"selected":false,"missing":false,"rawLabel":"Pernambuco (PE)","value":"pe","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Piauí (PI)","reference":false,"selected":false,"missing":false,"rawLabel":"Piauí (PI)","value":"pi","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Rio de Janeiro (RJ)","reference":false,"selected":false,"missing":false,"rawLabel":"Rio de Janeiro (RJ)","value":"rj","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Rio Grande do Norte (RN)","reference":false,"selected":false,"missing":false,"rawLabel":"Rio Grande do Norte (RN)","value":"rn","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Rio Grande do Sul (RS)","reference":false,"selected":false,"missing":false,"rawLabel":"Rio Grande do Sul (RS)","value":"rs","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Rondônia (RO)","reference":false,"selected":false,"missing":false,"rawLabel":"Rondônia (RO)","value":"ro","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Roraima (RR)","reference":false,"selected":false,"missing":false,"rawLabel":"Roraima (RR)","value":"rr","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Santa Catarina (SC)","reference":false,"selected":false,"missing":false,"rawLabel":"Santa Catarina (SC)","value":"sc","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"São Paulo (SP)","reference":false,"selected":false,"missing":false,"rawLabel":"São Paulo (SP)","value":"sp","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Sergipe (SE)","reference":false,"selected":false,"missing":false,"rawLabel":"Sergipe (SE)","value":"se","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}},{"image":"","used":false,"label":"Tocantins (TO)","reference":false,"selected":false,"missing":false,"rawLabel":"Tocantins (TO)","value":"to","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":[""]}}],"usedInstances":{"539fee42-c707-4878-8b1b-5ce2de90d937":["state"]}},{"name":"Created or Updated_1.current.city","label":"Trigger - Record Created or Updated➛Bases Record➛City","reference":"","reference_display":"City","type":"choice","base_type":"choice","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"city","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"image":"","used":false,"label":"Alto Alegre","reference":false,"selected":false,"missing":false,"rawLabel":"Alto Alegre","value":"alto_alegre","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rr"]}},{"image":"","used":false,"label":"Anápolis","reference":false,"selected":false,"missing":false,"rawLabel":"Anápolis","value":"anapolis","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["go"]}},{"image":"","used":false,"label":"Aracaju","reference":false,"selected":false,"missing":false,"rawLabel":"Aracaju","value":"aracaju","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["se"]}},{"image":"","used":false,"label":"Araguaína","reference":false,"selected":false,"missing":false,"rawLabel":"Araguaína","value":"araguaina","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["to"]}},{"image":"","used":false,"label":"Arapiraca","reference":false,"selected":false,"missing":false,"rawLabel":"Arapiraca","value":"arapiraca","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["al"]}},{"image":"","used":false,"label":"Ariquemes","reference":false,"selected":false,"missing":false,"rawLabel":"Ariquemes","value":"ariquemes","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ro"]}},{"image":"","used":false,"label":"Bayeux","reference":false,"selected":false,"missing":false,"rawLabel":"Bayeux","value":"bayeux","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pb"]}},{"image":"","used":false,"label":"Belém","reference":false,"selected":false,"missing":false,"rawLabel":"Belém","value":"belem","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pa"]}},{"image":"","used":false,"label":"Belo Horizonte","reference":false,"selected":false,"missing":false,"rawLabel":"Belo Horizonte","value":"belo_horizonte","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["mg"]}},{"image":"","used":false,"label":"Blumenau","reference":false,"selected":false,"missing":false,"rawLabel":"Blumenau","value":"blumenau","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["sc"]}},{"image":"","used":false,"label":"Boa Vista","reference":false,"selected":false,"missing":false,"rawLabel":"Boa Vista","value":"boa_vista","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rr"]}},{"image":"","used":false,"label":"Brasília","reference":false,"selected":false,"missing":false,"rawLabel":"Brasília","value":"brasilia","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["df"]}},{"image":"","used":false,"label":"Cacoal","reference":false,"selected":false,"missing":false,"rawLabel":"Cacoal","value":"cacoal","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ro"]}},{"image":"","used":false,"label":"Camaçari","reference":false,"selected":false,"missing":false,"rawLabel":"Camaçari","value":"camacari","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ba"]}},{"image":"","used":false,"label":"Campinas","reference":false,"selected":false,"missing":false,"rawLabel":"Campinas","value":"campinas","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["sp"]}},{"image":"","used":false,"label":"Campo Grande","reference":false,"selected":false,"missing":false,"rawLabel":"Campo Grande","value":"campo_grande","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ms"]}},{"image":"","used":false,"label":"Canoas","reference":false,"selected":false,"missing":false,"rawLabel":"Canoas","value":"canoas","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rs"]}},{"image":"","used":false,"label":"Cariacica","reference":false,"selected":false,"missing":false,"rawLabel":"Cariacica","value":"cariacica","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["es"]}},{"image":"","used":false,"label":"Caruaru","reference":false,"selected":false,"missing":false,"rawLabel":"Caruaru","value":"caruaru","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pe"]}},{"image":"","used":false,"label":"Caucaia","reference":false,"selected":false,"missing":false,"rawLabel":"Caucaia","value":"caucaia","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ce"]}},{"image":"","used":false,"label":"Caxias","reference":false,"selected":false,"missing":false,"rawLabel":"Caxias","value":"caxias","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ma"]}},{"image":"","used":false,"label":"Coari","reference":false,"selected":false,"missing":false,"rawLabel":"Coari","value":"coari","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["am"]}},{"image":"","used":false,"label":"Contagem","reference":false,"selected":false,"missing":false,"rawLabel":"Contagem","value":"contagem","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["mg"]}},{"image":"","used":false,"label":"Corumbá","reference":false,"selected":false,"missing":false,"rawLabel":"Corumbá","value":"corumba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ms"]}},{"image":"","used":false,"label":"Cruzeiro do Sul","reference":false,"selected":false,"missing":false,"rawLabel":"Cruzeiro do Sul","value":"cruzeiro_do_sul","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ac"]}},{"image":"","used":false,"label":"Cuiabá","reference":false,"selected":false,"missing":false,"rawLabel":"Cuiabá","value":"cuiaba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["mt"]}},{"image":"","used":false,"label":"Curitiba","reference":false,"selected":false,"missing":false,"rawLabel":"Curitiba","value":"curitiba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pr"]}},{"image":"","used":false,"label":"Dourados","reference":false,"selected":false,"missing":false,"rawLabel":"Dourados","value":"dourados","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ms"]}},{"image":"","used":false,"label":"Feira de Santana","reference":false,"selected":false,"missing":false,"rawLabel":"Feira de Santana","value":"feira_de_santana","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ba"]}},{"image":"","used":false,"label":"Florianópolis","reference":false,"selected":false,"missing":false,"rawLabel":"Florianópolis","value":"florianopolis","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["sc"]}},{"image":"","used":false,"label":"Fortaleza","reference":false,"selected":false,"missing":false,"rawLabel":"Fortaleza","value":"fortaleza","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ce"]}},{"image":"","used":false,"label":"Goiânia","reference":false,"selected":false,"missing":false,"rawLabel":"Goiânia","value":"goiania","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["go"]}},{"image":"","used":false,"label":"Guarulhos","reference":false,"selected":false,"missing":false,"rawLabel":"Guarulhos","value":"guarulhos","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["sp"]}},{"image":"","used":false,"label":"Gurupi","reference":false,"selected":false,"missing":false,"rawLabel":"Gurupi","value":"gurupi","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["to"]}},{"image":"","used":false,"label":"Imperatriz","reference":false,"selected":false,"missing":false,"rawLabel":"Imperatriz","value":"imperatriz","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ma"]}},{"image":"","used":false,"label":"Itabaiana","reference":false,"selected":false,"missing":false,"rawLabel":"Itabaiana","value":"itabaiana","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["se"]}},{"image":"","used":false,"label":"João Pessoa","reference":false,"selected":false,"missing":false,"rawLabel":"João Pessoa","value":"joao_pessoa","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pb"]}},{"image":"","used":false,"label":"Joinville","reference":false,"selected":false,"missing":false,"rawLabel":"Joinville","value":"joinville","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["sc"]}},{"image":"","used":false,"label":"Lagarto","reference":false,"selected":false,"missing":false,"rawLabel":"Lagarto","value":"lagarto","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["se"]}},{"image":"","used":false,"label":"Londrina","reference":false,"selected":false,"missing":false,"rawLabel":"Londrina","value":"londrina","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pr"]}},{"image":"","used":false,"label":"Luziânia","reference":false,"selected":false,"missing":false,"rawLabel":"Luziânia","value":"luziania","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["go"]}},{"image":"","used":false,"label":"Macaíba","reference":false,"selected":false,"missing":false,"rawLabel":"Macaíba","value":"macaiba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rn"]}},{"image":"","used":false,"label":"Macapá","reference":false,"selected":false,"missing":false,"rawLabel":"Macapá","value":"macapa","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ap"]}},{"image":"","used":false,"label":"Maceió","reference":false,"selected":false,"missing":false,"rawLabel":"Maceió","value":"maceio","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["al"]}},{"image":"","used":false,"label":"Manaus","reference":false,"selected":false,"missing":false,"rawLabel":"Manaus","value":"manaus","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["am"]}},{"image":"","used":false,"label":"Marabá","reference":false,"selected":false,"missing":false,"rawLabel":"Marabá","value":"maraba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pa"]}},{"image":"","used":false,"label":"Maringá","reference":false,"selected":false,"missing":false,"rawLabel":"Maringá","value":"maringa","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pr"]}},{"image":"","used":false,"label":"Mossoró","reference":false,"selected":false,"missing":false,"rawLabel":"Mossoró","value":"mossoro","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rn"]}},{"image":"","used":false,"label":"Natal","reference":false,"selected":false,"missing":false,"rawLabel":"Natal","value":"natal","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rn"]}},{"image":"","used":false,"label":"Niterói","reference":false,"selected":false,"missing":false,"rawLabel":"Niterói","value":"niteroi","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rj"]}},{"image":"","used":false,"label":"Oiapoque","reference":false,"selected":false,"missing":false,"rawLabel":"Oiapoque","value":"oiapoque","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ap"]}},{"image":"","used":false,"label":"Olinda","reference":false,"selected":false,"missing":false,"rawLabel":"Olinda","value":"olinda","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pe"]}},{"image":"","used":false,"label":"Palmas","reference":false,"selected":false,"missing":false,"rawLabel":"Palmas","value":"palmas","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["to"]}},{"image":"","used":false,"label":"Parintins","reference":false,"selected":false,"missing":false,"rawLabel":"Parintins","value":"parintins","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["am"]}},{"image":"","used":false,"label":"Parnaíba","reference":false,"selected":false,"missing":false,"rawLabel":"Parnaíba","value":"parnaiba","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pi"]}},{"image":"","used":false,"label":"Patos","reference":false,"selected":false,"missing":false,"rawLabel":"Patos","value":"patos","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pb"]}},{"image":"","used":false,"label":"Pelotas","reference":false,"selected":false,"missing":false,"rawLabel":"Pelotas","value":"pelotas","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rs"]}},{"image":"","used":false,"label":"Picos","reference":false,"selected":false,"missing":false,"rawLabel":"Picos","value":"picos","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pi"]}},{"image":"","used":false,"label":"Porto Alegre","reference":false,"selected":false,"missing":false,"rawLabel":"Porto Alegre","value":"porto_alegre","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rs"]}},{"image":"","used":false,"label":"Porto Velho","reference":false,"selected":false,"missing":false,"rawLabel":"Porto Velho","value":"porto_velho","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ro"]}},{"image":"","used":false,"label":"Recife","reference":false,"selected":false,"missing":false,"rawLabel":"Recife","value":"recife","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pe"]}},{"image":"","used":false,"label":"Rio Branco","reference":false,"selected":false,"missing":false,"rawLabel":"Rio Branco","value":"rio_branco","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ac"]}},{"image":"","used":false,"label":"Rio de Janeiro","reference":false,"selected":false,"missing":false,"rawLabel":"Rio de Janeiro","value":"rio_de_janeiro","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rj"]}},{"image":"","used":false,"label":"Rio Largo","reference":false,"selected":false,"missing":false,"rawLabel":"Rio Largo","value":"rio_largo","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["al"]}},{"image":"","used":false,"label":"Rondonópolis","reference":false,"selected":false,"missing":false,"rawLabel":"Rondonópolis","value":"rondonopolis","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["mt"]}},{"image":"","used":false,"label":"Rorainópolis","reference":false,"selected":false,"missing":false,"rawLabel":"Rorainópolis","value":"rorainopolis","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rr"]}},{"image":"","used":false,"label":"Salvador","reference":false,"selected":false,"missing":false,"rawLabel":"Salvador","value":"salvador","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ba"]}},{"image":"","used":false,"label":"Santana","reference":false,"selected":false,"missing":false,"rawLabel":"Santana","value":"santana","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ap"]}},{"image":"","used":false,"label":"Santarém","reference":false,"selected":false,"missing":false,"rawLabel":"Santarém","value":"santarem","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pa"]}},{"image":"","used":false,"label":"São Gonçalo","reference":false,"selected":false,"missing":false,"rawLabel":"São Gonçalo","value":"sao_goncalo","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["rj"]}},{"image":"","used":false,"label":"São Luís","reference":false,"selected":false,"missing":false,"rawLabel":"São Luís","value":"sao_luis","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ma"]}},{"image":"","used":false,"label":"São Paulo","reference":false,"selected":false,"missing":false,"rawLabel":"São Paulo","value":"sao_paulo","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["sp"]}},{"image":"","used":false,"label":"Sena Madureira","reference":false,"selected":false,"missing":false,"rawLabel":"Sena Madureira","value":"sena_madureira","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ac"]}},{"image":"","used":false,"label":"Serra","reference":false,"selected":false,"missing":false,"rawLabel":"Serra","value":"serra","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["es"]}},{"image":"","used":false,"label":"Sinop","reference":false,"selected":false,"missing":false,"rawLabel":"Sinop","value":"sinop","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["mt"]}},{"image":"","used":false,"label":"Sobral","reference":false,"selected":false,"missing":false,"rawLabel":"Sobral","value":"sobral","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["ce"]}},{"image":"","used":false,"label":"Teresina","reference":false,"selected":false,"missing":false,"rawLabel":"Teresina","value":"teresina","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["pi"]}},{"image":"","used":false,"label":"Uberlândia","reference":false,"selected":false,"missing":false,"rawLabel":"Uberlândia","value":"uberlandia","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["mg"]}},{"image":"","used":false,"label":"Vitória","reference":false,"selected":false,"missing":false,"rawLabel":"Vitória","value":"vitoria","parameters":{"name":"x_1092529_bms_ba_0_bases","dependent_values":["es"]}}],"usedInstances":{"539fee42-c707-4878-8b1b-5ce2de90d937":["city"]}},{"name":"flow_variable.active","label":"Flow Variables➛Active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"94629fd5-e225-4a3a-8240-587ed7913439":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f989510a-fd68-4bff-8381-9c01a9b5d00e"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Bases Record","reference":"x_1092529_bms_ba_0_bases","reference_display":"Bases","type":"reference","base_type":"reference","usedInstances":{"1a0509de-6f63-40ea-a34e-ad5d027b343b":["record"]},"attributes":{}},{"name":"flow_variable.integration_success","label":"Flow Variables➛Integration Success","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"bba12961-06be-42bc-8c02-b341546db823":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08824290-7d78-4ab9-bd24-9cc95944e5c5"}},{"name":"flow_variable.current_try","label":"Flow Variables➛Current Try","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"bba12961-06be-42bc-8c02-b341546db823":["condition"],"0d613551-6dfe-46cd-ba51-e3f7ce2792ea":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"46f94c35-1fbb-4d53-95ee-704f3f2376e6"}},{"name":"flow_variable.retry_count","label":"Flow Variables➛Retry Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"bba12961-06be-42bc-8c02-b341546db823":["condition"],"0d613551-6dfe-46cd-ba51-e3f7ce2792ea":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0911b309-ad42-4e5f-80f6-d95a965d880e"}},{"name":"539fee42-c707-4878-8b1b-5ce2de90d937.__action_status__","label":"7 - Integration Yahoo Weather API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","usedInstances":{"5654af0b-7397-42b2-a0e9-0c2a1c46692d":["integration_error_message-2"]},"attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"6931934c-1bb5-4970-829e-da960ac7772b"}},{"name":"539fee42-c707-4878-8b1b-5ce2de90d937.__action_status__.message","label":"7 - Integration Yahoo Weather API➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5654af0b-7397-42b2-a0e9-0c2a1c46692d":["integration_error_message-2"]},"attributes":{}},{"name":"flow_variable.retry_timeout","label":"Flow Variables➛Retry Timeout","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"d1e08a01-f4ca-47da-859a-875159d4b611":["seconds"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"bae12800-c611-4777-a8ff-a8c24aee73fb"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3f9bc90c3b83210c9043eec05013159</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Base Integration</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_hub_flow_e3f9bc90c3b83210c9043eec05013159</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:50</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -340,7 +340,7 @@
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e3f9bc90c3b83210c9043eec05013159^sys_idNOT IN4a909d10c33c3210c9043eec0501310d"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e3f9bc90c3b83210c9043eec05013159^sys_idNOT IN4a909d10c33c3210c9043eec0501310d,4d2de828c33c7210c9043eec0501312d,9b0f58e4c3f87210c9043eec0501312f,e38160e8c3f87210c9043eec0501316f"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -363,8 +363,74 @@
         <ui_id>1a0509de-6f63-40ea-a34e-ad5d027b343b</ui_id>
         <values>H4sIAAAAAAAA/+1UUWvbMBD+K8HPxsh2Epq8bQuBPayFbutLV4QsXRKBbHmSnCYL+e872XKatlsWSmAMlgcTne6++77Tx93vIimiaTQEQdJJOuZ5mucZIdnVMC3GeZFmImcAaRRHFSsBMw1wbQSe10w1PrDbfTDAHIiBNoOvtfB/aZrwxhio3H6PqULaWrHtXajACF9JJfA+mt4/xFHNDII7MNF09+LKbWugihWgsHCmeVMi6ODjDDHOJd5X3/bMXyrxPfAsAjqVPohXnk9K4gg2DioB2G7BlIU4KlmFMrXZRlNnGgzgAMRNpbaHjJWsXKe0ZBsrfyD+kPi8BaA0HqZwONIwoX44WnK4qZ3UVRdxrFD95LRqyuq6k+BnCwvWKHc028YiHtSesifRMVx8XunH277fXFatusBWac7U4cScM7JoHFj/HKCgHUrJ6lpWS1obvZZtMVIpk6XCQ7JQ+hF7WrmsEsY97wQHxJI5xmdt+I4Z6UV8Qhgs3rfi6ffG9+1kBMK01dwKpu1DYarlRtbuHQKvIdDcx8G5xeiUAfjk6b2PMJ/cu6EpmWSjbEKL0tKCUYIfi9JfufZ9CL/Nul9888F11/xc4s+KfyMkmPdZLHh3dDHvXv0l7wZG/5h5/2RZkp3cWUcv3brUHtkVnwaWhnmS1Dpctd8aQnKRvbbricw3OhhKxHcw6DrEZ2vpAeYSlLC/ENdbODSg69DgsIIv5uN0TNrf/018wU388BPGDqQfRQgAAA==</values>
     </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>723ad6ec-0b95-42a2-8fb7-fe82f3d0666f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:22:25</sys_created_on>
+        <sys_id>4d2de828c33c7210c9043eec0501312d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
+        <ui_id>eefc7e0a-7d59-4a59-b5c0-97deaff35ecc</ui_id>
+        <values>H4sIAAAAAAAA/9VY2W7bOhD9FUHPjkt5k5W3toGBAvc2QLeXJCAokYqJS5MqSWVF/r1DUZLXOI7t3qYvAUjOcmbm8IjOxWPIaXga0gQleZIMxzFC/T5Co1E/I1Ga9kdZilIyCDuhJDMGlpakgsHyhojSre9whJLesJfgdGZwSjCCP4YZMKHcFILc/6gtP9Tb2ZQLqpkMTy+uOmFBNAS2TIenjytH9r5gWJCUCfD+5vIGnx2Izs6Yl5zXa3AJmiWWPrTS1GFBnZDdWSYpg1Q5EYZ1whmRlFil79sdzQg9l2K+MeXSQsTQGd8Z/gDhx8jZ5QzKypg/a5e4bpHfzqaKZ+y8sFxJv+OB+kMlypn87AtwzWU5KYVtmgs7pYF4rHCYHYgaUf51qm6/NAknXFbl1YdCZUS0K2Kt5mlpYUowCybYDALhGSkKLq9xodUNr5wBy6x7LWDRzYW6haSGX8suyRzwLrSIdCewf1Zt/yCauyr+hTDgDIC4gGlj33SjSl115QZnojTVgSbS+FjhU9Ur/LN0KH3VdX3YtwgMTKZ5Yd+Dww2rS3nqNLQebqVIMqdEpiTlLqdZ4PY6h/em78fF+Lti2+i8CXBN5KW9msjR0Yg8QOgPUdnq8u0x+SVu+oLXCOpr8XsVZ+Yzg9U2W0hnSy2Dy/ASiP/UkjyiW4lE55wxSlvsu/97WD7hTNAlkd4BXON87ggbpPfP4a1JnrscK2rd++vV+kCK5xT7vnApuKw+ahAQ0rwp7i+L83ArNdJohQfV+OesrfaIydbZSwKrgof9lbqaa8PfHUA2jl8BUfDNo9wAvNHoJnxN3f7RqNvvvY66QJyLxxZ927UNDW7eRG50jf2Dsyer9kCiBYfo6aql/sf9ckavzdlzOVfuZv9Vl3ORWf7k7BmCHfnF9T9f4o5LOAXXOh/2lxXfcnrN7Dx7Y0WVvSXiv03nNbvaO1SVd/DrLdr6wE8XXm88xzOYEy/gSalZBlQwmGiGc1VKiuvH5Jw2bm4518bWxusa8sV/ahVcucBOWVBZB631MZRlh+oax0950JRXYzABlBdU5QVtea9rxjN6NDjie/EQPZoQLqrWw4+CYmF2TGuln9GkF6a2Zfw7CtaOoKKjgjpc0TbxfaOyvYD1r/iFeajqZIykgx4Zxf0oQihCNEbjOI7GozQfkXiQzy8axkZmIIsQOQdiQHjcEKGZKlqXFq+Ne/8bBDT33aQOsSvexvlMycsSoV5sAwcY5hw0gF8uqdaLVCnBiJzTc/jHBOOt/Kek5O7V98+mCf2uL7dPuTSOkn+X/GfJPjlSjBnqjSOanYzjKD4Z5HR0klAyPCFJOoz7lGWDfP/v89UvG5v1jjYUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Integration Yahoo Weather API">23841954c33c3210c9043eec05013181</action_type>
+        <action_type_parent display_value="Integration Yahoo Weather API">06d0dddcc3f83210c9043eec05013128</action_type_parent>
+        <attributes/>
+        <comment>Custom Action</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>bba12961-06be-42bc-8c02-b341546db823</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:20:51</sys_created_on>
+        <sys_id>9b0f58e4c3f87210c9043eec0501312f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 15:31:47</sys_updated_on>
+        <ui_id>539fee42-c707-4878-8b1b-5ce2de90d937</ui_id>
+        <values>H4sIAAAAAAAA/+1TXWvbMBT9K0XPsZE/G+dtdBQG2wrr2pdSzLV0nQhk2ZXltlnIf99V7CQ0sJGVPexhb7pX9+OcI52HDVOSLVicQl7wXIikml/GERcFTxNEwTMeJRHnbMYMNEiVQrk1Rc+gBx9uNlcWwaG8aO3FXSf9sYxCMViLxoW+eruleqn6TsP6/g/bxEppSSm2eHicsQ4sgXBo2WJzcuXWHZYaKtQ0/dZZZZbUfi63fePVSO4tVT+aon4/tLXSI4hmDF8dGom0pAbd44w1YIhKa9ds4exACSIpb4xeHypWyjgaxnzta69+0OQ559xX1khsBI63h7CclBvTYtUqgTedU60ZMw4qPfWIVg+N+TqC95pjDYN2e80pM/Q0DzsP2sOYMNW3q/bl237htTI7ftOlbgXoQwSOVKgGh71/gkF9P9FmzHw+fQfU2NDGsoGuo0zZ2fZZ7bYQ6CZcagrCWrcvhK5XSxOC8AxDEhPCa8p/3KXvwSpP9wuNoWa/7s6opwE/+XdO6iyv5KUIsiKPgjTN6qCIsyiAeSTqKBIVR862O2nLp8GTGkWa5ChHRamgF1Z17gNBeMaJ+XY2GQX4bz9Tdvw9vaNPfb5TduXvsMqx72945Qx6x8aR3wndX7gl/u+Wf8stAnhc5HUSxFXKg7SSaVDMJfkmiTMsBK8gz97tlsefzsTFM1gGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="BMS - Convert seconds into Duration">026f5028c3f87210c9043eec050131ec</action_type>
+        <action_type_parent display_value="BMS - Convert seconds into Duration">6f5f1028c3f87210c9043eec0501318a</action_type_parent>
+        <attributes/>
+        <comment>Custom Action</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>0d613551-6dfe-46cd-ba51-e3f7ce2792ea</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:31:48</sys_created_on>
+        <sys_id>e38160e8c3f87210c9043eec0501316f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 15:35:31</sys_updated_on>
+        <ui_id>d1e08a01-f4ca-47da-859a-875159d4b611</ui_id>
+        <values>H4sIAAAAAAAA/41SwW7bMAz9F50dw04cx8ttwFCgwNoC69ZLURi0RCUCZMmV5bRekH8fZStG0V521OMj+d6jns9MCbZnxbqU22xd8Y2sdus849+yYoPIs22Wb3KULGEGWiRmj9wa0RNwAj0E5HyW2r7VJ3AKGo2pQ+/G2qsW7eAvF2IK1XcaxqfYQAg/Ki0cGrZ/fklYB46Ge3Rsf/5U8mOHtYYGNTXeGo8HYiX/Lfra+bio/mIjbCBALbOtE0FJnjB892gE0i4JuseEtWAEeOtGtvduIMAhiAejx4VxpDmzxRbee/WXRhdZ4EkkTzzaX551jOaailUcHzqvrJkRHxKNRauH1tzP8kOoKGHQ/kOoQ0/zsAuSg4ioSD4e7duv68IbZSZ3sagtB728wHunmsFjHw4xqN+fo5mhn1/OgRpb2lm30HXKHOrO2ZOa9pDsNj1oeqTTLxHYq4NJgQePKYUJ6Q3hPyb4KX6hOxoT9/0x6nXA23BuLkW1Xe/ESkJVrYqyKVdVKauVlNCUclfkRbNjlync+nUItuaYYiD1nCkReu5U57+ThBNG75eXf2KD6hEKAwAA</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e3f9bc90c3b83210c9043eec05013159"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e3f9bc90c3b83210c9043eec05013159^sys_idNOT IN0a909d10c33c3210c9043eec05013110,44dbc1d8c3f83210c9043eec050131df,46909d10c33c3210c9043eec0501310f,b9909d10c33c3210c9043eec0501310c,c8dbc1d8c3f83210c9043eec050131e0"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e3f9bc90c3b83210c9043eec05013159^sys_idNOT IN0a909d10c33c3210c9043eec05013110,2b8160e8c3f87210c9043eec0501316e,2f8160e8c3f87210c9043eec0501316d,44dbc1d8c3f83210c9043eec050131df,46909d10c33c3210c9043eec0501310f,970f58e4c3f87210c9043eec05013131,b9909d10c33c3210c9043eec0501310c,c662602cc3f87210c9043eec050131cb,c8dbc1d8c3f83210c9043eec050131e0,c92de828c33c7210c9043eec0501312c"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">02909d10c33c3210c9043eec05013110</block>
@@ -383,12 +449,64 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 00:18:50</sys_created_on>
         <sys_id>0a909d10c33c3210c9043eec05013110</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:50</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <ui_id>a4cce4bd-027c-4f15-a02c-a3dd4f6c7f9a</ui_id>
-        <values>H4sIAAAAAAAA/52PsQrDMAxE/0Vzlq7ZMnYPWUoorq2koq4dLDkhhPx7ZWhpxtJJx510D20Qs0xZuI0NM40B6ktfAYXiqd6AHNQAFQTzRFUUBMdkhGK4crYWmTWcjc8llaSjAnsn7xK+y9gmmqSxQrPuDMYz7n25SWRuHv/AnFQ74smbtTtYP2EdWmKtbQv7/PmzBKuyyR6tJabH4OPy9fYXhTn4tDEBAAA=</values>
+        <values>H4sIAAAAAAAA/+1V227aQBD9lWqfgdpghM1bpAgJqW2khualiqz17hhWXe86e4FQxL93BhtIoyr5gObJu2duZ87MygdmY2hj8Ct7471aGzb/+ThgyhCG5wMzvAE2RyTA2vGgrCl9FAK8ZwO25TqSNcWzVL7VfP/QQ8HhZ8DERmnpoM/bcofpAjg2P7wyhX0LpeYVaAxeYfDnBdeeUiiJyKwWlUhlLiZ1PhmniSiSbAIgkmmSTlJeod85eHml+un+QvXNPqg4GitrNXCDgHWSSCYDBs8BjATkUBOfAWu4kTxYt78gDri8M/oKbLAKpmPk/OzVb8ydJeRXA/YroLNdrmUvXQeLjVUC7lqi2CGBV7qPEVbHxnzreiHRoeZRh7PodS9ZD9/+PZKzNXosCS21RTx70vX9xu6+nzktlDkp0Bu1FVxfbjwEp6oYwNMco1q9lq+DvvxrmqChwbJlw9tWmXXZOrtVp1LYXDNaa7yMam13SJEWcsQFKTFCzflogfjtCX7gTpEsXzENBlPJH0Y9RVjStiR5Ps7GRTKcyVk+zHhVDCs5zoaFEMW0yDKYiik7nkZQPkXqrBOz16TslEcHL5xqww1S2ELf/vGR9r6r3j2R04K+t2IfT+XjqfyPT0WCUB5ZrYjC8vxfIcMe90yJl9DOul/UzxU7/gHZP+LroQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e38160e8c3f87210c9043eec0501316e</block>
+        <comment>Current Try &lt; Retry Count</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>5f30e3ad-5c4e-4bcf-826b-cde531c841d1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:31:47</sys_created_on>
+        <sys_id>2b8160e8c3f87210c9043eec0501316e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
+        <ui_id>0d613551-6dfe-46cd-ba51-e3f7ce2792ea</ui_id>
+        <values>H4sIAAAAAAAA/+1U22rbQBD9laJnIXSJTeO3kBIotA00IS9tEKPdkb10tavuxY5q9O+d1cU2iUNLyWNfhPbsXM45mtE+0t613tl7fWWtWKto9e0xjoQKGL3vIwUNRquIacWFE1qVAxBHW5A+XNArF7aV0D0cEbYRkhucqrVgKMehiVb7Z1eua7GUUKGkxDtnhFpTuuB0qlOos0uWsSJfFnma5u8vsmpZVFnOC0AoKG5OvJ7Jvfs0IPGrrEM/wu3cSRseaGVpHOGTQ8WRWtcgLcZRA4qD06Y7IAaB3yp5BDZCuVFxA09W/KLa+WIRAmskjWyy43AsJ6tml7RgeNsGgiPioJKzhVr6Rn0ZdQSTsQYv3YnJ3lI9bAPpwGKiVN9t9O7r3PBGqEHgdCk1A3k4gSMbKu/Qhg+DEhsqVDbQtmRO2Rq9FUMycWmStaRDUku9o6ZhUhJggXhCHkFyQ/iHAX4AI4KKz1SGkkeaFVjBymGqqJwzJKEfbCl/+kBoFDhJKUc3KMAyI1p3RX22OLHu45cjeTKN+/3AcDuRSJg3JpR0puv77z5NCzY8+fNAgxRSMu2V6/uXM/1mdd9iMy5hUS+ydHF+My6W5zbjzE68vg75H9YhfMC/3IY0Tf+vw+k6CFuOYz1pG5r/8zY8htEfO9hxbjgyYYnIfcA+zv/xcNHRAAh2Cu20+REkHLH+N/bJEpsRBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a38160e8c3f87210c9043eec0501316d</block>
+        <comment>Set Current Try</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <flow_variables_assigned>current_try,integration_success,integration_error_message</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>5f30e3ad-5c4e-4bcf-826b-cde531c841d1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:31:47</sys_created_on>
+        <sys_id>2f8160e8c3f87210c9043eec0501316d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
+        <ui_id>5654af0b-7397-42b2-a0e9-0c2a1c46692d</ui_id>
+        <values>H4sIAAAAAAAA/+1YXWvbMBT9K8GvizPFH7HdPZV1hcC6wpr1ZRQjS1epmGO7spy2C/nvu/JX0q8wQlso5M06lu8991wddPHKyitdVLqc5cdlKeeZdfT7amjJzGD4vLIyugDryGKVUpDpWKt7a2gtaVoZFB+5LIuU3l9uEHYtU46bm1AFVRhBg7KOVo9e6fsC4pQmkOKH00zDHHdhco5Lj/GEjXnIXBG6zpiwiHguACM+GbtjHuC+7suvDbXBrKb2LF+TCUHZ58gVN4zI0II7DRkHzCloWsLQWtCMU53jdx2igPLzLN0A1xioqXVB70r5F2N7xOwTgElZq0O/jFuNOnlyyeC80DLPGkTTJO20y9Nqkf1oajDqgqBVqrfUrUqMB4XhbEi0jMTFdX77s0t4KrO6vPZlmjOa9iuqtZJJpaE0Hank7LE2DfT9SV8ghYWRdEGLQmbzuFD5UtZ5kPZiNE9xMRJpfov8zFEaUWZqHKGadHSK+EkNX1IlTcFnGKbN9yuTNxVM675PROQx17fHIklsj/uuHfkAdkA84QrHDSYwsda1uPFNZcpqZGoFiRtNcUPJlCz0MVJYYnlaVdBh9UHcOh643LUZU+lKZQPB47qSusIlVaOtGINPg/EXa71eD3vD1HoqahSIy4oxKMst45Cnzqnbs7d9Zsj582kbonZQINgOB9Fky0HTDdfBRc91ZyGto5I8T4FmH9dRneotfPJ8T97KdBv5HpruQTffxXckDB3PiYgd8CC0PZpEdsIdz44Yi/zI88Bn/h6+q8t/wRWgVK7iBZ4nOoctb6xWvhsJAM+xWUAC2wuRUZiME9tn4HCICI/cYBTHTZ1xqamuyjgetaHW66fmepWY+znzAjufzft7Ldx1rzHnBVd+M1oNznqt/kPO1qFll/7VDRoS8tEvvV6ch/brW/Y+Vx54nI4n3HYI92w0oWNOprADIUgYhQkRfrS39a6Mr5rszTxXn8KX5qTDXHeY6w5z3fNz3SPjHOa7D+Gsw3z3PvPdDncc5rzDnHeY895+zuPAZImsZobCtPuDZ17c4zGSbBu6zdUfU88GW/8DCK+0lgsUAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -409,10 +527,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-20 23:57:57</sys_created_on>
         <sys_id>44dbc1d8c3f83210c9043eec050131df</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:49</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <ui_id>07c89b7e-14c9-4cba-bffe-7435300f4282</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -435,12 +553,38 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 00:18:50</sys_created_on>
         <sys_id>46909d10c33c3210c9043eec0501310f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:50</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <ui_id>bba12961-06be-42bc-8c02-b341546db823</ui_id>
-        <values>H4sIAAAAAAAA/+1VTYvbMBD9K0VnYxy72Sy5LS0LhbaB3WUv7dYo0jgRlSVXH8mmxv+9I1tOQnZDQyn00pysN5qZN0/zSEu0d4139kHfWCtWisy/PCVEqIDhd0sEJ3Oy5DRny+ztrMiKSZFlV5Oc5bOiwt8VnU0zkhBFa8CbTCsunNCq7IGEbKj0IYCfXNhG0t3jAWFrIbmB2LWhBnMcGDJvT0Ju10Ap6RIkJt47I9QK0y/lNia+G8m9+dgj51mHfojbsZM2PNCaZFlC4NmB4oC9KyotJKSmilOnzW6PGKB8oeQBWAvlhpFr+mzFTyyeT6fhYgU4JIt67I9l1GqUSQsGiyYwHBBHl3LUUEtfq8/DIEFlqKiX7khlb7EeNIF0YBEpVfdrvb0bG94K1U8Yg1IzKvcn6lCHpXdgw8uAhBoLlTVtGlSnbIzeiD4ZudTpSuIhraTeYtOwUillgXiKGtH0FvH3PfxIjQhTfMIymNz105c/fOg7zBEZl8PQeMEyIxp3g+U2EMl1SVxRPpsU19W5Nbhmrzz20Xa2bU94Ezml+FywMrRfCesZA2u77qvPsoI74+Hb4u40g3ljAllndvEmnF4xgMGSaa9c1730wz/h8DcceIH0Lxz4+nOcsV3+O9sFPS50XRZq/bfdaDt8QlsOvoqz9c3/2I5PwVNDBzssDgcmLBJ5CNiH8Y8lBHa4AYIdQ1ttvocRDlj3C5ta5CGiBgAA</values>
+        <values>H4sIAAAAAAAA/+1VTWvbQBD9K0VnIWSrjoNvISVQaGtIQi5tKla7I3vpalfdDzuu0H/vjD5s48Q0lEAv9Un7Zmfmvdl5uIlM8HXw7t5cOSdXOlp8fYwjqQnD7ybSrIJoEXGjhfTS6LwD4mjDVKAAfgrpasV2DweEr6USFoZqNbOY48FGi+Yk5Hc15IoVoDDxzlupV5guBZ4Kwaa8SN/PszSbZGl6MZny6Twr8XfB5rMU742J1yO5d586JD7Lmvoh7sZOxgqiNUnTOIInD1oA9i6ZchBHFdOCeWN3e8QCE0utDsBaat9LrtiTk7+w+HQ2o4sloEg+zGN/zIdZjWMyksOyJoY94lmhxhkaFSr9pRdCU4aSBeWPphwc1oOaSBOLgVJ5tzbb27HhjdSdwiGoDGdqf2Ie51AED45eBhRUWCivWF3jdPLamo3skpFLlawUHpJSmS02pVVJGCfiCc6IJTeIf+jgB2YlqfiMZTC57dTnPwP17XUMjPNeNF5w3MraX2G5DQzk2vj56h1tXdN0RDZDrwSfAVaWdU/tAufgXNt+C2maCW8DfF/enmbwYC2R8HY33ITTKxYwmHMTtG/b53v+Tzi8hbPEfJJdluecdclfctYLnjpvp+mf7ETzeKWbUqr1306jnfAJXd77ZdDWNf9rmz2Sp/oOrl8cAVw6JHJP2Mfxj4ACO9wAyY+hrbE/SMIBa38DilYVQlIGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1f0f58e4c3f87210c9043eec05013130</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>bba12961-06be-42bc-8c02-b341546db823</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:20:51</sys_created_on>
+        <sys_id>970f58e4c3f87210c9043eec05013131</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
+        <ui_id>5f30e3ad-5c4e-4bcf-826b-cde531c841d1</ui_id>
+        <values>H4sIAAAAAAAA/+1UXW/TMBT9KyPPbeQkzfrxgiZQpUnAJDbtBSbrxr5pLVw72M62UvW/c52k3cQ2QGiPvNXnfp1zc093iW1D0wZ/Zc+8VyuTLL7cjBJlIka/d4mBDSaLRFgjVVDW8A4YJbeg2xg4NwFXDmLoZAlKtw7fUlgq32jYXv8+S6yVlg6HqQ046h3QJYvdL6GwbZBrqFBTs8vglFlRuZL0qhnU2VxkoshPi5yxfDbJqtOiynJZAEJBeYfCdwcRJx86ZPSiujiPcH+YZJ2MtDI2SvA+oJFIo2vQHkfJBoyEYN32iDgEeWH0A7BWJlC7JCbfe/WDeudlGRNrJI0C++DxyYf19bBYWyXwookEeyRApYcaYXW7MZ96HXHxWEOrw2HxhLSe+mETSUcWA6X6cm3vPh8GLpXpBA5BbQXo4wsCraFqA/r4YVDjhhrxDTQNLYc3zt6qrpi4bNKVpkdaa3tHQ+NFpSAi8ZR2BOmS8PcdfA1ORRUfqQ0V9zQr8Erw7vqoXXAkYd+thX9vI6Fe4CCF99ugBC+casIZzbnFgfV+9PR0H13tblcW8xpxko/FlE3Hk9l0Np5VWTUuBeYS50zOi2nKeU+e+wCh9Zynwkrc7998bRkrJHt66K/X+DW8MYeyLjNWPu+Nyelz3njGFS8bIv+DIeIn/Es/MMb+G+KxIZTn/WEP2rrh/+yHm3j8/QTf341EoTwRuYrY+eEfPwa2dABKPIburPsWJTxg+58ucXKnOwYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -461,12 +605,38 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 00:18:50</sys_created_on>
         <sys_id>b9909d10c33c3210c9043eec0501310c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:50</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <ui_id>01ca74b8-4358-422c-b824-50f9d9b482c3</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8262602cc3f87210c9043eec050131cb</block>
+        <comment>Wait 300 seconds</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <parent_ui_id>0d613551-6dfe-46cd-ba51-e3f7ce2792ea</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 15:35:31</sys_created_on>
+        <sys_id>c662602cc3f87210c9043eec050131cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
+        <ui_id>56b0291d-74d7-474b-8f10-4f5ca9a06ddc</ui_id>
+        <values>H4sIAAAAAAAA/+1YS3PbOAz+KxqdHa+op+1bp2lneuh2p/Hk0uloKBKyOaUlLUUl9Xr835eUKFmxZefl9H1JIoACPhAfICAbO69kUclynr8qS7bI7NmnzyObZVqm/t7YGV6BPbNpJbBkeRbLdQH2yL7BvNJy+FpwRpiM2wNKR1lZcLy+NkfemCNW7whZMk4FGHcFFsqLBGHPNnsq7S7mOAGuLL1e5oxo74yqJ38aecEE+ZHneMhznCREEIZ+FCZpiKNJoM61L14az9a8QX8kqPrXTCEwbnJBNSbkOCMVqISMgnKcYl7CyF7hjGKZi3UnEYDph4zvBEuWSWXP1oe/luw/Zdx39LkUVIAEGl33GJuLa8QNiiYJbRxDV3kqEyYAZzva2fgIXKlvYMiGMLoBG6hv4x8QBDKJF4NWik47YMfdqqxSSHHF5evzhYjOEKJ7phA9HWKTvg9FrZrZnqYXTrjJOcl5tcr+bmhodxdyfaqqmiOX9xdXVSpUUGi6av4ZMqZXy/z2Y8u1tyyrsRolzwnm3ROWUrCkkjo1Gxs4rJSheIWLgmWLuBD5DatfVmGsxguuHsYpz2+VU91CxphoIGNVHXj8Vskva/E1FkxfwHtlRr28rYkf/1tpv80VGMRxfWH6QEkEK+QrovNlwOkUmert5UCyFYi47lqxcgv6uZetw5705BZ0qaz/NW/M110oSRENUYiSyAtd1YU8n4QEwikAQnjqOr0u1KNUDdiqAVsasGUQPzg006rqy6/lsVG8QM+qbT2maXWsfxTpfxbmqsSXcUNNE1vt/AyMbnK9S/7LUPhdJmHRxKEJPHE8z3OmJPCijsCUAqRplCAX0CCBd1QdwGy4yTo/fzj5s3Ny4BO42VAEzgQ76CL1Cb7wI4ovJsFU/YgCFEyprwYyNG7f3G4PKexYV0DyjJZPb8c7XDWZIUV+QI7NhAkMzIT7VO6FerfJHs4L33Eu/EPn59D5YAiMc+VWZ61HcJzKGsoeaVvxOVYYSrCPnOAIXd2wR9d5PTGI/cnW6gF/eIhHFh3vh1l02kvez8XQQpNAmov+t7ITdLvB6ZXjHmfoUc7cZw//He8GB/5Wu1fHUlQ/Yhm3CMk6PrWA9Y4Zau5Id1/N313in9wAvvHagFI3oEcrP/JOVP7huvCAmO7bF/xf4Fv2zBoY/uSMfrvaKMkSaMVfqBK6zLSVkCZBoIa2I5UQundHNpUASy7BSnOublY/9eAeC8Pcm+i5NrQPzkh7z71Le7LK+iCGSuBqp/4dxrqnjm+fNRMbS2VDKQqElcrhXMvetf+t1oq1IgEjfdFtLr5oqDvZ9n+pAYNx9xYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -487,12 +657,38 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-20 23:57:57</sys_created_on>
         <sys_id>c8dbc1d8c3f83210c9043eec050131e0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:50</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <ui_id>94629fd5-e225-4a3a-8240-587ed7913439</ui_id>
         <values>H4sIAAAAAAAA/+2UXWvbMBSG/0rRtTH+aMKam1E2CoVthbX0ZivmWDpOxGTJk+SkWch/35Flp2FNaRm73F30nq/3HD9kx0zvu967O3PpnFxqtvj2kDCpg0a/d0xDi2zBuNFCeml0NQgJW4PqQ+Bae1xaCKEz6c6kBu7lGt9TipCuU7C9fz2Tr6QSFsfpHVia4dGyxe6PkN92WCmoUVHDW2+lXlK5FPRqMmjyC57zspiXRZYV787zel7WeSFKQCgpbyr8MC1z9mlQkhe3DPNId9MkY0WwlWcJw0ePWiCNbkA5TFgLWoA3dntQLIK40epJWEntqR0LyY9O/qLexWwWEhukHTnG4OFZjSeMMl8ZyfGmCwaj4qFWYw03qm/1l7hHOD420Cs/HZ+U3lE/7ILp4GK01NyuzObrNPBK6mHBMagMB3V4gacz1L1HFz4MKmypUdVC19Fxqs6atRyKyUubLhU90kaZDQ0NZKXhcxud0o0gvSL94yDfg5Vhi8/UhoqjzRqc5NVAIbXzllbYD2epfvbBUFxwXKWK16AEx63s/OWA1eh6nzxH+Ije3W5wuB5NpBHJ/f57n2WlGDo8B/ltRf+C6QuYNbM8m51m+nx+iukTNL8McvEKyOH0b+Q4y7L/IB+DLF0VgRx3i2D8LccPAdo4wUVuBHLpyMhd0K6nf+wQ2BIAkh9LG2N/hBWetP1vnWJoVvsFAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c12de828c33c7210c9043eec0501312c</block>
+        <comment>Integration State Success</comment>
+        <connected_to>5f30e3ad-5c4e-4bcf-826b-cde531c841d1</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <parent_ui_id>bba12961-06be-42bc-8c02-b341546db823</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:22:25</sys_created_on>
+        <sys_id>c92de828c33c7210c9043eec0501312c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
+        <ui_id>723ad6ec-0b95-42a2-8fb7-fe82f3d0666f</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e3f9bc90c3b83210c9043eec05013159"/>
@@ -758,7 +954,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -785,7 +981,7 @@
         <internal_type display_value="">boolean</internal_type>
         <label>Integration Success</label>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <model display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</model>
         <model_id>e3f9bc90c3b83210c9043eec05013159</model_id>
         <model_table>sys_hub_flow</model_table>
@@ -809,14 +1005,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-20 23:57:56</sys_created_on>
         <sys_id>7fcbc1d8c3f83210c9043eec050131ab</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:49</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -841,7 +1037,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -868,7 +1064,7 @@
         <internal_type display_value="">boolean</internal_type>
         <label>Active</label>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <model display_value="Base Integration">e3f9bc90c3b83210c9043eec05013159</model>
         <model_id>e3f9bc90c3b83210c9043eec05013159</model_id>
         <model_table>sys_hub_flow</model_table>
@@ -892,14 +1088,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-20 23:57:56</sys_created_on>
         <sys_id>b7cbc1d8c3f83210c9043eec050131be</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 00:18:49</sys_updated_on>
+        <sys_updated_on>2025-10-21 16:22:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

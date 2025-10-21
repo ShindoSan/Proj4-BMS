@@ -1,20 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="aeae8c98c3b43210c9043eec05013118" label="Bases" max_length="40" name="x_1092529_bms_ba_0_bases" type="collection">
         <element label="Base Manager" max_length="32" name="base_manager" reference="sys_user" type="reference"/>
-        <element label="Temperature in Celcius" max_length="40" name="temperature_in_celcius" type="integer"/>
+        <element label="Temperature in Celcius" max_length="40" name="temperature_in_celcius" type="string"/>
         <element label="Max. Capacity" max_length="40" name="max_capacity" type="integer"/>
-        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pernambuco (PE)" sequence="16" value="pe"/>
+                <element inactive_on_update="false" label="Mato Grosso do Sul (MS)" sequence="11" value="ms"/>
+                <element inactive_on_update="false" label="Goiás (GO)" sequence="8" value="go"/>
+                <element inactive_on_update="false" label="Roraima (RR)" sequence="22" value="rr"/>
+                <element inactive_on_update="false" label="Pará (PA)" sequence="13" value="pa"/>
+                <element inactive_on_update="false" label="São Paulo (SP)" sequence="24" value="sp"/>
+                <element inactive_on_update="false" label="Minas Gerais (MG)" sequence="12" value="mg"/>
+                <element inactive_on_update="false" label="Amazonas (AM)" sequence="4" value="am"/>
+                <element inactive_on_update="false" label="Piauí (PI)" sequence="17" value="pi"/>
+                <element inactive_on_update="false" label="Rio Grande do Norte (RN)" sequence="19" value="rn"/>
+                <element inactive_on_update="false" label="Rio de Janeiro (RJ)" sequence="18" value="rj"/>
+                <element inactive_on_update="false" label="Paraná (PR)" sequence="15" value="pr"/>
+                <element inactive_on_update="false" label="Amapá (AP)" sequence="3" value="ap"/>
+                <element inactive_on_update="false" label="Bahia (BA)" sequence="5" value="ba"/>
+                <element inactive_on_update="false" label="Acre (AC)" sequence="1" value="ac"/>
+                <element inactive_on_update="false" label="Santa Catarina (SC)" sequence="23" value="sc"/>
+                <element inactive_on_update="false" label="Maranhão (MA)" sequence="9" value="ma"/>
+                <element inactive_on_update="false" label="Tocantins (TO)" sequence="26" value="to"/>
+                <element inactive_on_update="false" label="Distrito Federal (DF)" sequence="7" value="df"/>
+                <element inactive_on_update="false" label="Alagoas (AL)" sequence="2" value="al"/>
+                <element inactive_on_update="false" label="Ceará (CE)" sequence="6" value="ce"/>
+                <element inactive_on_update="false" label="Mato Grosso (MT)" sequence="10" value="mt"/>
+                <element inactive_on_update="false" label="Sergipe (SE)" sequence="25" value="se"/>
+                <element inactive_on_update="false" label="Paraíba (PB)" sequence="14" value="pb"/>
+                <element inactive_on_update="false" label="Rondônia (RO)" sequence="21" value="ro"/>
+                <element inactive_on_update="false" label="Rio Grande do Sul (RS)" sequence="20" value="rs"/>
+            </choice>
+        </element>
         <element label="Error massage" max_length="40" name="error_massage" type="string"/>
         <element choice="3" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Success" sequence="0" value="3"/>
-                <element inactive_on_update="false" label="Starting" value="1"/>
-                <element inactive_on_update="false" label="Integrating" value="2"/>
-                <element inactive_on_update="false" label="Failure" sequence="1" value="4"/>
+                <element inactive_on_update="false" label="Success" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Failure" sequence="3" value="4"/>
             </choice>
         </element>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>
-        <element label="City" max_length="40" name="city" type="string"/>
+        <element choice="1" dependent="state" dependent_on_field="state" label="City" max_length="40" name="city" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="ro" inactive_on_update="false" label="Porto Velho" value="porto_velho"/>
+                <element dependent_value="ap" inactive_on_update="false" label="Oiapoque" value="oiapoque"/>
+                <element dependent_value="pr" inactive_on_update="false" label="Curitiba" value="curitiba"/>
+                <element dependent_value="pa" inactive_on_update="false" label="Belém" value="belem"/>
+                <element dependent_value="ba" inactive_on_update="false" label="Feira de Santana" value="feira_de_santana"/>
+                <element dependent_value="df" inactive_on_update="false" label="Brasília" value="brasilia"/>
+                <element dependent_value="go" inactive_on_update="false" label="Anápolis" value="anapolis"/>
+                <element dependent_value="ro" inactive_on_update="false" label="Ariquemes" value="ariquemes"/>
+                <element dependent_value="rr" inactive_on_update="false" label="Boa Vista" value="boa_vista"/>
+                <element dependent_value="rs" inactive_on_update="false" label="Pelotas" value="pelotas"/>
+                <element dependent_value="rs" inactive_on_update="false" label="Canoas" value="canoas"/>
+                <element dependent_value="ap" inactive_on_update="false" label="Santana" value="santana"/>
+                <element dependent_value="pa" inactive_on_update="false" label="Marabá" value="maraba"/>
+                <element dependent_value="sp" inactive_on_update="false" label="São Paulo" value="sao_paulo"/>
+                <element dependent_value="ma" inactive_on_update="false" label="Imperatriz" value="imperatriz"/>
+                <element dependent_value="am" inactive_on_update="false" label="Parintins" value="parintins"/>
+                <element dependent_value="es" inactive_on_update="false" label="Vitória" value="vitoria"/>
+                <element dependent_value="pb" inactive_on_update="false" label="Patos" value="patos"/>
+                <element dependent_value="ms" inactive_on_update="false" label="Campo Grande" value="campo_grande"/>
+                <element dependent_value="ms" inactive_on_update="false" label="Dourados" value="dourados"/>
+                <element dependent_value="am" inactive_on_update="false" label="Manaus" value="manaus"/>
+                <element dependent_value="se" inactive_on_update="false" label="Itabaiana" value="itabaiana"/>
+                <element dependent_value="ro" inactive_on_update="false" label="Cacoal" value="cacoal"/>
+                <element dependent_value="go" inactive_on_update="false" label="Luziânia" value="luziania"/>
+                <element dependent_value="ap" inactive_on_update="false" label="Macapá" value="macapa"/>
+                <element dependent_value="to" inactive_on_update="false" label="Araguaína" value="araguaina"/>
+                <element dependent_value="to" inactive_on_update="false" label="Palmas" value="palmas"/>
+                <element dependent_value="ac" inactive_on_update="false" label="Sena Madureira" value="sena_madureira"/>
+                <element dependent_value="ba" inactive_on_update="false" label="Salvador" value="salvador"/>
+                <element dependent_value="ce" inactive_on_update="false" label="Caucaia" value="caucaia"/>
+                <element dependent_value="al" inactive_on_update="false" label="Arapiraca" value="arapiraca"/>
+                <element dependent_value="es" inactive_on_update="false" label="Cariacica" value="cariacica"/>
+                <element dependent_value="am" inactive_on_update="false" label="Coari" value="coari"/>
+                <element dependent_value="se" inactive_on_update="false" label="Aracaju" value="aracaju"/>
+                <element dependent_value="sc" inactive_on_update="false" label="Florianópolis" value="florianopolis"/>
+                <element dependent_value="rr" inactive_on_update="false" label="Rorainópolis" value="rorainopolis"/>
+                <element dependent_value="pe" inactive_on_update="false" label="Recife" value="recife"/>
+                <element dependent_value="al" inactive_on_update="false" label="Rio Largo" value="rio_largo"/>
+                <element dependent_value="pi" inactive_on_update="false" label="Parnaíba" value="parnaiba"/>
+                <element dependent_value="rs" inactive_on_update="false" label="Porto Alegre" value="porto_alegre"/>
+                <element dependent_value="pr" inactive_on_update="false" label="Maringá" value="maringa"/>
+                <element dependent_value="rn" inactive_on_update="false" label="Natal" value="natal"/>
+                <element dependent_value="al" inactive_on_update="false" label="Maceió" value="maceio"/>
+                <element dependent_value="ac" inactive_on_update="false" label="Cruzeiro do Sul" value="cruzeiro_do_sul"/>
+                <element dependent_value="pb" inactive_on_update="false" label="Bayeux" value="bayeux"/>
+                <element dependent_value="pr" inactive_on_update="false" label="Londrina" value="londrina"/>
+                <element dependent_value="sc" inactive_on_update="false" label="Joinville" value="joinville"/>
+                <element dependent_value="rj" inactive_on_update="false" label="São Gonçalo" value="sao_goncalo"/>
+                <element dependent_value="se" inactive_on_update="false" label="Lagarto" value="lagarto"/>
+                <element dependent_value="ac" inactive_on_update="false" label="Rio Branco" value="rio_branco"/>
+                <element dependent_value="mt" inactive_on_update="false" label="Sinop" value="sinop"/>
+                <element dependent_value="sp" inactive_on_update="false" label="Guarulhos" value="guarulhos"/>
+                <element dependent_value="rn" inactive_on_update="false" label="Mossoró" value="mossoro"/>
+                <element dependent_value="rn" inactive_on_update="false" label="Macaíba" value="macaiba"/>
+                <element dependent_value="pi" inactive_on_update="false" label="Picos" value="picos"/>
+                <element dependent_value="mg" inactive_on_update="false" label="Uberlândia" value="uberlandia"/>
+                <element dependent_value="pe" inactive_on_update="false" label="Olinda" value="olinda"/>
+                <element dependent_value="pe" inactive_on_update="false" label="Caruaru" value="caruaru"/>
+                <element dependent_value="es" inactive_on_update="false" label="Serra" value="serra"/>
+                <element dependent_value="ba" inactive_on_update="false" label="Camaçari" value="camacari"/>
+                <element dependent_value="sc" inactive_on_update="false" label="Blumenau" value="blumenau"/>
+                <element dependent_value="rj" inactive_on_update="false" label="Niterói" value="niteroi"/>
+                <element dependent_value="pa" inactive_on_update="false" label="Santarém" value="santarem"/>
+                <element dependent_value="mt" inactive_on_update="false" label="Cuiabá" value="cuiaba"/>
+                <element dependent_value="go" inactive_on_update="false" label="Goiânia" value="goiania"/>
+                <element dependent_value="sp" inactive_on_update="false" label="Campinas" value="campinas"/>
+                <element dependent_value="rj" inactive_on_update="false" label="Rio de Janeiro" value="rio_de_janeiro"/>
+                <element dependent_value="ma" inactive_on_update="false" label="São Luís" value="sao_luis"/>
+                <element dependent_value="rr" inactive_on_update="false" label="Alto Alegre" value="alto_alegre"/>
+                <element dependent_value="mt" inactive_on_update="false" label="Rondonópolis" value="rondonopolis"/>
+                <element dependent_value="to" inactive_on_update="false" label="Gurupi" value="gurupi"/>
+                <element dependent_value="ce" inactive_on_update="false" label="Sobral" value="sobral"/>
+                <element dependent_value="ma" inactive_on_update="false" label="Caxias" value="caxias"/>
+                <element dependent_value="mg" inactive_on_update="false" label="Contagem" value="contagem"/>
+                <element dependent_value="pb" inactive_on_update="false" label="João Pessoa" value="joao_pessoa"/>
+                <element dependent_value="mg" inactive_on_update="false" label="Belo Horizonte" value="belo_horizonte"/>
+                <element dependent_value="ms" inactive_on_update="false" label="Corumbá" value="corumba"/>
+                <element dependent_value="pi" inactive_on_update="false" label="Teresina" value="teresina"/>
+                <element dependent_value="ce" inactive_on_update="false" label="Fortaleza" value="fortaleza"/>
+            </choice>
+        </element>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Longitude" max_length="40" name="longitude" type="float"/>
         <element label="Avaible Vacancies" max_length="40" name="avaible_vacancies" type="integer"/>
