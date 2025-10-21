@@ -7,8 +7,10 @@
         <element label="Error massage" max_length="40" name="error_massage" type="string"/>
         <element choice="3" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Success" sequence="0" value="success"/>
-                <element inactive_on_update="false" label="Failure" sequence="1" value="failure"/>
+                <element inactive_on_update="false" label="Success" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Starting" value="1"/>
+                <element inactive_on_update="false" label="Integrating" value="2"/>
+                <element inactive_on_update="false" label="Failure" sequence="1" value="4"/>
             </choice>
         </element>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>

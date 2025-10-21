@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>BMS - Base Management System</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 01:17:02</sys_created_on>
+        <sys_id>cfdd1d10c37c3210c9043eec050131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BMS - Base Management System</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sys_properties_category_cfdd1d10c37c3210c9043eec050131a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 01:17:02</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=cfdd1d10c37c3210c9043eec050131a5"/>
+</record_update>
