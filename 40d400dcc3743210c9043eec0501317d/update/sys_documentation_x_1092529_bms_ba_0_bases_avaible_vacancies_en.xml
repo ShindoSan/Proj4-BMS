@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="avaible_vacancies" label="Avaible Vacancies" language="en" table="x_1092529_bms_ba_0_bases">
+    <sys_documentation element="avaible_vacancies" label="Available Vacancies" language="en" table="x_1092529_bms_ba_0_bases">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>avaible_vacancies</element>
             <help/>
             <hint/>
-            <label>Avaible Vacancies</label>
+            <label>Available Vacancies</label>
             <language>en</language>
             <name>x_1092529_bms_ba_0_bases</name>
-            <plural/>
+            <plural>Available Vacancies</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-10-20 19:35:23</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Avaible Vacancies</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Available Vacancies</sys_name>
             <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
             <sys_policy/>
             <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
             <sys_update_name>sys_documentation_x_1092529_bms_ba_0_bases_avaible_vacancies_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-20 19:35:26</sys_updated_on>
+            <sys_updated_on>2025-10-21 18:06:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

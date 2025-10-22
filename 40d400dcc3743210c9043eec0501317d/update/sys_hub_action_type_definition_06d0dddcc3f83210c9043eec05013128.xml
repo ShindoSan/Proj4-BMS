@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>06d0dddcc3f83210c9043eec05013128</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Integration Yahoo Weather API</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_06d0dddcc3f83210c9043eec05013128</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:56</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -873,7 +873,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5fe3bdcc3387210c9043eec050131c0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -881,7 +881,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:53</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:04</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1174,7 +1174,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ed60a468c3f87210c9043eec050131f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1182,7 +1182,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:53</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:04</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1337,14 +1337,14 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 00:36:08</sys_created_on>
         <sys_id>ab841954c33c3210c9043eec05013169</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:53</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1609,17 +1609,17 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Integration Yahoo Weather API">06d0dddcc3f83210c9043eec05013128</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"08941954c33c3210c9043eec050131a8","name":"plan","plan_signature":null}}</plan>
-        <snapshot>48706868c3f87210c9043eec05013151</snapshot>
+        <snapshot>69e1c5a0c3bc7210c9043eec05013179</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 00:36:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>08941954c33c3210c9043eec050131a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:56</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:08</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2242,7 +2242,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74a6906cc3b87210c9043eec05013141</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2250,7 +2250,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:55</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:06</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2792,7 +2792,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40706868c3f87210c9043eec05013139</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2800,7 +2800,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:55</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:06</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -3042,14 +3042,14 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 00:36:09</sys_created_on>
         <sys_id>fb841954c33c3210c9043eec0501318b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:55</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3075,21 +3075,7 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-21 00:36:09</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f7841954c33c3210c9043eec05013196^sys_idNOT IN00706868c3f87210c9043eec05013151,88706868c3f87210c9043eec05013150"/>
-    <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2025-10-20 21:36:09">f7841954c33c3210c9043eec05013196</action_status_metadata_id>
-        <condition>{{step[16edd52e-a265-48c6-8938-ed90ce848443].error_code}}=1</condition>
-        <dont_treat_as_error>true</dont_treat_as_error>
-        <label>Yahoo Weather Step Failure</label>
-        <order>2</order>
-        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: check the Yahoo Weather URL"}}}}</status>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-21 15:26:55</sys_created_on>
-        <sys_id>00706868c3f87210c9043eec05013151</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:55</sys_updated_on>
-    </sys_hub_status_condition>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f7841954c33c3210c9043eec05013196^sys_idNOT IN29e1c5a0c3bc7210c9043eec05013178,ede1c5a0c3bc7210c9043eec05013178"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2025-10-20 21:36:09">f7841954c33c3210c9043eec05013196</action_status_metadata_id>
         <condition>{{step[4157d4d7-8183-401c-a95a-bb644b765f1c].__step_status__.code}}=1</condition>
@@ -3098,11 +3084,25 @@ outputs.endpoint = gs.getProperty("x_1092529_bms_ba_0.integration_endpoint", "")
         <order>1</order>
         <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: check the Yahoo Weather URL"}}}}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-21 15:26:55</sys_created_on>
-        <sys_id>88706868c3f87210c9043eec05013150</sys_id>
+        <sys_created_on>2025-10-21 17:53:07</sys_created_on>
+        <sys_id>29e1c5a0c3bc7210c9043eec05013178</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 15:26:55</sys_updated_on>
+        <sys_updated_on>2025-10-21 17:53:07</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-10-20 21:36:09">f7841954c33c3210c9043eec05013196</action_status_metadata_id>
+        <condition>{{step[16edd52e-a265-48c6-8938-ed90ce848443].error_code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>Yahoo Weather Step Failure</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: check the Yahoo Weather URL"}}}}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 17:53:07</sys_created_on>
+        <sys_id>ede1c5a0c3bc7210c9043eec05013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:53:07</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_23841954c33c3210c9043eec05013181^sys_idNOT IN60a6906cc3b87210c9043eec05013108,64a6906cc3b87210c9043eec05013104"/>
     <sys_documentation action="INSERT_OR_UPDATE">
