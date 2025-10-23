@@ -4,7 +4,9 @@
         <application display_value="Base Management System (BMS)">7ce49d58c3f83210c9043eec050131cb</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_1092529_bms_ba_0_base_assignment">state=2^EQ<item display_value="Awaiting Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint>List of Base Assignment</hint>
         <homepage/>
         <image/>
@@ -13,7 +15,7 @@
         <mobile_title>Base Assignment</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1092529_bms_ba_0_base_assignment</name>
-        <order>300</order>
+        <order>700</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,17 +27,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>919699d4c33c3210c9043eec05013176</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Base Assignments</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Awaiting Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_app_module_919699d4c33c3210c9043eec05013176</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 01:05:57</sys_updated_on>
+        <sys_updated_on>2025-10-23 20:30:28</sys_updated_on>
         <timeline_page/>
-        <title>Base Assignments</title>
+        <title>Awaiting Approval</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

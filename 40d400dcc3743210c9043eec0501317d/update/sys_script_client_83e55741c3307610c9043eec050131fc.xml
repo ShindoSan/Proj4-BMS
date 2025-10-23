@@ -18,11 +18,12 @@
     gaBaseTable.addParam('sysparm_baseid', baseId);
 	gaBaseTable.getXMLAnswer(function(answer) {
             if (answer === 'false') {
-                g_form.submit();
+                return true;
             } else {
 				g_form.showFieldMsg("base", "There is no spots left for this base.", "error");
             }
         });
+		g_form.addInfoMessage(baseId);
 		return false;
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -31,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83e55741c3307610c9043eec050131fc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>onSubmit Vacancies Check</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
@@ -39,7 +40,7 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_script_client_83e55741c3307610c9043eec050131fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 18:26:43</sys_updated_on>
+        <sys_updated_on>2025-10-23 19:40:07</sys_updated_on>
         <table>x_1092529_bms_ba_0_base_assignment</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

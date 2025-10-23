@@ -47,7 +47,7 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     },
     //FIM2
 
-	//CHECA DUPLICIDADE DE MANAGER
+    //CHECA DUPLICIDADE DE MANAGER
     checkMultipleManager: function() {
         var baseManager = this.getParameter("sysparm_userid");
         var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
@@ -61,13 +61,13 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         return "false";
 
     },
-	//FIM3
+    //FIM3
 
-	//CHECA SE TEM VAGAS NA BASE
+    //CHECA SE TEM VAGAS NA BASE
     checkVacancies: function() {
         var baseId = this.getParameter("sysparm_baseid");
         var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
-		grBase.get(baseId);
+        grBase.get(baseId);
 
         if (grBase.avaible_vacancies < 1) {
             // gs.addErrorMessage("Invalid submission. There is no spots left for this base.");
@@ -76,9 +76,24 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         return "false";
 
     },
-	//FIM4
+    //FIM4
 
-	//PEGA MEMBROS DE UM MESMO GRUPO
+    checkMultipleUsers: function() {
+        var userId = this.getParameter("sysparm_userid");
+		var query = 'user='+userId+'^stateIN2,3';
+        var grTask = new GlideRecord("x_1092529_bms_ba_0_base_assignment");
+		grTask.addEncodedQuery(query);
+        grTask.query();
+
+        if (grTask.getRowCount() >= 1) {
+            // gs.addErrorMessage("This user is already allocated to another base. Please select a different user.");
+            return "true";
+        }
+        return "false";
+
+    },
+
+    //PEGA MEMBROS DE UM MESMO GRUPO
     getGroupMembers: function(groupID) {
         var membersArray = [];
         var grGroupMember = new GlideRecord("sys_user_grmember");
@@ -89,8 +104,8 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         }
         return membersArray.toString();
     },
-	//FIM5
-	
+    //FIM5
+
 
     type: 'BaseTableUtils'
 });]]></script>
@@ -98,14 +113,14 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-22 23:33:32</sys_created_on>
         <sys_id>49d14f7cc3b8f210c9043eec050131ed</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>BaseTableUtils</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_script_include_49d14f7cc3b8f210c9043eec050131ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 18:13:29</sys_updated_on>
+        <sys_updated_on>2025-10-23 18:48:11</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>49d14f7cc3b8f210c9043eec050131ed</id>
