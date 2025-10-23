@@ -18,8 +18,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>avaible_vacancies</dynamic_value_dot_walk_path>
-        <dynamic_value_field display_value="Base">932860d8c3383210c9043eec05013119</dynamic_value_field>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>vacancies_available_for_this_base</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>300</order>
+        <order>1100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-20 22:21:47</sys_created_on>
         <sys_id>6d74f8d8c3783210c9043eec050131de</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Vacancies available for this Base</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>item_option_new_6d74f8d8c3783210c9043eec050131de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 22:32:16</sys_updated_on>
+        <sys_updated_on>2025-10-22 20:38:37</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

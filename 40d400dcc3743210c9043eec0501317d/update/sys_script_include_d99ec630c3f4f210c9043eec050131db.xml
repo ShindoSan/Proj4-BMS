@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1092529_bms_ba_0.RpBmsUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>RpBmsUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var RpBmsUtils = Class.create();
+RpBmsUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+//TRAZ LABEL DOS CAMPOS DA TABLE PRO RP
+    getBaseTableInfo: function() {
+        var baseTableId = this.getParameter("sysparm_base_table_id");
+        var details = {};
+
+        var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
+
+        if (grBase.get(baseTableId)) {
+            details.city = grBase.getDisplayValue("city");
+            details.state = grBase.getDisplayValue("state");
+            details.manager = grBase.getDisplayValue("base_manager");
+            details.vacancies = grBase.getValue("avaible_vacancies")||0;
+        }
+
+        return new global.JSON().encode(details);
+    },
+
+// FIM 1
+
+    type: 'RpBmsUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 18:45:37</sys_created_on>
+        <sys_id>d99ec630c3f4f210c9043eec050131db</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RpBmsUtils</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sys_script_include_d99ec630c3f4f210c9043eec050131db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 21:17:19</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d99ec630c3f4f210c9043eec050131db</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 18:45:36</sys_created_on>
+        <sys_id>9887d630c3f4f210c9043eec0501316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 18:45:36</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

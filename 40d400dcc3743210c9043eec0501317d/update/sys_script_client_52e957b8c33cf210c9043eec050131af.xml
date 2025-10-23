@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Name Dupe</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        g_form.hideFieldMsg("name", true);
+        return;
+    }
+
+    var ga = new GlideAjax("BaseTableUtils");
+	ga.addParam("sysparm_name", "checkNameDup");
+	ga.addParam("sysparm_name_to_check", newValue);
+
+	ga.getXML(handleNameResponse);
+}
+
+function handleNameResponse(response){
+	var isDuplicate = response.responseXML.documentElement.getAttribute("answer");
+
+	if (isDuplicate === "true"){
+		g_form.clearValue("name");	
+		g_form.showFieldMsg("name","This base name is already in use and cannot be duplicated, please change it.","error");				
+	}else{
+		g_form.hideFieldMsg("name", true);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 23:51:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52e957b8c33cf210c9043eec050131af</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Validate Name Dupe</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sys_script_client_52e957b8c33cf210c9043eec050131af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 01:40:05</sys_updated_on>
+        <table>x_1092529_bms_ba_0_bases</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

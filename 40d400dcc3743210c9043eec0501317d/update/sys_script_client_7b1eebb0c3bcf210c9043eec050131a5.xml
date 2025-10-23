@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>city</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate City Dupe</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    var currentCity = g_form.getValue("city");
+    var currentState = g_form.getValue("state");
+	
+    if (isLoading||!currentCity || !currentState) {
+        g_form.hideFieldMsg("city", true);
+        g_form.hideFieldMsg("state", true);
+        return;
+    }
+    var ga = new GlideAjax("BaseTableUtils");
+    ga.addParam("sysparm_name", "checkCityStateDupe");
+    ga.addParam("sysparm_city_to_check", currentCity);
+    ga.addParam("sysparm_state_to_check", currentState);
+
+    ga.getXMLAnswer(handleCityStateResponse);
+}
+
+function handleCityStateResponse(isDuplicate) {
+
+    if (isDuplicate === "true") {
+        g_form.clearValue("city");
+        g_form.showFieldMsg("city", "This City and State combination already exists and cannot be duplicated, please swap them.", "error");
+        g_form.showFieldMsg("state", "This City and State combination already exists and cannot be duplicated, please swap them.", "error");
+    } else {
+        g_form.hideFieldMsg("city", true);
+        g_form.hideFieldMsg("state", true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 01:44:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b1eebb0c3bcf210c9043eec050131a5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Validate City Dupe</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sys_script_client_7b1eebb0c3bcf210c9043eec050131a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 02:34:48</sys_updated_on>
+        <table>x_1092529_bms_ba_0_bases</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

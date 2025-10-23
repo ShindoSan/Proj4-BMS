@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter</name>
+        <name>formatter3</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>1300</order>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>End Cont.2</question_text>
+        <question_text>Separator break</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 21:45:53</sys_created_on>
-        <sys_id>398de810c3783210c9043eec0501318b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>End Cont.2</sys_name>
+        <sys_created_on>2025-10-22 17:40:41</sys_created_on>
+        <sys_id>0298c6f4c3b4f210c9043eec05013140</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Separator break</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_update_name>item_option_new_398de810c3783210c9043eec0501318b</sys_update_name>
+        <sys_update_name>item_option_new_0298c6f4c3b4f210c9043eec05013140</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 17:51:42</sys_updated_on>
+        <sys_updated_on>2025-10-22 17:51:05</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>20</type>
+        <type>12</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=398de810c3783210c9043eec0501318b"/>
-    <fx_price action="delete_multiple" query="id=398de810c3783210c9043eec0501318b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0298c6f4c3b4f210c9043eec05013140"/>
+    <fx_price action="delete_multiple" query="id=0298c6f4c3b4f210c9043eec05013140"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>398de810c3783210c9043eec0501318b</id>
+        <id>0298c6f4c3b4f210c9043eec05013140</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="BRL">BRL</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 21:45:53</sys_created_on>
-        <sys_id>a99d6c50c3783210c9043eec0501313a</sys_id>
+        <sys_created_on>2025-10-22 17:40:42</sys_created_on>
+        <sys_id>29a88638c3b4f210c9043eec05013110</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 21:45:53</sys_updated_on>
+        <sys_updated_on>2025-10-22 17:40:42</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>398de810c3783210c9043eec0501318b</id>
+        <id>0298c6f4c3b4f210c9043eec05013140</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="BRL">BRL</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 21:45:53</sys_created_on>
-        <sys_id>619d6c50c3783210c9043eec0501313a</sys_id>
+        <sys_created_on>2025-10-22 17:40:42</sys_created_on>
+        <sys_id>29a88638c3b4f210c9043eec0501310f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 21:45:53</sys_updated_on>
+        <sys_updated_on>2025-10-22 17:40:42</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

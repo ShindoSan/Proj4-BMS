@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="BMS - Base Management System">d72860d8c3383210c9043eec05013101</catalog_item>
-        <catalog_variable>IO:6d74f8d8c3783210c9043eec050131de</catalog_variable>
+        <catalog_variable>IO:0298c6f4c3b4f210c9043eec05013140</catalog_variable>
         <cleared>false</cleared>
-        <disabled>true</disabled>
+        <disabled>ignore</disabled>
         <field/>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
-        <order>600</order>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-20 22:30:51</sys_created_on>
-        <sys_id>76a73010c3b83210c9043eec05013131</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>vacancies_available_for_this_base</sys_name>
+        <sys_created_on>2025-10-22 17:53:14</sys_created_on>
+        <sys_id>c04bcaf8c3b4f210c9043eec050131e5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>formatter3</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_76a73010c3b83210c9043eec05013131</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_c04bcaf8c3b4f210c9043eec050131e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 17:55:31</sys_updated_on>
+        <sys_updated_on>2025-10-22 17:54:50</sys_updated_on>
         <table/>
         <ui_policy display_value="Show and ReadOnly fields (Avaible Vacancies, Base Manager, City, State)">3be6b49cc3783210c9043eec05013172</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <variable>vacancies_available_for_this_base</variable>
+        <variable>formatter3</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=76a73010c3b83210c9043eec05013131"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c04bcaf8c3b4f210c9043eec050131e5"/>
 </record_update>
