@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>base_manager.base_manager</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 23:19:04</sys_created_on>
+        <sys_id>2ad24d9cc3b83210c9043eec050131d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>base_manager.base_manager</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2ad24d9cc3b83210c9043eec050131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:18:19</sys_updated_on>
+        <table>x_1092529_bms_ba_0_base_assignment</table>
+        <ui_policy display_value="ReadOnly fields (Number, Requested, State, Base manager)">7f07a058c3383210c9043eec05013134</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=2ad24d9cc3b83210c9043eec050131d0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sys_ui_policy_action_2ad24d9cc3b83210c9043eec050131d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>base_manager.base_manager</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 23:19:04</sys_created_on><sys_id>2ad24d9cc3b83210c9043eec050131d0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>base_manager.base_manager</sys_name><sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package><sys_policy/><sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope><sys_update_name>sys_ui_policy_action_2ad24d9cc3b83210c9043eec050131d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 14:18:19</sys_updated_on><table>x_1092529_bms_ba_0_base_assignment</table><ui_policy display_value="ReadOnly fields (Number, Requested, State, Base manager)">7f07a058c3383210c9043eec05013134</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=2ad24d9cc3b83210c9043eec050131d0"/></record_update>]]></payload>
+        <payload_hash>-1727203207</payload_hash>
+        <record_name>base_manager.base_manager</record_name>
+        <reverted_from/>
+        <source>a6ed8c58c3b43210c9043eec050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 14:18:19</sys_created_on>
+        <sys_id>d7b01824c3b87210c9043eec05013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a07229afa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:18:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>9fb0182472b8721073429f440e3fc393</update_guid>
+        <update_guid_history>9fb0182472b8721073429f440e3fc393:-1727203207,eee2cd9cd7b83210f39e5b7cf9e0a877:-878848839</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 17:56:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>433dccbf5cbd4a54b4ab90c574356461</sys_id>
+        <sys_metadata>2ad24d9cc3b83210c9043eec050131d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>base_manager.base_manager</sys_name>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_parent display_value="ReadOnly fields (Number, Requested, State, Base manager)">7f07a058c3383210c9043eec05013134</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_scope_delete display_value="">303dd74e85754d878c50280329d64d71</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_2ad24d9cc3b83210c9043eec050131d0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_2ad24d9cc3b83210c9043eec050131d0">d7b01824c3b87210c9043eec05013194</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 17:56:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

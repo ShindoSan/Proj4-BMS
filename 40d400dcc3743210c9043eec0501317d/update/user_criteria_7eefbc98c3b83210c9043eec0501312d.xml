@@ -4,7 +4,7 @@
         <advanced>false</advanced>
         <company/>
         <department/>
-        <group/>
+        <group name="BMS Users">895b3cd0c3b83210c9043eec0501319a</group>
         <location/>
         <match_all>false</match_all>
         <name>BMS Users</name>
@@ -23,14 +23,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7eefbc98c3b83210c9043eec0501312d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>BMS Users</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>user_criteria_7eefbc98c3b83210c9043eec0501312d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 23:06:42</sys_updated_on>
+        <sys_updated_on>2025-10-23 16:12:55</sys_updated_on>
         <user/>
     </user_criteria>
     <sys_translated_text action="delete_multiple" query="documentkey=7eefbc98c3b83210c9043eec0501312d"/>

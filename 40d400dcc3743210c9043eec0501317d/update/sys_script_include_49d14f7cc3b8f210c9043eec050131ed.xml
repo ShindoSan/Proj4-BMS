@@ -12,40 +12,85 @@
         <script><![CDATA[var BaseTableUtils = Class.create();
 BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
-//CHECA DUPLICIDADE NOME DA BASE
-	checkNameDup: function(){
-		var baseName = this.getParameter("sysparm_name_to_check");
+    //CHECA DUPLICIDADE NOME DA BASE
+    checkNameDup: function() {
+        var baseName = this.getParameter("sysparm_name_to_check");
 
-		var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
+        var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
 
-		if (grBase.get("name", baseName)){
-			return "true";
-		}
-		return "false";
-	},
-// FIM 1
+        if (grBase.get("name", baseName)) {
+            return "true";
+        }
+        return "false";
+    },
+    // FIM 1
 
-//CHECA DUPLICIDADE CIDADE + ESTADO
-	checkCityStateDupe: function(){
-		var baseCity = this.getParameter("sysparm_city_to_check");
-		var baseState = this.getParameter("sysparm_state_to_check");
+    //CHECA DUPLICIDADE CIDADE + ESTADO
+    checkCityStateDupe: function() {
+        var baseCity = this.getParameter("sysparm_city_to_check");
+        var baseState = this.getParameter("sysparm_state_to_check");
 
-		if(!baseCity || !baseState){
-			return "false";
-		}
+        if (!baseCity || !baseState) {
+            return "false";
+        }
 
-		var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
-		grBase.addQuery("city", baseCity);
-		grBase.addQuery("state", baseState);
-		grBase.query();
+        var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
+        grBase.addQuery("city", baseCity);
+        grBase.addQuery("state", baseState);
+        grBase.query();
 
-		if (grBase.next()){
-			return "true";
-		}
-		return "false";
+        if (grBase.next()) {
+            return "true";
+        }
+        return "false";
 
-	},
-//FIM2	
+    },
+    //FIM2
+
+	//CHECA DUPLICIDADE DE MANAGER
+    checkMultipleManager: function() {
+        var baseManager = this.getParameter("sysparm_userid");
+        var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
+        grBase.addQuery("base_manager", baseManager);
+        grBase.query();
+
+        if (grBase.getRowCount() >= 1) {
+            // gs.addErrorMessage("This manager already runs another base. Please select a different one.");
+            return "true";
+        }
+        return "false";
+
+    },
+	//FIM3
+
+	//CHECA SE TEM VAGAS NA BASE
+    checkVacancies: function() {
+        var baseId = this.getParameter("sysparm_baseid");
+        var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
+		grBase.get(baseId);
+
+        if (grBase.avaible_vacancies < 1) {
+            // gs.addErrorMessage("Invalid submission. There is no spots left for this base.");
+            return "true";
+        }
+        return "false";
+
+    },
+	//FIM4
+
+	//PEGA MEMBROS DE UM MESMO GRUPO
+    getGroupMembers: function(groupID) {
+        var membersArray = [];
+        var grGroupMember = new GlideRecord("sys_user_grmember");
+        grGroupMember.addQuery("group", groupID);
+        grGroupMember.query();
+        while (grGroupMember.next()) {
+            membersArray.push(grGroupMember.getValue('user'));
+        }
+        return membersArray.toString();
+    },
+	//FIM5
+	
 
     type: 'BaseTableUtils'
 });]]></script>
@@ -53,14 +98,14 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-22 23:33:32</sys_created_on>
         <sys_id>49d14f7cc3b8f210c9043eec050131ed</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>BaseTableUtils</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_script_include_49d14f7cc3b8f210c9043eec050131ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 01:46:56</sys_updated_on>
+        <sys_updated_on>2025-10-23 18:13:29</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>49d14f7cc3b8f210c9043eec050131ed</id>
