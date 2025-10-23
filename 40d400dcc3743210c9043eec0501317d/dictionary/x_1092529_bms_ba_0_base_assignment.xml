@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="03a3d450c3f43210c9043eec050131a3" extends="task" label="Base Assignment" max_length="40" name="x_1092529_bms_ba_0_base_assignment" type="collection">
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <element label="Function" max_length="32" name="function" reference="x_1092529_bms_ba_0_functions" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Manually enrolled" max_length="40" name="manually_enrolled" read_only="true" type="boolean"/>
         <element label="Base" max_length="32" name="base" reference="x_1092529_bms_ba_0_bases" type="reference"/>
         <element label="Base Manager" max_length="32" name="base_manager" reference="x_1092529_bms_ba_0_bases" type="reference"/>
     </element>

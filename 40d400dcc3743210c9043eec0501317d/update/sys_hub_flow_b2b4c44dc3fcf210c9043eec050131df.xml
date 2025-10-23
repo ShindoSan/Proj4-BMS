@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1606000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=38608000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>base_assignments_lifecycle</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Base Assignment Record","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"reference","base_type":"reference","usedInstances":{"e96c55a7-f2e0-4177-b629-8a8f67cde2fc":["record"],"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["record"],"4ee4ac86-c5b9-4e6c-afb2-34544f9f240e":["conditions"],"b1adc700-2d0c-4ee5-a006-19e55345d2fb":["record"],"2ec117a8-7620-455c-8163-9907b4bfa583":["record"],"d9925fcd-f7dc-4883-9b09-ba56348998cb":["record"],"cd19f66d-9a1d-44b1-b5ac-a50a0513edbf":["record"],"e75a07b4-384e-42fb-8075-fa05afa3da0e":["record"]},"attributes":{}},{"name":"e96c55a7-f2e0-4177-b629-8a8f67cde2fc.record.base_manager.base_manager","label":"1 - Update Record➛Base Assignment Record➛Base Manager➛Base Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"base_manager","usedInstances":{"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["approval_conditions"]}},{"name":"74de1b2f-4e65-4b45-80ba-f7b587c76a27.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"30e8d221-df69-4bf3-aa32-73910fef210b":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"74de1b2f-4e65-4b45-80ba-f7b587c76a27.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"30e8d221-df69-4bf3-aa32-73910fef210b":["condition"],"af98dbee-23db-4828-8ef6-7d7379d53a18":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e96c55a7-f2e0-4177-b629-8a8f67cde2fc.record.base_manager.base_manager","label":"1 - Update Record➛Base Assignment Record➛Base Manager➛Base Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"base_manager","usedInstances":{"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Base Assignment Record","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"reference","base_type":"reference","usedInstances":{"e96c55a7-f2e0-4177-b629-8a8f67cde2fc":["record"],"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["record"],"4ee4ac86-c5b9-4e6c-afb2-34544f9f240e":["conditions"],"b1adc700-2d0c-4ee5-a006-19e55345d2fb":["record"],"2ec117a8-7620-455c-8163-9907b4bfa583":["record"],"d9925fcd-f7dc-4883-9b09-ba56348998cb":["record"],"cd19f66d-9a1d-44b1-b5ac-a50a0513edbf":["record"],"e75a07b4-384e-42fb-8075-fa05afa3da0e":["record"],"f356c724-de9b-4817-82ca-dbc9c23a6a95":["taskid"],"c58bf856-9713-4760-9dd2-3e442da315a0":["record"],"3204fc5d-3b59-44e3-aa7b-118527bb9b88":["record"],"e15ec939-6275-4070-9a89-939d6d382eba":["record"],"f45daafd-80c2-4e2d-8d68-c2528a644d47":["taskid"],"eb4bc161-0f04-43a2-bbe8-670591dac8b2":["record"],"920bc047-9e83-4e20-afa6-fef003f56c39":["taskid"],"19610b65-f68f-4878-a873-75156f2c8d09":["record"]},"attributes":{}},{"name":"Created_1.current.manually_enrolled","label":"Trigger - Record Created➛Base Assignment Record➛Manually enrolled","reference":"","reference_display":"Manually enrolled","type":"boolean","base_type":"boolean","parent_table_name":"x_1092529_bms_ba_0_base_assignment","column_name":"manually_enrolled","usedInstances":{"d0228dcb-58e1-4d64-bb5f-a7970638d40d":["condition"]}}]</label_cache>
         <master_snapshot>4bda0085c3303610c9043eec050131a5</master_snapshot>
         <master_snapshot_digest/>
         <name>Base Assignments Lifecycle</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2b4c44dc3fcf210c9043eec050131df</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Base Assignments Lifecycle</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_hub_flow_b2b4c44dc3fcf210c9043eec050131df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:20</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>b2b4c44dc3fcf210c9043eec050131df</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:37</sys_created_on>
-        <sys_id>d7da0085c3303610c9043eec050131e7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-10-23 13:26:20</sys_created_on>
+        <sys_id>9d085ecdc3b83610c9043eec050131b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:20</sys_updated_on>
         <trigger display_value="">1fda0085c3303610c9043eec050131e6</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT INd7da0085c3303610c9043eec050131e7"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN9d085ecdc3b83610c9043eec050131b7"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN76b4c44dc3fcf210c9043eec050131e1"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -294,7 +294,51 @@
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN41dacc45c3303610c9043eec050131cd,50378c01c3303610c9043eec050131c8,58378c01c3303610c9043eec050131c7,85dacc45c3303610c9043eec050131d3,8ddacc45c3303610c9043eec050131d2,cddacc45c3303610c9043eec050131d3,d8378c01c3303610c9043eec050131c4,dc378c01c3303610c9043eec050131c2"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN14f6168dc3b83610c9043eec0501319a,35379a8dc3b83610c9043eec05013186,41dacc45c3303610c9043eec050131cd,75379a8dc3b83610c9043eec05013187,af9716cdc3b83610c9043eec05013117,cddacc45c3303610c9043eec050131d3,d8378c01c3303610c9043eec050131c4,dc378c01c3303610c9043eec050131c2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:21:37</sys_created_on>
+        <sys_id>14f6168dc3b83610c9043eec0501319a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:21:37</sys_updated_on>
+        <ui_id>c58bf856-9713-4760-9dd2-3e442da315a0</ui_id>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejfGPJDR56xYCe1gL3ehLV4QsXRKBLHuSnCYL+d93suU0TbculMAYzA+GO919932nDz3siBRkSoYgknSSjnme5nmWJNnVMC3GeZFmImcAKYmIZiVgpQFeGYHxmqnGJ3a7jwaYA0HTmDfGgHb7PZ4LaWvFtvehDDN8JZXAczJ9eIxIzQwiOjBkujs5ctsaqGIFKGycVbwpEXTwaYYY57Ltu+96uqf0/QyMRUCn0ifxyPNJk4jAxoEWgOMWTFmISMm0YK4yWzJ1psEEqha3Wm0PFSupXae0ZBsrfyD+MPF1C0BpPGzhENKwoX45leRwWztZ6S7jWKH6zVWqKfVNJ8HvFhasUe5ot41FPKg9ZU+iY7j4sqqe7vp5c6lbdYGtqjhTh4g5Z2TROLD+OkBBu5SS1bXUS1qbai3bZqRSxkuFQbxQ1RPOtHKpY8Y97xgXxOI55mdt+p4Z6UV8Rhhs3rfi6ffGz+1kBMK01dwKpu1FYanlRtbuGoHXEGjuo2DXYvSWAfjk+b6PMJ8tu6FpMslG2YQWpaUFown+cIHMetZe+Wv/fsCCwfVxwfvs/NUTGtx0hM4V86L5N+KCoV/kgp9HF/Pz1V/yc2D0jxn6TzZOsjffsaObbp1rjyxsHT6535okyUX+2qwnp+90KpSI6WDQoUZnc+4B5hKUsL8Q0Vs1DKDrMODw/F7Mr+k4ab//r/AFX+HHn3l3lW42CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:22:49</sys_created_on>
+        <sys_id>35379a8dc3b83610c9043eec05013186</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:22:49</sys_updated_on>
+        <ui_id>e15ec939-6275-4070-9a89-939d6d382eba</ui_id>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejfGPJDR56xYCe1gL3ehLV4QsXRKBLHuSnCYL+d93suU0TbculMAYzA+GO919932nDz3siBRkSoYgknSSjnme5nmWJNnVMC3GeZFmImcAKYmIZiVgpQFeGYHxmqnGJ3a7jwaYA0HTmDfGgHb7PZ4LaWvFtvehDDN8JZXAczJ9eIxIzQwiOjBkujs5ctsaqGIFKGycVbwpEXTwaYYY57Ltu+96uqf0/QyMRUCn0ifxyPNJk4jAxoEWgOMWTFmISMm0YK4yWzJ1psEEqha3Wm0PFSupXae0ZBsrfyD+MPF1C0BpPGzhENKwoX45leRwWztZ6S7jWKH6zVWqKfVNJ8HvFhasUe5ot41FPKg9ZU+iY7j4sqqe7vp5c6lbdYGtqjhTh4g5Z2TROLD+OkBBu5SS1bXUS1qbai3bZqRSxkuFQbxQ1RPOtHKpY8Y97xgXxOI55mdt+p4Z6UV8Rhhs3rfi6ffGz+1kBMK01dwKpu1FYanlRtbuGoHXEGjuo2DXYvSWAfjk+b6PMJ8tu6FpMslG2YQWpaUFown+cIHMetZe+Wv/fsCCwfVxwfvs/NUTGtx0hM4V86L5N+KCoV/kgp9HF/Pz1V/yc2D0jxn6TzZOsjffsaObbp1rjyxsHT6535okycXwtVlPTt/pVCgR08GgQ43O5twDzCUoYX8hordqGEDXYcDh+b2YX9Nx0n7/X+ELvsKPPwH1grx+NggAAA==</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
@@ -318,72 +362,6 @@
         <values>H4sIAAAAAAAA/8WWXU/bMBSG/0qV66ayk5Sk3LEhJKQNJMZ2g5Dlj2Ow5HyQOIUO8d93nKSl4VuMsZtWPraPz/seP3XPbgOjgt0gUZlSC02JppQSSuY0ohlkIGS6k0KUBdOg4DngyhpkWSscL7ltfeD29msN3IFidCbbuobC3d3hvDJNZfnq17AMI/LSWIXzwe7Z+TSoeI0ZHdTB7u2DKbeqgFkuwOLG/VK2OSadHO5jjrdWu959si73Yfn+DByrITszPohTvh46DeDGQaEAT9PcNjANcl4o7sp6tYmganVc2PvApSlcrzTnN435jfnjyK/TgNLk4MJmyAaH1uaURsJx5UxZ9BHHhV07V9o2L456Cd5b0Ly1bsvbtsF8UPmafRGubrEg/eOyvD5Zn3dgik7dUK0tJbebEXeuNqJ10Ph2tOb0KXv68LcnGwMWuoU5rypTXLCqLpemOw+rz2cXFgczbctrLLMxF8WMSy91hqby2QHG97vwL14br/s7psHN/syfhblq4dA3XlGSxgsiwzSax2FCJA9FpkTIRaTnSbKT7Qga3HUes6vWy+vdGnxhnbWdr6y7D7i0kbWp3B4Ws4TBjbvpQEVGX7pncXR/rbZy3pNxwyhZRPNowUTeMMEZwQ/sE2+8Uu/WY0y+4ILJ3vaC91Fz6guaHPUFvVXMaPMz4gZuRrEBm+jDsMnI/8FmqOjvuRnZM8Zm1JlPoUYKIbSARUiFlGGSQhZmEU9DmBMZ6ygmJNWvUvMaK8nL12vrBSlKZ7SRvGvZPS1ExELSSEr8SiNK5IIkMYAkc0JjzPmYlRO4MI2ru0QTU0z4xNPzbmQ2Dd88M69LWu89Gmt6WumATr11zkBO/DI5/a/5e96bZtXA0vcQcm4s62/PMzQ90PA8Wc8lHeHGtQbp/xVoA1bhHWLdnk94vEauI4qY7RGE273+dwyePm54A44NBjCfgOmyzrlvY6flIbrJgkIaR1m42IkQXYjnoVBxHFJEGYCDjtRHPHjnfwBaeJBnCAoAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment>Change state for Reproved / Reproval Reason for last Comment</comment>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 02:53:35</sys_created_on>
-        <sys_id>50378c01c3303610c9043eec050131c8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:28</sys_updated_on>
-        <ui_id>b1adc700-2d0c-4ee5-a006-19e55345d2fb</ui_id>
-        <values>H4sIAAAAAAAA/+1VXW/TMBT9K1WehlSipB/TWp4GYxJIbNJAe1mH5cQ3rcGxg+10K1X+O9ex03XdB2OahJDoQytf33vuOfceuRfriLNoGo2AJekk3c+H6XA4SJLBwSjN9odZOmBDCpBG/UjSEjBTQ640w/OSitoF1ut3GqgFRtI4r7UGaZsG7xk3laCr85CGkXzBBcP7aHpx2Y8qqhHRgo6m650ru6qACJqBwMIjldclgvY+HCHGU9l21Wcd3V36rgeeWUAn3AXxyvFJk34E1xYkA2xXUGGgH5VUMmqVXkVTq2sMoGp2KsVqk7Hg0nqlJb02/CfijxKXVwBKy8MUNkcSJtQNR/EcTivLlfQRSzPRTU6JupQnXoKbLRS0FnZrtrVBPKgcZUfCMyw+L9TVWdfvmMtWXWArVE7F5kSt1TyrLRi3DhDQDqWkVcXlnFRaLXlbjFTKeC7wEBdCXWFPw+cyprnjHeOAaHyM8aM2fE41dyI+IQwWN6148qN2fb2MQJi0mlvBpF0Upppc88oeIvASAs2mH+yajR8zQD652fcW5o1lr0maTAbjwYRkpSEZJQl+4QCpcayd8rv+fYsJvcPthOfZ+Ysj1DvxhJ4q5lbxA+KCoW/Fgp/HL+bng7/k58DoHzP072ycDB59x7Y23TrXbFnYWHxyZ3WSDNnoqwanhwqCKzRK+nDBXvvewO66+U/Ln+l1KLGphZ5v23+y6g7gmINg5p4xdGYPDcgyNNg84C/m+HQ/aT//3/EXece9IB9zDHe850KPFaADdG+npucN2ysYaXmTMSFCqe+kroj/u4/DD2p24zDxHOxHVWtJxXtp9WovffVmJh+A3QnHuGtu92bRbCZn0T11sVnwwu75G4tN7iB8U1zeAOD8DF0C25igaZrLX9Iv1RGYCQAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment>Cria a DataPill para Adicionar o Reproval Reason</comment>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
-        <generation_source/>
-        <order>5</order>
-        <parent_ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 02:53:35</sys_created_on>
-        <sys_id>58378c01c3303610c9043eec050131c7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:28</sys_updated_on>
-        <ui_id>4ee4ac86-c5b9-4e6c-afb2-34544f9f240e</ui_id>
-        <values>H4sIAAAAAAAA/9VY227bOBD9FUHPjiv5JjtvRQIDBXYboE37kqYEJVIxd2lSJamkjuF/71AUbcf32C6avoXDuZyZOTOmcjcNGQkvQzKIBvlg0O0nUdRuR1Gv185wnKbtXpZGKe6EjVDgMQVNg1NO4fiIeWnPeqJxUSgJZ+T+oAquCdMFx5Ovtdb7WgVushHjRFERXt7dN8ICK/BrwOZyunJlJgVFHKeUg4NbGzb4aDE0Dob8wng9BRvAH5FwrqUiFkvUCOlPQwWhECrHXNNGOMaCYCPVZC5RFJMbwReCERMGPIZW+admz+C+H1m9nEJaGXV38yOqq+TE2UiyjN4UhknhJA6ou5S8HIuPLgFbX5rjkhtfX5CUGvzRwmK2IGpE+eeRfPrkAw6ZqNKrL7nMoCX+hI1RLC0N1bYXlNMxOEJjaCoTD8j2j1XGgGXcfOBwaOZcPkFQzR5EE2cWeBNKhJtDkF9X4q9YMZvFv+CmIkbOOHQbuaJrWaqqKo8o46WuLhQW2vkKZ1Wt0I/SonRZ1/khVyJQ0JlihXkPBo+0TmXW8Kzu7qTIYEGJTArCbEy9mdrNbyW4INPpFfTcUILiZlYqqKmZzb5rAyKnoOh/NIP79Qk4zdlxQ3O1nNWhFdlovKlM9fi8kNXjE59tfDpR9IcGyKjy7c3PvolwCe8Zi5jsJAFZ9FtLZZCr3NJcrJP7aIYOGeXkxVo/AJw3vrFkC9LJNrw1QXMbY2W/t/76/f4m6QmACHL1ZoIzUf28AtDz8La7kxppvMKDqv1L29zKsM7W2YsDI4Pn47ds1VfP3wNAesPPgCi4dSg3APf71buvqds+G3XbrddRF4hzN52jn1dtQ4H9K8q2zus/W328qg/sWjKIZ/dz6l8dFzN+bcyWjbkym+1XDecys9zN9RaCnfmNtmXYGr9zukdgWsdDbljREyMP1Cyiey0izRPm/2+6r9k1n6EqvZPfe/HOT4J06b3HcjSGPrECHqGKZkAFjbCiKJelIKh+fi5oY/uWM6VNrby+Qz5RUyoRSBi5wIxoUGkHc+1zbJYDsvOGH/LAp1dj0AGkF1TpBfP0XleMLfuoc8a33in7aIgZr0oPnxHFUu+oUlJt2Ul7uraj/QcurANBxWcFdfpG28T3jZttD9a/4pv01K2TUZx2WriXtOM4iuKIJFE/SeJ+L817OOnki0FDSIsM1iJ4zoEY4B55IviuRuurxe3Go/9xAjv33bB2cSheb3wthf0UbSUmsIChz4EHvD+lel+kUnKKxYKe3T+2MN7K/1ZKdrtaGyf6Z1PTftePecm+CPajpB8sKfo0avVjkl30kzi56OSkdzEguHuBB2k3aROadfLjf5/vfwFtp4JRZxQAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment>Change State for approved</comment>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
-        <generation_source/>
-        <order>8</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:28</sys_created_on>
-        <sys_id>85dacc45c3303610c9043eec050131d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:28</sys_updated_on>
-        <ui_id>cd19f66d-9a1d-44b1-b5ac-a50a0513edbf</ui_id>
-        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejfGPJDR56xYCe1gL3ehLV4QsXRKBLHuSnCYL+d93suU0TbculMAYzA+GO919932nDz3siBRkSoYgknSSjnme5nmWJNnVMC3GeZFmImcAKYmIZiVgpQFeGYHxmqnGJ3a7jwaYA0HTmDfGgHb7PZ4LaWvFtvehDDN8JZXAczJ9eIxIzQwiOjBkujs5ctsaqGIFKGycVbwpEXTwaYYY57Ltu+96uqf0/QyMRUCn0ifxyPNJk4jAxoEWgOMWTFmISMm0YK4yWzJ1psEEqha3Wm0PFSupXae0ZBsrfyD+MPF1C0BpPGzhENKwoX45leRwWztZ6S7jWKH6zVWqKfVNJ8HvFhasUe5ot41FPKg9ZU+iY7j4sqqe7vp5c6lbdYGtqjhTh4g5Z2TROLD+OkBBu5SS1bXUS1qbai3bZqRSxkuFQbxQ1RPOtHKpY8Y97xgXxOI55mdt+p4Z6UV8Rhhs3rfi6ffGz+1kBMK01dwKpu1FYanlRtbuGoHXEGjuo2DXYvSWAfjk+b6PMJ8tu6FpMslG2YQWpaUFown+cIHMetZe+Wv/fsCCwfVxwfvs/NUTGtx0hM4V86L5N+KCoV/kgp9HF/Pz1V/yc2D0jxn6TzZOsjffsaObbp1rjyxsHT6535okyUX+2qwnp+90KpSI6WDQoUZnc+4B5hKUsL8Q0Vs1DKDrMODw/F7Mr+k4ab//r/AFX+HHn3l3lW42CAAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
@@ -392,18 +370,40 @@
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
         <generation_source/>
-        <order>7</order>
-        <parent_ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</parent_ui_id>
+        <order>13</order>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:28</sys_created_on>
-        <sys_id>8ddacc45c3303610c9043eec050131d2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2025-10-23 13:22:49</sys_created_on>
+        <sys_id>75379a8dc3b83610c9043eec05013187</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:35</sys_updated_on>
-        <ui_id>2ec117a8-7620-455c-8163-9907b4bfa583</ui_id>
+        <sys_updated_on>2025-10-23 13:22:49</sys_updated_on>
+        <ui_id>eb4bc161-0f04-43a2-bbe8-670591dac8b2</ui_id>
         <values>H4sIAAAAAAAA/8VW207cMBD9FZTnzcpOspuEN1qEhNSCRCkvCFm+jMGScyFxtmwR/95xNnvlKkrpy0oej8fnnJmzzuV9YFSwHyQqUyrXlGhKKaFkQiOaQQZCptMUoiwYBSUvADMbkFWjcD3jtvOB+/uvDXAHitGx7JoGSvfwgPvKtLXl84shDSPyxliF+8H+5dUoqHmDFR00wf79zpab18AsF2Dx4GEluwKL7h0fYo23ol2ePlvC3YXv78C1Gqoz44O45fHQUQB3DkoFeJvmtoVRUPBScVc181UEWavT0q4DN6Z0C6YFv2vNb6wfRz5PA1KTgwqrJRsUWopTGQmntTNVuYg4LuxSucp2RXmyoOC1Bc076za07VqsB7XH7EG4pkNA+sdN9etsed+RKXt2A1pbSW5XK+5cY0TnoPXt6Mz5U/Iswt+ebAxY6BMLXtemvGZ1U81Mfx+iL8bXFhdjbatfCLM11+WYS091jKLy8RHGD/vwBW+M5/0dy+Bhf+fP0tx2cOwbryhJ45zIMI0mcZgQyUORKRFyEelJkkyzqaDBQ68xu+08vYVagy6sl7bXlfXzgKmtbEztDhDMDAY1HkaDKzL60pzF0XqsNmqunXHHKMmjSZQzUbRMcEbwB/vEW8/Uq/XYJl8wYe9gM+F9rjn3gPZOFoDeSmbr8DPkBt9sxQbbRB9mm4z8H9sMiP7eN1vybNtmqzOf4hophNAC8pAKKcMkhSzMIp6GMCEy1lFMSKpfdc1rXkleHq+NF6SsnNFG8r5la7fQiFDIpwgpJiKiROYkiQEkmRAa0yR97JULLnkp53tn4GUD9W6zrFq9emBeJ7M8e7LN5mmOg2majXsGz8Qve2bxP/6el6adtzDz3YOCG8sWc/OMj3Y4PO+p54puGY1rDdJ/D2gDVuH0sP7MJzxbW6qjCbHaI/tt9vrfue/8ccNbcGwQgPkCTFdNwX0bey67pk1yCmkcZWE+jdC0EE9CoeI4pGhiAA46Uh/x1F39AaPv+W4CCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:24:35</sys_created_on>
+        <sys_id>af9716cdc3b83610c9043eec05013117</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:24:35</sys_updated_on>
+        <ui_id>19610b65-f68f-4878-a873-75156f2c8d09</ui_id>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejfGPJDR56xYCe1gL3ehLV4QsXRKBLHuSnCYL+d93suU0TbculMAYzA+GO919932nDz3siBRkSoYgknSSjnme5nmWJNnVMC3GeZFmImcAKYmIZiVgpQFeGYHxmqnGJ3a7jwaYA0HTmDfGgHb7PZ4LaWvFtvehDDN8JZXAczJ9eIxIzQwiOjBkujs5ctsaqGIFKGycVbwpEXTwaYYY57Ltu+96uqf0/QyMRUCn0ifxyPNJk4jAxoEWgOMWTFmISMm0YK4yWzJ1psEEqha3Wm0PFSupXae0ZBsrfyD+MPF1C0BpPGzhENKwoX45leRwWztZ6S7jWKH6zVWqKfVNJ8HvFhasUe5ot41FPKg9ZU+iY7j4sqqe7vp5c6lbdYGtqjhTh4g5Z2TROLD+OkBBu5SS1bXUS1qbai3bZqRSxkuFQbxQ1RPOtHKpY8Y97xgXxOI55mdt+p4Z6UV8Rhhs3rfi6ffGz+1kBMK01dwKpu1FYanlRtbuGoHXEGjuo2DXYvSWAfjk+b6PMJ8tu6FpMslG2YQWpaUFown+cIHMetZe+Wv/fsCCwfVxwfvs/NUTGtx0hM4V86L5N+KCoV/kgp9HF/Pz1V/yc2D0jxn6TzZOsjffsaObbp1rjyxsHT6535okyUX+2qwnp+90KpSI6WDQoUZnc+4B5hKUsL8Q0Vs1DKDrMODw/F7Mr+k4ab//r/AFX+HHn3l3lW42CAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
@@ -414,16 +414,16 @@
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
         <generation_source/>
-        <order>9</order>
-        <parent_ui_id/>
+        <order>8</order>
+        <parent_ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 03:09:28</sys_created_on>
         <sys_id>cddacc45c3303610c9043eec050131d3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:35</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:21:37</sys_updated_on>
         <ui_id>e75a07b4-384e-42fb-8075-fa05afa3da0e</ui_id>
         <values>H4sIAAAAAAAA/8VW207jMBD9lSrPTRXn0qS8sYuQkHZB2mV5Qchy7DFYci4kTqFb9d93nKSXFAqIZdmXSh6Px+ecmVPneuko4Rw5oUiEmEniSUKIR7yI+CSBBFIeT2PwE2fs5CwDzKyAF5XA9ZzpxgaWy68VMAOCkglvqgpys1rhvlB1qdniqk/DCL9TWuC+c3R9M3ZKVmFFA5VztNzbMosSqGYpaDx4UvAmw6KjsxOs8Va069M/1nD34ds7cC366lTZIG5ZPGTswKOBXADeJpmuYexkLBfMFNViE0HW4iLX28Cdyk3HNGOPtfqN9QPf5klAarxXYbOkvUJrcQrF4aI0qsi7iGGpXitX6CbLzzsKVluQrNFmR9umxnpQWswWhKkaBCR/3hUPP9b3naq8Zdej1QVnerNixlQqbQzUth2NunxOni787dnGgIY2MWNlqfJbWlbFXLX3IfpscqtxMZG6eECYtbrNJ4xbqhMUlU1OMX7Shq9YpSzv71gGD9s7f+XqvoEz23hBvDiYedyN/ShwQ48zN01E6rLUl1EYTpNpSpxVqzG9byy9Tq1eF9pK2+pK23nA1JpXqjTHCGYOvRqrce+KhLw0Z4G/HaudmltnPFLizfzIn9E0q2nKqIc/2CdWW6ZWrac2+YIJo+PdhPe55tICGp13gN5KZnD4ALneN4NYbxv/w2yTeP/HNj2iv/fNQJ6hbQad+RTX8DRNZQozl6Scu2EMiZv4LHYh8ngg/cDzYvmqa17zSvjyeO28IHlhlFSctS3bukVMYUoinyMkHvvE4zMvDAC4F3kkIG2BPa9cMc5yvhgdl1Y2EO82y6bVmwfmdTLrs+dDNs9z7E1T7dzTeyZ42TPd//h7Xpp6UcPcdg8ypjTt5uaAj/Y4HPbUoaIDozEpgdvvAalAC5we2p75hGdroDqaEKs9sd9ur/+d+y6fNrwGQ3sBqC1AZVFlzLax5bJv2nBGIA78xJ1NfTQtBJGbiiBwCZoYgIH0xUc8dTd/ACCIG3gCCgAA</values>
     </sys_hub_action_instance_v2>
@@ -436,16 +436,16 @@
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
         <generation_source/>
-        <order>3</order>
-        <parent_ui_id/>
+        <order>5</order>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 02:53:35</sys_created_on>
         <sys_id>d8378c01c3303610c9043eec050131c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:28</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:21:37</sys_updated_on>
         <ui_id>74de1b2f-4e65-4b45-80ba-f7b587c76a27</ui_id>
         <values>H4sIAAAAAAAA/+1XbW+bMBD+KxGfE0bIe75liyJt0lap7fqlqZAxR+LKGGagbRblv+8MhpCkpVGUqVvVL0h3vpfnzs/Z5nZtMM8YG4Ohb8NoZFtu27I6ljXsUWvYAbcz6A86hFpG0xAkALSUQEPpofxAeKoU6/UXCSQBz2mbNJUSRLLZ4LrH4oiT1Y02Qw1dMu7hujG+vWsaEZEYMQFpjNd7S8kqAocTFzg6TkOaBhi08XWKMY5FW3hfFnD34ascKHs6usOUEpcUHqtpwFMCwgPM5hMeQ9MIiPBIEsqVMU5kigos2rsQfFVaLJlI8kID8hSz3xi+Yys7H7AyqptQio5uUNGbkFG4iBIWilyTEJcXjQt5GogfeQWqteCTlCeV1qYxxoNIQVYgcoT+1TJ8vCzyzZjIitNoeUgJLyWSJJK5aQKx2g3gkPUkIFHExMKJZPjAMmeEEpgLjoLp8/ARc8ZsIUxCFW4TG0TMGeqnmfqGSKaK+I5h0HmTFe/8SlXevAwN2MlqzgtGq5hKFiUTjPkAGuGmqYnq0tqtp9udzsNtefrktK2R3bNHjhvEjkscCz/YNhIrrKreQ9J+RoPGpGpwGoevFZZGtoHNo+vYcT6sSxM4Ex2Rh9b8bdfzV2uOIfDQehsCa0T/GYNfI6/Vrtt0b7jdZMyHiAl3fAa8etoWC4dcraycRtKZSrVD0iPwFs4Tnb0x04BfKkTTNhP3aGufkbbWGxH3/Z68tJYM0Nnu+X2YSlHDXWfJ4mxLX+RwxeJcXD4CfuH8Lce/T+X9smqY3Plg8j/M5G6vlgrwzOlFQ+ExhS+u8Dk/8yC+hHugSTwRq5+36zWM+rTXI4MWJrFa3fZg0HL79qg1JEO/P6Ae2D4182eomT1AkBhkAXJH2GzuDqfjr+c7bdbKo/8y5RAX83ZEk8s3uvarbbqetnJRaic9cd1zPdnfbuDe55uH1vLAH2333UuxHfgjWf23nBs5yLkxnhsiFDA3mnNDWTmKEJkaLRBcuZDp1uvNJtekkugA7Yq49fbIKs4sY7oED0mVaXc0OdO1/py/tlc6QWOKuD9ds8pt9XrXyv/jNPd/tpF6aspK8s6x6l3VO9td1f0YnMrgIEzmlI9yvJrwCDp5mu7+ABtJm/WpEQAA</values>
     </sys_hub_action_instance_v2>
@@ -471,11 +471,126 @@
         <ui_id>e96c55a7-f2e0-4177-b629-8a8f67cde2fc</ui_id>
         <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejfGPJDR56xYCe1gL3ehLV4QsXRKBLHuSnCYL+d93suU0TbculMAYzA+GO919932nDz3siBRkSoYgknSSjnme5nmWJNnVMC3GeZFmImcAKYmIZiVgpQFeGYHxmqnGJ3a7jwaYA0HTmDfGgHb7PZ4LaWvFtvehDDN8JZXAczJ9eIxIzQwiOjBkujs5ctsaqGIFKGycVbwpEXTwaYYY57Ltu+96uqf0/QyMRUCn0ifxyPNJk4jAxoEWgOMWTFmISMm0YK4yWzJ1psEEqha3Wm0PFSupXae0ZBsrfyD+MPF1C0BpPGzhENKwoX45leRwWztZ6S7jWKH6zVWqKfVNJ8HvFhasUe5ot41FPKg9ZU+iY7j4sqqe7vp5c6lbdYGtqjhTh4g5Z2TROLD+OkBBu5SS1bXUS1qbai3bZqRSxkuFQbxQ1RPOtHKpY8Y97xgXxOI55mdt+p4Z6UV8Rhhs3rfi6ffGz+1kBMK01dwKpu1FYanlRtbuGoHXEGjuo2DXYvSWAfjk+b6PMJ8tu6FpMslG2YQWpaUFown+cIHMetZe+Wv/fsCCwfVxwfvs/NUTGtx0hM4V86L5N+KCoV/kgp9HF/Pz1V/yc2D0jxn6TzZOsjffsaObbp1rjyxsHT6535okyUX22qwnp+90KpSI6WDQoUZnc+4B5hKUsL8Q0Vs1DKDrMODw/F7Mr+k4ab//r/AFX+HHn2A+cKc2CAAA</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN1c378c01c3303610c9043eec050131c5"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN18f6168dc3b83610c9043eec05013197,3d379a8dc3b83610c9043eec05013186,a79716cdc3b83610c9043eec05013117"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
+        <subflow display_value="Auto refresh vacancies">9475560dc3b83610c9043eec050131c3</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/41SS2+jMBD+KyufCYIQQsOt7apSpd2ttI9eqsoa7CGx1hhq7DTZKP99x0AjtNtDL0iemW/me/B0YkqyksmrIs/XiRRZdZWt00RsklWGKJI8SbNU5CxiBhqkSQf9b4JEbA/ah8LpdGsRHEqexsJbi8adz9SXqu80HB+nMaqIndKS+qx8eo5YB5Y2OrSsPP3TcscOuYYKNQG/Y43UEUgbPsr1DRvI3st3yIcL9Laz3a2VgUsaMTw4NBLpVg26x4g1YCS41h5Z6aynAgmWD0YfLxM7ZdwosoFDr/7Q8mwZzfaX7MDTZLPMlxteNT2vgCf06ZFD36utacg2NgPwyT4C3tDUp+v5lNi1SuBD51RrxqsOKv3hI6LVvjHfRktCUliD126WlCeIxC64EHRNIusfu/b1EsedMoNhU1O3AvTlBc5ZVXmHfUjXq5//+z0Wv7yTMmoMTHkDXafMlne23avhFlFv4q2mR1zr9pU4BlkxiOBETBlBfEf1z0P5EawKtnylNQQOF38Z9eLxfviLVrissiRdVFUmF6tCZAvAPF3kBRSZWG9EuirYeUiEv/ggbbRqMoWPztNAL6zq3DVR2OOk//z8F4Z4dMpYAwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:21:37</sys_created_on>
+        <sys_id>18f6168dc3b83610c9043eec05013197</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:21:37</sys_updated_on>
+        <ui_id>f356c724-de9b-4817-82ca-dbc9c23a6a95</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
+        <subflow display_value="Auto refresh vacancies">9475560dc3b83610c9043eec050131c3</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/41SS2+jMBD+KyufCYIQQsOt7apSpd2ttI9eqsoa7CGx1hhq7DTZKP99x0AjtNtDL0iemW/me/B0YkqyksmrIs/XiRRZdZWt00RsklWGKJI8SbNU5CxiBhqkSQf9b4JEbA/ah8LpdGsRHEqexsJbi8adz9SXqu80HB+nMaqIndKS+qx8eo5YB5Y2OrSsPP3TcscOuYYKNQG/Y43UEUgbPsr1DRvI3st3yIcL9Laz3a2VgUsaMTw4NBLpVg26x4g1YCS41h5Z6aynAgmWD0YfLxM7ZdwosoFDr/7Q8mwZzfaX7MDTZLPMlxteNT2vgCf06ZFD36utacg2NgPwyT4C3tDUp+v5lNi1SuBD51RrxqsOKv3hI6LVvjHfRktCUliD126WlCeIxC64EHRNIusfu/b1EsedMoNhU1O3AvTlBc5ZVXmHfUjXq5//+z0Wv7yTMmoMTHkDXafMlne23avhFlFv4q2mR1zr9pU4BlkxiOBETBlBfEf1z0P5EawKtnylNQQOF38Z9eLxfviLVrissiRdVFUmF6tCZAvAPF3kBRSZWG9EuirYeUiEv/ggbbRqMoWPztNAL6zq3DVR2OOk//z8F4Z4dMpYAwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:22:49</sys_created_on>
+        <sys_id>3d379a8dc3b83610c9043eec05013186</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:22:49</sys_updated_on>
+        <ui_id>f45daafd-80c2-4e2d-8d68-c2528a644d47</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</parent_ui_id>
+        <subflow display_value="Auto refresh vacancies">9475560dc3b83610c9043eec050131c3</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/41SS2+jMBD+KyufCYIQQsOt7apSpd2ttI9eqsoa7CGx1hhq7DTZKP99x0AjtNtDL0iemW/me/B0YkqyksmrIs/XiRRZdZWt00RsklWGKJI8SbNU5CxiBhqkSQf9b4JEbA/ah8LpdGsRHEqexsJbi8adz9SXqu80HB+nMaqIndKS+qx8eo5YB5Y2OrSsPP3TcscOuYYKNQG/Y43UEUgbPsr1DRvI3st3yIcL9Laz3a2VgUsaMTw4NBLpVg26x4g1YCS41h5Z6aynAgmWD0YfLxM7ZdwosoFDr/7Q8mwZzfaX7MDTZLPMlxteNT2vgCf06ZFD36utacg2NgPwyT4C3tDUp+v5lNi1SuBD51RrxqsOKv3hI6LVvjHfRktCUliD126WlCeIxC64EHRNIusfu/b1EsedMoNhU1O3AvTlBc5ZVXmHfUjXq5//+z0Wv7yTMmoMTHkDXafMlne23avhFlFv4q2mR1zr9pU4BlkxiOBETBlBfEf1z0P5EawKtnylNQQOF38Z9eLxfviLVrissiRdVFUmF6tCZAvAPF3kBRSZWG9EuirYeUiEv/ggbbRqMoWPztNAL6zq3DVR2OOk//z8F4Z4dMpYAwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:24:35</sys_created_on>
+        <sys_id>a79716cdc3b83610c9043eec05013117</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:24:35</sys_updated_on>
+        <ui_id>920bc047-9e83-4e20-afa6-fef003f56c39</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b2b4c44dc3fcf210c9043eec050131df^sys_idNOT IN01471e8dc3b83610c9043eec05013189,3d379a8dc3b83610c9043eec05013185,94f6168dc3b83610c9043eec05013196,94f6168dc3b83610c9043eec0501319b,9cf6168dc3b83610c9043eec05013199,ab9716cdc3b83610c9043eec05013118,af9716cdc3b83610c9043eec05013116"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">90378c01c3303610c9043eec050131c5</block>
+        <block display_value="">c9471e8dc3b83610c9043eec05013188</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:23:03</sys_created_on>
+        <sys_id>01471e8dc3b83610c9043eec05013189</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:18</sys_updated_on>
+        <ui_id>d4baac06-cea4-482b-b0af-c80c7b9d9782</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f5379a8dc3b83610c9043eec05013185</block>
+        <comment/>
+        <connected_to>af98dbee-23db-4828-8ef6-7d7379d53a18</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:22:49</sys_created_on>
+        <sys_id>3d379a8dc3b83610c9043eec05013185</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:18</sys_updated_on>
+        <ui_id>8118a32c-98ea-475b-86d5-61f950573565</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0cf6168dc3b83610c9043eec05013195</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -484,19 +599,123 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>3</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 02:53:35</sys_created_on>
-        <sys_id>1c378c01c3303610c9043eec050131c5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2025-10-23 13:21:37</sys_created_on>
+        <sys_id>94f6168dc3b83610c9043eec05013196</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:35</sys_updated_on>
-        <ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</ui_id>
-        <values>H4sIAAAAAAAA/+1UTW/bMAz9K4HPjuHPJM1lKDYUGLCuQFv0shYGLdOJNlnyJDlpFuS/j/JHWqwpOgw97mY9UuR71KP3nmpt01pzq86N4SvpLb89+B6XDqPvvSehRm/pMSVLbrmSeQf43gZE6wLX2Gi1wXJSKT25BAkr1B8mlFBy0wjY3b2Vx9ZclBqHzg1oqm9Re8v9HyG7azAXUKCgcjdWc7mi67ykUxVCFZ2xiCXxLInDMF6kUTFLiiguE0BIKG+8+HEUMvnSIf6rCl0/ws3YSenS0YpC38NHi7JEal2BMOh7NcgSrNK7I6IRyispnoA1l5bKeS750fBfVDvOMpdYIWlk2AePx3wYYA+zteIMrxpHsEcsFGK4w5Roa/m11+FGjxW0wo6jJ6Q1VA8bR9qxGChVN2u1vR4bXnDZCRyCQjEQxxNYGkPRWjTuYVBgTYXyGpqGhpO7p+XdZeJSBytBh6ASaktNnasCYI54QDOC4ILwTx18B5o7FZdUhi73NAswnOWdA6mc1STh0I0l/9k6Qr3AQUreT4MSDNO8sefUZ4MD64P/0r7PnLvfz9MSoyKupinOsmlapNl0ERYwreZFtpiz+QzieUDcSB2I3FiweDjct2GYkCu/I7PkgBdGf6+y77EXZ5BVWRRmp/cinZ3aixMb8foyxG8sg3u+v9yFMAz/L8PzZeAm7009aOua//MuPDjj9x1M75sSGTdE5NZhn8c/vgvsyACcPYe2Sv9wEp6ww2/6C8TjOwYAAA==</values>
+        <sys_updated_on>2025-10-23 13:26:17</sys_updated_on>
+        <ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</ui_id>
+        <values>H4sIAAAAAAAA/+1UTWvcMBD9K8VnY/wRL83eQkqg0DbQhFzaIMbSeFdUllxJ3o277H/vyB+7S7KhJfTYm/VGM/Pe08O7yHS+7by7N1fOyZWOlt8e40jqgNH3LtLQYLSMuNFCemk0G4A42oDqQoE+hXStgv7hiPC1VMLiNK0FSz0ebbTcPSv5vkWmoEJFjXfeSr2idinoVKdQZ5c840W+KPI0zd9fZNWiqLJcFIBQ0L258Xom9+7TgMSvsg77CHfzJmNFoJWlcYRPHrVAWl2DchhHDWgB3tj+gFgEcavVEVhL7UfFDTw5+Ytm52UZLtZIGvlkx+HIJqtml4zkeNsGgiPioVKzhUZ1jf4y6ggmYw2d8icmd47mYRtIBxYTpfpubbZf54U3Ug8Cp6IyHNThBJ5sqDqPLjwMKmxoEGugbckc1lqzkUMzcWmSlaJDUiuzpaUhKQnwQDwhjyC5IfzDAD+AlUHFZxpDzSPNCpzkbEgVjfOWJOwHW9jPLhAaBU5S2OgGXXDcytZf0Z4NTqz38ctInqRxt7umR/IoWJbwzpIHPqF3pCWqZ6itUQrFfv+9S9NCDANf5vdNM/5F4i+hrMssLc8n/mJxLvFnsv56zPM/xDw8zF+mPE3T/zE/jbl0bIzrpG0MxltT/hgiPW5wY24EcumIyH3APs7/51DoKQCSn0JbY38ECUds/xsBAo+M6QUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">50f6168dc3b83610c9043eec0501319b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:21:38</sys_created_on>
+        <sys_id>94f6168dc3b83610c9043eec0501319b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:17</sys_updated_on>
+        <ui_id>8dd5889d-b11f-4d8a-a984-f1e2f83d76df</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">58f6168dc3b83610c9043eec05013199</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:21:37</sys_created_on>
+        <sys_id>9cf6168dc3b83610c9043eec05013199</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:17</sys_updated_on>
+        <ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4PPjmE7cdLmFmwoMGBrsbXoZesMWqITobLkSnLSLMh/H+WPNFhTbFh3GnazHsXH92ia3gW6cXXj7I1eWCuWKph/uQsDoTxGz7tAQYXBPGBaceGEVnkLhMEaZOMDi7o2eo2cIC5sLWF7+zzCVkJygz17DYY4HJpgvvsp5LY15hIKlERw7YxQS0oXnE5lDGVyzhI2TqfjNI7Ts0lSTMdFkvIxIIzp3pD4dhD75kOLhC+68PUIt0MlbbiXlcRhgI8OFSf58xKkxTCoQHFw2mwPiEHgV0o+ASuhHNEF/vKjFd+JO80yf7FE8siwCx6Oed+yDmYrLRhe1V5ghzgoZJ/DtGwqddn58M3GEhrphmYT0ljiw9qL9ip6SeX1Sm8+DwUvhGoN9kGpGcjDCRy1oWgcWv9iUGJFRHkFdU3Nyf3LFG0yaamipaRDVEq9oaJ+ciJgXnhEPYLogvB3LXwLRngXH4mGkjuZBVjB8nbKiM4ZsrBv25I/NF5QZ7C3knfdoAuWGVG7BdVZY696Hz4f0aPp3O1mE45JkZajCU6z0aSYZKOzuIBROSuysxmbTSGdRdCOKsjcOnC4339t4njMoR/gb5efXsWjtMsNPjTCvJ7L3gvq44mv7R92+je2xzlkZZbE2entMZme2h4n9sbLKyP9xcrwQ/6bGyOO4/8r43hlCJt3n37vrS3+xxvjzq+HroLt5oYjE5aE3Hjs/fDv84EtDYBgx9BGm3tv4Qnb/wDZXO/3RQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">679716cdc3b83610c9043eec05013118</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>18</order>
+        <outputs_assigned/>
+        <parent_ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:24:35</sys_created_on>
+        <sys_id>ab9716cdc3b83610c9043eec05013118</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:18</sys_updated_on>
+        <ui_id>60629fc3-8f3e-4147-a95a-f40ec293e4d9</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6b9716cdc3b83610c9043eec05013116</block>
+        <comment/>
+        <connected_to>d0228dcb-58e1-4d64-bb5f-a7970638d40d</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">b2b4c44dc3fcf210c9043eec050131df</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:24:35</sys_created_on>
+        <sys_id>af9716cdc3b83610c9043eec05013116</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:18</sys_updated_on>
+        <ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b2b4c44dc3fcf210c9043eec050131df"/>
@@ -565,7 +784,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>base_assignments_lifecycle</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Base Assignment Record","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"reference","base_type":"reference","usedInstances":{"e96c55a7-f2e0-4177-b629-8a8f67cde2fc":["record"],"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["record"],"4ee4ac86-c5b9-4e6c-afb2-34544f9f240e":["conditions"],"b1adc700-2d0c-4ee5-a006-19e55345d2fb":["record"],"2ec117a8-7620-455c-8163-9907b4bfa583":["record"],"d9925fcd-f7dc-4883-9b09-ba56348998cb":["record"],"cd19f66d-9a1d-44b1-b5ac-a50a0513edbf":["record"],"e75a07b4-384e-42fb-8075-fa05afa3da0e":["record"]},"attributes":{}},{"name":"e96c55a7-f2e0-4177-b629-8a8f67cde2fc.record.base_manager.base_manager","label":"1 - Update Record➛Base Assignment Record➛Base Manager➛Base Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"base_manager","usedInstances":{"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["approval_conditions"]}},{"name":"74de1b2f-4e65-4b45-80ba-f7b587c76a27.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"30e8d221-df69-4bf3-aa32-73910fef210b":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"74de1b2f-4e65-4b45-80ba-f7b587c76a27.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"30e8d221-df69-4bf3-aa32-73910fef210b":["condition"],"af98dbee-23db-4828-8ef6-7d7379d53a18":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e96c55a7-f2e0-4177-b629-8a8f67cde2fc.record.base_manager.base_manager","label":"1 - Update Record➛Base Assignment Record➛Base Manager➛Base Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"base_manager","usedInstances":{"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Base Assignment Record","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"reference","base_type":"reference","usedInstances":{"e96c55a7-f2e0-4177-b629-8a8f67cde2fc":["record"],"74de1b2f-4e65-4b45-80ba-f7b587c76a27":["record"],"4ee4ac86-c5b9-4e6c-afb2-34544f9f240e":["conditions"],"b1adc700-2d0c-4ee5-a006-19e55345d2fb":["record"],"2ec117a8-7620-455c-8163-9907b4bfa583":["record"],"d9925fcd-f7dc-4883-9b09-ba56348998cb":["record"],"cd19f66d-9a1d-44b1-b5ac-a50a0513edbf":["record"],"e75a07b4-384e-42fb-8075-fa05afa3da0e":["record"],"f356c724-de9b-4817-82ca-dbc9c23a6a95":["taskid"],"c58bf856-9713-4760-9dd2-3e442da315a0":["record"],"3204fc5d-3b59-44e3-aa7b-118527bb9b88":["record"],"e15ec939-6275-4070-9a89-939d6d382eba":["record"],"f45daafd-80c2-4e2d-8d68-c2528a644d47":["taskid"],"eb4bc161-0f04-43a2-bbe8-670591dac8b2":["record"],"920bc047-9e83-4e20-afa6-fef003f56c39":["taskid"],"19610b65-f68f-4878-a873-75156f2c8d09":["record"]},"attributes":{}},{"name":"Created_1.current.manually_enrolled","label":"Trigger - Record Created➛Base Assignment Record➛Manually enrolled","reference":"","reference_display":"Manually enrolled","type":"boolean","base_type":"boolean","parent_table_name":"x_1092529_bms_ba_0_base_assignment","column_name":"manually_enrolled","usedInstances":{"d0228dcb-58e1-4d64-bb5f-a7970638d40d":["condition"]}}]</label_cache>
         <master>true</master>
         <name>Base Assignments Lifecycle</name>
         <natlang/>
@@ -582,7 +801,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4bda0085c3303610c9043eec050131a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -590,7 +809,7 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:36</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -615,7 +834,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -674,14 +893,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 03:09:36</sys_created_on>
         <sys_id>4fda0085c3303610c9043eec050131a7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:36</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -699,7 +918,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -758,14 +977,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 03:09:36</sys_created_on>
         <sys_id>4fda0085c3303610c9043eec050131b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:36</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -800,71 +1019,27 @@
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4bda0085c3303610c9043eec050131a5^sys_idNOT IN47da0085c3303610c9043eec050131c6,4fda0085c3303610c9043eec050131c5,87da0085c3303610c9043eec050131c7,8bda0085c3303610c9043eec050131c3,8fda0085c3303610c9043eec050131c6,cbda0085c3303610c9043eec050131c2,cbda0085c3303610c9043eec050131c4,cfda0085c3303610c9043eec050131c7"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4bda0085c3303610c9043eec050131a5^sys_idNOT IN70085ecdc3b83610c9043eec05013126,8bda0085c3303610c9043eec050131c3,b0085ecdc3b83610c9043eec05013128,b8085ecdc3b83610c9043eec05013127,cbda0085c3303610c9043eec050131c2,cbda0085c3303610c9043eec050131c4,cfda0085c3303610c9043eec050131c7,f8085ecdc3b83610c9043eec05013126"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment>Change state for Reproved / Reproval Reason for last Comment</comment>
+        <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
         <generation_source/>
-        <order>6</order>
-        <parent_ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</parent_ui_id>
+        <order>7</order>
+        <parent_ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:37</sys_created_on>
-        <sys_id>47da0085c3303610c9043eec050131c6</sys_id>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>70085ecdc3b83610c9043eec05013126</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
-        <ui_id>b1adc700-2d0c-4ee5-a006-19e55345d2fb</ui_id>
-        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8hPncSihI+qsKeurNKmrpXaiZfSWU7sgDfHzmyHlqH8913HJiDoulbqSzUeQL5fPudwT+B2jThFYzRgNE5GyXHWT/r9Xhz3TgZJetxPkx7tE8YS1EWSFAwqNcuUpnBeElG5wHp9phmxjOIkyiqtmbR1DXnKTSnIahrKIJItuKCQR+Pbuy4qiYaJlmk0Xu+lngtJkJQJKL3eYNrHaFelO1OVVQXgwnwTvAidk5DpfJ5ABpocnCTuIvZgmaQMgOREGNZFBZGUWKVXaGx1BQEgTa+kWLUVCy6tJ1qQB8N/w82D2NXlDJhlQYT2iINAPpxPiCU3MDmzlW71UjxjxmtCWU4qYc92Y77gqrRcSd9iSSo23UpUhbz0iqB2wM73URkAwUrH0yH3tPKbhbq/3oA857KRJFAUKiOiPRFrNU8r6+CsEROs0bggZcnlHJdaLXnTDFCKaC7gEOVC3cOdhs9lRDKHOwJVSXQO8UkTnhLNHYmvMAaa6y4yK3MmiDFbKqAh/lU5JJ5YoIAbFRoJcLMJrjnTvLSncNWSBeB1Nyx9Onxqw7LRdqF2Zm4X/wEn8ag37I1wWhicEhzDG0gKUIGH0+LQBR+hoHO6W/AyUzwD8sYU35pVeJxC8MVB7GK3t3PpE8EVw1dzxclbckWg8eZt8S8zxL0nH7c7m9Tsv9kxgrHw+J9Vcdyng++aOYZEYNgEo6QP5/S9v5vRQ0+8tP1ljnkGr41jzjkT1DxCdGMXVgBuy7AnvmeZkOxMQ7L9MXk13yTHcfN6Q+75D35TPEUfc5j3NtiFnmqALdOdvZ6OX/tOTnHDBA8xFkr9xFWJ/X+bKHyACk4gE82Z/aIqLYn4JK1eHSXvPszkX8buhSNYGW6PZmg2kzP0SF9kFjy3Rz4DqyQPJvxQXG4HgH6GLBlt16Ku67s/hanhLmoKAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes/>
-        <comment>Cria a DataPill para Adicionar o Reproval Reason</comment>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
-        <generation_source/>
-        <order>5</order>
-        <parent_ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:37</sys_created_on>
-        <sys_id>4fda0085c3303610c9043eec050131c5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
-        <ui_id>4ee4ac86-c5b9-4e6c-afb2-34544f9f240e</ui_id>
-        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyt3MrEhgo0G2AJttLt0tQJBVzlyZVkkqaGP7vHYqUbdiKbaEOkGBv5nBIvpl5b0j52zLmNL6M6TSZ5tPpcDJOkn4/SUajPsFplvVHJEsyPIg7scQLBp4WZ4LB8AGL0o3Nk8FFoRWMkf/BNExTbgqBn74Grw/BBWbInAuqmYwvv33vxAXWsK+FNZfLnalTgQmcMQGudwHZDlD7VKyHqJrztk/by6LPfkJp6qAknZj9tExSBhhyLAzrxAssKbZKP60tmmF6I8XGMOfSwo6xc/5p+DOcO0mcX84gKsL83HqIQpK8Ob/GFt9aXRJb6uBK5ooTZnw+KMtxKezVts073BSWK+mX+LD9aiXKhfzs0xGvN6hrApbSAAhWuEAd8hBGfjtXj19qlDMuq5yESaEIlLEeYWs1z0rr8CxjJtgCNkILIAKX98jVnFeLAcuiey9g0M2FeoRDDb+XXUwc8C7kFXdnYL+uzF+x5i6KP2Gbikw5F8AQ5EtoVKmrVD4gIkpTTWgsjd8rXnUcJa8ENmYTOaQc/Sgdbp+HEDHySXNLiOaF/QBbPLAQ3KpTa2N4kILTDeWIkpQ7FKZZIN2/S9iCLpdXQB3LKEq7pNSQZbta/WMsmLyDZv8yAvP7Ovq9zVpK73jctfSutgNvSkYQ4Z7tU9MGQYTp2UQ4SJL3JEM4/O2psL2ufAqOiCulB0lGN3wySlvkc7mlrn2JtOb5CRBqnt84ZkbZ00uoAs1zzgRtumtmbmLnrun9P++aN0lyAESRrx6Xgsvq4QBAX4v9w4PUy9IdnlX02rpZnA0bsq8BHFkVPbdWwglwaiXcwtnRncfTALHu9xVldnt9bQwC6J9NAP3eeQSwXIe5TmRDzuu3oqtm7f/s/PGuP1Bwa0G6ahJYqzPTtmf2VvsC7rdS8DbZ/Mz1C5w786PyBUV2XrMFzGFpOA95/aJHTu+Z3Zxee1FlH7H4r2k+MA7VharCe4UHanrwGynbeqDyHC2gcryAd7RmBMhhENYM5aqUFIUX9IZIrpI518YG5/1G84WBfmSkQJiRnbOo8o7W3i0v4uNx1Kn8mEd1IOE0E0EgURVItA6kXdhtmtbgjI/TczetGeaiqgZ8HBVb5WRaK/1C4zpSyAOMOLGrnQgqPSuo3297TRJobH9HsL6LL+3ztybCcDbo4dG4n6ZJkiZ0nEzG43QyyvIRHg/yjUYRMpJAN4Wdc6AKbI9qatR1Tvb7j2+pbRvNCahqCl4r6T6je2MbOVhQ36iGdRx4aCiZUoJhudNR7uCe+GMW8Ae+Dt9cV3kX/zuV/G43097UmOvXejeU/C/Jf5Tso6PYhCW9SUrJxWScji8GOR1dTCkeXuBpNhz3KSOD/JxPge+/AKR9IaHJFQAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
-        <comment>Change State for approved</comment>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
-        <generation_source/>
-        <order>8</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:37</sys_created_on>
-        <sys_id>87da0085c3303610c9043eec050131c7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
-        <ui_id>cd19f66d-9a1d-44b1-b5ac-a50a0513edbf</ui_id>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>c58bf856-9713-4760-9dd2-3e442da315a0</ui_id>
         <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPISRGpfrWVYSFbgvt4ku3DJOZGx2YfOzMxOqK/31vkkkMWroW+lLWh8D9mjnneG7yfCBSkBkZgQjCaTjhURhFwyAY3ozCeBLF4VBEDCAkHslYCtipgedaYLxlqqwSh8NcA7MgaOjzUmvI7PGIdSFNodh+5dowwzdSCayT2fOLRwqm8UQLmswOZ6VrISkWg8LWxxbTOUa7L6pY5LxMEReVbfLOTS5cZfB9gRUcquCEgUdgZyETgEASpgx4JGWZYDbXezKzusQEkhYPmdp3HRuZ2YZoynZG/sGbR0HVlwAy406ELqROoCadLJhlT3gyt6Xu9MolB9NoIiBhpbLzfq5peCiszLNmxLJYtdO5KtPsvlGEdAf0/o/SIAgoKp4V8oZW8rTJXx9bkEuZ1ZI4iirnTHURs1bLuLQVnAMBBbXGKSsKma1pofOtrIcRSuqvFQZ+ovJXvNPIdeYzXuH2UVXmLzG/qNMrpmVF4gceg8NHj5i9mStmzIkKakh/lxWShpijQGsVaglo7YRqmGtZ2Fu8agsO+NFzpo/H7zmMT0+G6p15Mv6OhsF0OB5OaZwaGjMa4AMlRajIo9Licgu+YcPgtt/wsaW4AnK7FD9rK7xNwe3FRe6uPzu4bwpuK8afthU3X2krHI0vvxb/WoZg+O7rtuek2v+mtwjG4uv/VxkEkYguLX9W/Zjfr0DV+n0pQQnzBszW7JAiLAu0gX1meFccrFyx+xR8muvDSVD/vpD3/5svwstfODVcLQgJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -890,6 +1065,28 @@
         <values>H4sIAAAAAAAA/9WWWU/jMBDHv0qV56ayk5akvLEgJCQWJGD3BaHIxxgsOQeOw7EV333HSXrRcu6y0r6APL7+85/5xb2cBVoGu8FYplJOFSWKUkoomdCIppACF8lOAlEaDIOC5YArLYjSShzfMdP4wGy2b4E5kBkdicZaKNzTE85LXVeGPf7sl2FE3GgjcT7YvbwaBhWzeKIDG+zOnk29V5JhHAwuPZtreq7RPVZ+LEvR5Kgr0/Pgcb/zoJ8ZHB3gDG7ycugwgAcHhQTUoZipYRjkrJDMlfZxEcGk5WlhloEbXbgu0Zw91PoX3hxHfp0CzEz0JiyGWW9QF1YHzLFzZxvhGrvwq9QC6s4TCYo1xu2vxroFp5XTZdFtcYyb+e7SNHlx0jkSLA5YqUdTowiofKJeOV6OWajzm/L+bC7yUBetJX2KphTMLEbMOat547ycWdDoi21ud+HtfoOBdmHOqkoX11llyzvd3ofq89G1wcFImfIeZdb6uhgx4VMdYSXY6BDjB234J7Pa5/0dj8HN/s4fhb5t4Mj3kaQkiadEhEk0icMxESzkqeQh45GajMc76Q6nwdMwqB/rfcPqeukYliq7bXzCnX+9U1lrdut01jac3yysrtweyruD3p+nYc9WSl9r5Dha9u3KmUu+HjJKptEkmmY8rzPOMoJ/sHIoFXP3/m3C9g0XDPZWF3yMvXdInrN30Xbc9hR6/DZix6t7ByfdRA9f9EH4uq7dwl5K/iP2+rT+HL41r9fZW3P7n6AnOOeKwzSkXIhwnEAaphFLQpgQEasoJiRRn0DvLeDGr3fvymNWlE4rLVhbxCVyhMdc0EgI/JdElIgpGccAgkwIjfHMTeDO4FrXzrYHDXQxYAOP4MffvLeVz7k7WZe+PaEewCUG6/ydrcR7/OLX8eto+8zThzWGO19CyJk2WddOLzD5LLe/zOdLStagZUqB8D9qlAYjse+yds+XvKPqHJgVN4f+Jl/DjtB1wNcKi5jjHRuAr5bz6/i+2OypGlzW25L5AzJV2pz5jmgzfP5ZGE8pJHGUhtOdCD8LEE9CLuM4pPiZAGCgIvk1L/LVb/vZTPzvCgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>b0085ecdc3b83610c9043eec05013128</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>19610b65-f68f-4878-a873-75156f2c8d09</ui_id>
+        <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPISRGpfrWVYSFbgvt4ku3DJOZGx2YfOzMxOqK/31vkkkMWroW+lLWh8D9mjnneG7yfCBSkBkZgQjCaTjhURhFwyAY3ozCeBLF4VBEDCAkHslYCtipgedaYLxlqqwSh8NcA7MgaOjzUmvI7PGIdSFNodh+5dowwzdSCayT2fOLRwqm8UQLmswOZ6VrISkWg8LWxxbTOUa7L6pY5LxMEReVbfLOTS5cZfB9gRUcquCEgUdgZyETgEASpgx4JGWZYDbXezKzusQEkhYPmdp3HRuZ2YZoynZG/sGbR0HVlwAy406ELqROoCadLJhlT3gyt6Xu9MolB9NoIiBhpbLzfq5peCiszLNmxLJYtdO5KtPsvlGEdAf0/o/SIAgoKp4V8oZW8rTJXx9bkEuZ1ZI4iirnTHURs1bLuLQVnAMBBbXGKSsKma1pofOtrIcRSuqvFQZ+ovJXvNPIdeYzXuH2UVXmLzG/qNMrpmVF4gceg8NHj5i9mStmzIkKakh/lxWShpijQGsVaglo7YRqmGtZ2Fu8agsO+NFzpo/H7zmMT0+G6p15Mv6OhsF0OB5OaZwaGjMa4AMlRajIo9Licgu+YcPgtt/wsaW4AnK7FD9rK7xNwe3FRe6uPzu4bwpuK8afthU3X2krHI0vvxb/WoZg+O7rtuek2v+mtwjG4uv/VxkEkYguLX9W/Zjfr0DV+n0pQQnzBszW7JAiLAu0gX1meFccrFyx+xR8muvDSVD/vpD3/5svwstfODVcLQgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
@@ -898,17 +1095,17 @@
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
         <generation_source/>
-        <order>7</order>
-        <parent_ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</parent_ui_id>
+        <order>13</order>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:37</sys_created_on>
-        <sys_id>8fda0085c3303610c9043eec050131c6</sys_id>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>b8085ecdc3b83610c9043eec05013127</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
-        <ui_id>2ec117a8-7620-455c-8163-9907b4bfa583</ui_id>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>eb4bc161-0f04-43a2-bbe8-670591dac8b2</ui_id>
         <values>H4sIAAAAAAAA/9WWyW7bMBCGXyXQ2TJISbak3NoYAQq0KZCkuQSFwGUYE6CWSlQa18i7dyjJW+ysbQr0YoDD7Z9/5hN9vfS09I69SCZSpooSRSkllExoQBNIgIt4GkOQeCOvYDngyhpEWUsc3zLTusByeVIDsyAzOhZtXUNh7+9xXuqmMmxxNSzDiJhrI3HeO77+PvIqVuOJFmrvePlg6qWSDONgcOn5StNDjXZRubEsRZujrkyvgp+HnbNh5ujTDGdwk5NDRx7cWSgkoA7FTAMjL2eFZLasF+sIJi2/FmYTmOvC9onm7K7Rv/DmMHDrFGBmYjBhPcwGg/qwmjHLLmzdCtvWa79KLaDpPZGgWGvsyXasX/C1sros+i2WcbPaXZo2L856R7z1AVv1aBsUAZVL1CnHyzELdTEvf56vRJ7qorNkSNGUgpn1iFlba95aJ2fptfrykNt9+LDfYKBbmLOq0sVNVtXlre7uQ/X5+MbgYKxM+RNlNvqmGDPhUh1jJdj4FOOzLnzFau3y/oLH4GZ357dC/2jhk+sjSUkcpkT4cTAJ/YgI5vNEcp/xQE2iaJpMOfXuR16zaE4Ma5qNY1iq7EfrEu79G5zKOrM7p7Ou4dxmUevKfkB5tzD4cz8a2EroU40cBpu+3Tpzw9ddRkkaTII043mTcZYR/MHKoVTM3fm3D9tHXHD0YXvB69h7geQVe5ddxx1OYcBvL/Z5e+/RWT8xwBe8Er6+aw+wl5D/iL0hrT+Hb8frXfZ23P4n6AnOueKQ+pQL4UcxJH4SsNiHCRGhCkJCYvUG9J4DLnq6e7ces6K0WmnBuiJukKMBoZBOUWRIeECJSEkUAggyITSkUbwP3BUTrBCLo3NwRoJ8/Wv3vOYVcWe7og+nMqC3AWCXvPOt+ABe+DR4PWdvefSwunDrigc50ybrG+kRGh/k9pfJfEzJDq5MKRDu74zSYCR2XNbteZcXVF0Aq8X81N3katizuYv2TmERcLxjD+3tcr4f2Zf7PdWAzQZbMndApso6Z64jugwffhCilEIcBomfTgP8IEA48bkMQ5/iBwKAgQrk+7zF338DNTqzmekKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -942,16 +1139,16 @@
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
         <generation_source/>
-        <order>3</order>
-        <parent_ui_id/>
+        <order>5</order>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 03:09:37</sys_created_on>
         <sys_id>cbda0085c3303610c9043eec050131c4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
         <ui_id>74de1b2f-4e65-4b45-80ba-f7b587c76a27</ui_id>
         <values>H4sIAAAAAAAA/+1YW0/bMBj9K5Wf2y69X946KqRNG0jAeKEochyHGrlJZjtAF/W/74vtXGihtFv30MELkr+Lfb7DOXHSmxQxH43RYBi06WjUdryW43QcZ9gjzrBDvc6gP+hg4qA6CvGCQqWgJBI+rB8wT7JAmp4IihX13VaTJELQUK1WkPeZjDleXtsyiJA54z7k0fjmto5iLGBHRQUap2upXSFx7FEOpRc5pnWMahlnaz8iyQJwuSwPfrOdU5upfZlCBpoyOE4d0SdFQ58CjgBzSetogUMfq0gs0ViJBAIws38e8mVRMWehMnMu8JNkv+DgTjurCygMRiwHxdK1/JhwMMUKX8LORCWioCtihEpDiU8DnHB1Uo2ZgvNYsSg0LQp7PO+OeLIIzwwhqNig8u9IJICgcTZnhtyMFVzOo8eLHOQpCzUjdkQeEcyLFVZKMC9RGZwUUU41xQscxyy8c2MRPTDdDFAWzTsOi2bAo0c4U7K7sIlJhrsJrOLmKcSnOnyNBcuG+A7bQPOqjuRSnnAsZTkKcOj+TDIkZjA7gqtZMBRkfUSwWE3glAdqMa/qVu4e2aotUkrJbFeq/cltOaN2rz1yvYV0Pew68AeIBICAPmNgU/qfoaA2qRbs54Qd0OZOuLJw19BbH+ilq3PPbaDbamcmYV3Q2u4CGyltYPTzgguGzhG5wI519DZ4ywFOa5um/GGpIUAAM2DuBozy6oM/T2wKvpLZT+k7oMqVPrFn1E4trNfgWu3r5Uva1/1r2m/vqf3Xr4Ch4xyT/N/TJUC2io12Sk3dR4kItzjAnTOplfGqEyoV+zliB5C5I74alOuGWAf/J37ofPjh//dDt7dVapXXikLVJAp9liGWFVeYJzOVF/SeEiUn4fLHTZrSUZ/0enjQgEOcRrc1GDS8fnvUGOJh0B8Qn7YD0jQv7k39RgX6wndUPFusVrebHvvn5+3n2B1oLL5bEk7lW7RavxZJYZuqni0uw3xH69vuob5kjsy27+UtjmzVWjAqteUnQBB8pVc/3GfIwJ6h8QyFUUhnqD5DWZWbiUuHoQLAFQkdS9PVykQSge0Grcqy7PbxUupKSebUB23q6LOIq81g44f43WAHTnL/TRNamxpSNmmyvitwGl7Yxn15aQv0Tp+uWPXe7B3s3ux+2O9v7QcwmVt8msClCE+/A3ry9jcQ+cMqTBMAAA==</values>
     </sys_hub_action_instance_v2>
@@ -964,24 +1161,109 @@
         <display_text/>
         <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
         <generation_source/>
-        <order>9</order>
-        <parent_ui_id/>
+        <order>8</order>
+        <parent_ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 03:09:37</sys_created_on>
         <sys_id>cfda0085c3303610c9043eec050131c7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:37</sys_updated_on>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
         <ui_id>e75a07b4-384e-42fb-8075-fa05afa3da0e</ui_id>
         <values>H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFSduk3LEgJCQWJGC5QSia2GOw5BxInC7dinffcZKey3GXlfamksenf/6ZL+7t3FHCOXCGIhJiIpknGWMe80bMZxFGmPBwHKIfOX0ngxRpZYk8LwWNp6BrG5jPj0oEgyJmA16XJWbm+ZnmhaoKDbObbhlF+IPSguadg9u7vlNASScaLJ2D+dbUeyVpSFDT0suFpm2NZlbYsch5nZKuWC2CZ93O426md3pMM7TJymF9B58MZgJJhwRdYd9JIRNg8nK2jFDS4iLTq8CDykybaApPlfpFNwe+XSeRMuOdCcth3BnUhuUxGLgyZc1NXS79yhXHqvVEoIRam6P1WLvgojAqz9otBhK92J3rOs3OW0ec5QFr9agrEoGFTdQqp8spC3n1kP+8XIg8UVljSZeizjno5QiMKVVSGytn7tTqep/bbXi/36ixWZhCUajsPi7KfKqa+0h9OrjXNBhInf8kmZW6zwbAbaoDqgQMTih+3IRvoFQ27+90DG22d/7I1GONp7aPBPPCYOJxN/RHgTv0OLhJJBIXEl+OhsNxNE6Y89x3qll1pKGqVo5RqeLH2ibc+tc5FTdmN07HTcPZzbxUhTkkeVPs/Hnud2xF7LVGDvxV366dueLrKWbexB/5kzhJqziB2KMfqhxJpdytf7uwfaMFvcP1BR9j7x2SF+xdNx23P4UOv53Y2fre3nk70cHnfxC+tmv3sBd5/xF7XVp/Dt+G15vsbbj9T9DjSZLIBCcuSzh3hyFGbuRD6OLI44H0A88L5SfQewu44evdu/aYZblRUnFoirhCToxxzEY+J5E89JnHJ94wQOTeyGMBaw7YAu4GOGR81jssrJEoPv7ava15Qdz5puj9qXTorQDYJO9yLd6BF7wOXsvZZx49qi5ObfEwBaXjtpFeoHErt79M5ktKNnAFKZHbvzNSoRbUcXGz50teUHmFUPKHE3uTrWHL5ibaG4UlwOmOHbTXy/l1ZF/v9lSFJu5sie0BsczLFGxHNBlufxCGE4Zh4EfuZOzTBwGDkZuIIHAZfSAQAaUvvuYtvvsNSp0BtukKAAA=</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4bda0085c3303610c9043eec050131a5"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4bda0085c3303610c9043eec050131a5^sys_idNOT INc7da0085c3303610c9043eec050131c1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>f8085ecdc3b83610c9043eec05013126</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>e15ec939-6275-4070-9a89-939d6d382eba</ui_id>
+        <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPISRGpfrWVYSFbgvt4ku3DJOZmzow+diZidUV//veJJMYtHQt9EXWh8D9mjnneG7yvCdSkBkZgQjCaTjhURhFwyAY3ozCeBLF4VBEDCAkHslYCtipgedaYLxhqqwS+/1cA7MgaOjzUmvI7OGAdSFNodhu5doww9dSCayT2fOLRwqm8UQLmsz2J6VLISkWg8LWxxbTKUa7K6pY5LxMEReVbfLOTS5cZfB9gRUcquCEgUdgayETgEASpgx4JGWZYDbXOzKzusQEkhYPmdp1HWuZ2YZoyrZG/sGbR0HVlwAy406ELqROoCadLJhlT3gyt6Xu9MolB9NoIiBhpbLzfq5peCiszLNmxLJYtdO5KtPsvlGEdAf0/o/SIAgoKp4V8oZW8rTO3x5bkEuZ1ZI4iirnTHURs1bLuLQVnD0BBbXGKSsKmb3SQucbWQ8jlNR/VRj4icrf8E4jXzOf8Qq3j6oyf4n5RZ1eMS0rEj/wGBw+eMTszFwxY45UUEP6u6yQNMQcBVqrUEtAaydUw1zLwt7iVRtwwA+eM308/shhfHo0VO/Mo/G3NAymw/FwSuPU0JjRAB8oKUJFHpUW51vwDRsGt/2Gzy3FBZDbpfhZW+F9Cm4vznJ3/dnBfVNwWzH+sq24uaatcDSufi3+tQzB8MPXbc9Jtf9NbxGMxdf/rzIIIjE6t/xJ9XN+vwBV6/elBCXMOzBbs0OKsCzQBvaJ4V1xsHLF7lPwZa4PJ0H9uyLv/zdfhJe/bwfwuwgJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4bda0085c3303610c9043eec050131a5^sys_idNOT IN34085ecdc3b83610c9043eec0501312f,7c085ecdc3b83610c9043eec0501312f,f8085ecdc3b83610c9043eec0501312e"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
+        <subflow display_value="Auto refresh vacancies">9475560dc3b83610c9043eec050131c3</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/42SzW7bMBCEX6XgWRYky7Jj31IHBgK0DdC0uQQBsSJXNlGKUvjj2DX87l1agiu0OeQigLOz5Oy3ej4xJdmKyZtFWc4zKYrqppjnmVhmswJRZGWWF7koWcIMNEhOD+4XtSRsDzpE4XRaWwSPkuepCNai8ecz1aVynYbj02AjReyUllRnq+eXhHVg6UaPlq1O/5Q+GklDhXrIdC/fyeiPXTxbrJEuFzhIX4a+7yO9tTJGyROGB49GImWoQTtMWANGgm/tka28DSTQvPLB6OPVsVPG9zM2cHDqNz1aTJPRuyt24Hm2nJbTJa8axyvgGX0ccnBObU1D1NiogQ/0qPEzuT7djl31HXh4pCjCB3tl2yqBrucnsYag/Xqs9YaHzqvW9C0eKv3hZKLVoTHfer7s+sRou4FaJHYRXYQxkKkfd+3blfNGmQvloahbAXpkRbBit1Go4/5NaCryJgy8t6oKPk5yYkH9+H+pvfjeWlFjnIA30HXKbHln2726ZKCRmnSr6ZDWun2j7HHcFEQklNLCId2QfneRn8CqiOsrXXMJFdRPo14D3l9+1RlOqyLLJ1VVyMlsIYoJYJlPygUsCjFfiny2YOeEuaNba8L6FyMNwV9DhNBDHfDxfkexRVjV+VsKtceB1PnlDyHwWMu2AwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>34085ecdc3b83610c9043eec0501312f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>f45daafd-80c2-4e2d-8d68-c2528a644d47</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</parent_ui_id>
+        <subflow display_value="Auto refresh vacancies">9475560dc3b83610c9043eec050131c3</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/42SzW7bMBCEX6XgWRYky7Jj31IHBgK0DdC0uQQBsSJXNlGKUvjj2DX87l1agiu0OeQigLOz5Oy3ej4xJdmKyZtFWc4zKYrqppjnmVhmswJRZGWWF7koWcIMNEhOD+4XtSRsDzpE4XRaWwSPkuepCNai8ecz1aVynYbj02AjReyUllRnq+eXhHVg6UaPlq1O/5Q+GklDhXrIdC/fyeiPXTxbrJEuFzhIX4a+7yO9tTJGyROGB49GImWoQTtMWANGgm/tka28DSTQvPLB6OPVsVPG9zM2cHDqNz1aTJPRuyt24Hm2nJbTJa8axyvgGX0ccnBObU1D1NiogQ/0qPEzuT7djl31HXh4pCjCB3tl2yqBrucnsYag/Xqs9YaHzqvW9C0eKv3hZKLVoTHfer7s+sRou4FaJHYRXYQxkKkfd+3blfNGmQvloahbAXpkRbBit1Go4/5NaCryJgy8t6oKPk5yYkH9+H+pvfjeWlFjnIA30HXKbHln2726ZKCRmnSr6ZDWun2j7HHcFEQklNLCId2QfneRn8CqiOsrXXMJFdRPo14D3l9+1RlOqyLLJ1VVyMlsIYoJYJlPygUsCjFfiny2YOeEuaNba8L6FyMNwV9DhNBDHfDxfkexRVjV+VsKtceB1PnlDyHwWMu2AwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>7c085ecdc3b83610c9043eec0501312f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>920bc047-9e83-4e20-afa6-fef003f56c39</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
+        <subflow display_value="Auto refresh vacancies">9475560dc3b83610c9043eec050131c3</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/42SzW7bMBCEX6XgWRYky7Jj31IHBgK0DdC0uQQBsSJXNlGKUvjj2DX87l1agiu0OeQigLOz5Oy3ej4xJdmKyZtFWc4zKYrqppjnmVhmswJRZGWWF7koWcIMNEhOD+4XtSRsDzpE4XRaWwSPkuepCNai8ecz1aVynYbj02AjReyUllRnq+eXhHVg6UaPlq1O/5Q+GklDhXrIdC/fyeiPXTxbrJEuFzhIX4a+7yO9tTJGyROGB49GImWoQTtMWANGgm/tka28DSTQvPLB6OPVsVPG9zM2cHDqNz1aTJPRuyt24Hm2nJbTJa8axyvgGX0ccnBObU1D1NiogQ/0qPEzuT7djl31HXh4pCjCB3tl2yqBrucnsYag/Xqs9YaHzqvW9C0eKv3hZKLVoTHfer7s+sRou4FaJHYRXYQxkKkfd+3blfNGmQvloahbAXpkRbBit1Go4/5NaCryJgy8t6oKPk5yYkH9+H+pvfjeWlFjnIA30HXKbHln2726ZKCRmnSr6ZDWun2j7HHcFEQklNLCId2QfneRn8CqiOsrXXMJFdRPo14D3l9+1RlOqyLLJ1VVyMlsIYoJYJlPygUsCjFfiny2YOeEuaNba8L6FyMNwV9DhNBDHfDxfkexRVjV+VsKtceB1PnlDyHwWMu2AwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>f8085ecdc3b83610c9043eec0501312e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>f356c724-de9b-4817-82ca-dbc9c23a6a95</ui_id>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4bda0085c3303610c9043eec050131a5^sys_idNOT IN30085ecdc3b83610c9043eec05013129,f0085ecdc3b83610c9043eec0501312a,f0085ecdc3b83610c9043eec0501312d,f4085ecdc3b83610c9043eec0501312c,f8085ecdc3b83610c9043eec0501312b,fc085ecdc3b83610c9043eec0501312a,fc085ecdc3b83610c9043eec0501312d"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">90378c01c3303610c9043eec050131c5</block>
+        <block display_value="">0cf6168dc3b83610c9043eec05013195</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -990,19 +1272,175 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>3</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-23 03:09:36</sys_created_on>
-        <sys_id>c7da0085c3303610c9043eec050131c1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>30085ecdc3b83610c9043eec05013129</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 03:09:36</sys_updated_on>
-        <ui_id>30e8d221-df69-4bf3-aa32-73910fef210b</ui_id>
-        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNn2dDDshNfisBBgAJJAyRBLk0grKiVzZYmVZKy4xr+9y4l+YHGRRo0x97M4XJ3ZrQDb5iuXVU7+6AvrBUzxSZfnwMmlMfo94YpWCCbMK5VIZzQKmuAgC1B1v7iDiujl1j0Sm16N6BghuZTjwoKYSsJ68e36vhcyMJgN7kCQ/0dGjbZ/HYlCmpThlBG5zziSTxK4jCMz4ZRPkryKC4SQEiooYQcJZVOd5R71w0S/FGLW1cet84INevO112X+x2oTeFZRWHA8MWhKpD4lCAtBmwBqgCnzXqPGITiVskDMBfKUTvmi1+s+EkD4zT1hSWSRI7t5f6Ydf61cHkJDohKzV1tulI+14Kjbc0psIRauukx1hbcVl5q+8RBLnevtawX6kvrCNs32H0uQmpLJLDySj31Tkd5P9erux3LK6EaV7pLqTnI/QkceZfXzvPZMJS4oEbZAqqKHM38OojmMXFZDGaSDoNS6hUN9Zs4AO6JD8hYGFwRftnAj2CEV3FDbehxSzMHK3jWbC21I5uQbQNm13YqwdqDSHI3+1F7iq3kTlzW+uOfcCMqd0GTl9jp2AavQ3C0/5vNeFhglMdlf4ijtD/Mh2n/LMyhX47z9GzMxyOIxwNiS3pBZtaBw+32qQ7DhHb7G3JHi/QqLh/V9n3pOoe0TKMwPZ2u4ehUuk7k6p2Rit+IlP+ef5moMAz/R+qfIyVs1gah09YM/8BEPfv4tDP3XnNhidqDxz7v/n38xZqWS/BjaKXNdy/qgG1/ARClsrXHBgAA</values>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</ui_id>
+        <values>H4sIAAAAAAAA/+1VXW/TMBT9K8jPUZSPtWJ9mzpNQhpMYtNeYIpubKe1cOzgj3ah6n/nOk7TihXBgEfe4mPf63OO71F2RHvXeWcf9JW1YqXI4tNTQoQKGH7viIKWkwWhWjHhhFbVACRkA9KHDfxkwnYS+scjQtdCMsPHbh0YrHHckMXuhy3BsKDJoMkvaU7LYl4WWVa8vcjreVnnBSuBQ4kNJdRc4tHlgcab2wFJfsrP9V3ArTNCrcb17djl/gBqwwKrPEsIf3ZcMY58GpCWJ6QFxcBp00+I4cDulDwCa6FcFNzCsxXf8MJiNgsHG44S6ejGtKxGpyLcXIMDpOKp82YyTgvKbTSH8Qa8dMtTLB6464LUWOKglodqLX2rPkRHyNTg5GG8RRK8C0oD9VFHc7/W248HljdCDa6Mm1JTkNMKHHpXexf47AiXvMVGVQtdh45WndEbMRQjlzZdSVykjdRbvDRMVwo0EE/RWEhvEL8e4EcwIqh4j22wONKswQpaDZOI7dAmTvYJsb1dSrD2KBLdrb76QDFKHsVV0Z9QQo3o3BXevOGjjn3ycrBPZnq3W+JbO86qPKXeoCsuxXHAS2RfcWW0lJzt9599lpVsaPgyBX/U43W5uYRZM8uz2fncXMzP5eZMYl4ZluIXYQkv9ZtZybLsf1j+OizCVnHER21xmP5dVp5CMOKdk9dUWKT2ELB3h39F2OhxuAQ9hbbafAmijtj+OwTzEXt1BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">58f6168dc3b83610c9043eec05013199</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>f0085ecdc3b83610c9043eec0501312a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</ui_id>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K5OfQ5QEApQ3RFVpUtdqa9WXtYtubAesOnZqO1CG+O+7TsKHVqatYk/T3vC5vtfnHC6HDdG1q2pn7/XUWjFXZPL1KSBCeQw/b4iCkpMJoVox4YRWWQMEZAmy9oVpVRm95AwhJmwlYf3wtkIXQjLDu+kVGJzhuCGTzU8lwbCxiKCIL2hM+8mwn0RRMh7E+bCfxwnrA4c+DpSQc4lXZztaH64bJPglX7euPG6dEWrena+7KXc7UBvmWcVRQPir44oh+0kB0vKAlKAYOG3We8RwYLdKHoCFUA7HEX/51Yrv+GCSpv5iwVEi5W1xf8w6x1q4uAQHSKWmrjbdVbrQgnLbmsN4AbV0s2OsvXBbealti4Nc7rq1rEt10zpC9gN2XxAitUUSvPJKPfVOR3G30KsvO5ZXQjWudEWpKcj9CRx6l9fO89kQLnmJg7ISqgodzfwCiKYZuZThXOIhLKRe4aN+20KgnniIxkJ4hfhlAz+AEV7FJxyDzS3NHKygWbOZOA5t4mQbELu2MwnWHkSiu9lL7Sm2kjtxWeuPb6FGVG6KLy95p2MbvF30ox3fbEYDxuM8KXoDPkx7g3yQ9sZRDr1ilKfjER0NIRmF0Cw8yMw6cHy7fayjqM+g+xl8u/l81hylXWb4Sy3M+bPss0BnT/xm/2Gl78ugC0iLNI7S0xk0GJ7KoBPp887gSX4TPH7r/zB3oij6HzxnB4+wWRsXnbbm8b+YO08+ZNo3915TYZHavcc+7v6HfWGNyyXoMbTS5tmLOmDbH45L1+nRBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6b9716cdc3b83610c9043eec05013116</block>
+        <comment/>
+        <connected_to>d0228dcb-58e1-4d64-bb5f-a7970638d40d</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>f0085ecdc3b83610c9043eec0501312d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c9471e8dc3b83610c9043eec05013188</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <parent_ui_id>8118a32c-98ea-475b-86d5-61f950573565</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>f4085ecdc3b83610c9043eec0501312c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>d4baac06-cea4-482b-b0af-c80c7b9d9782</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f5379a8dc3b83610c9043eec05013185</block>
+        <comment/>
+        <connected_to>af98dbee-23db-4828-8ef6-7d7379d53a18</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>d0228dcb-58e1-4d64-bb5f-a7970638d40d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>f8085ecdc3b83610c9043eec0501312b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>8118a32c-98ea-475b-86d5-61f950573565</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">50f6168dc3b83610c9043eec0501319b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id>af98dbee-23db-4828-8ef6-7d7379d53a18</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>fc085ecdc3b83610c9043eec0501312a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>8dd5889d-b11f-4d8a-a984-f1e2f83d76df</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">679716cdc3b83610c9043eec05013118</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Assignments Lifecycle">4bda0085c3303610c9043eec050131a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>18</order>
+        <outputs_assigned/>
+        <parent_ui_id>92c65534-69c1-41a5-ac51-e6aee370e751</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 13:26:19</sys_created_on>
+        <sys_id>fc085ecdc3b83610c9043eec0501312d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 13:26:19</sys_updated_on>
+        <ui_id>60629fc3-8f3e-4147-a95a-f40ec293e4d9</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=4bda0085c3303610c9043eec050131a5"/>
