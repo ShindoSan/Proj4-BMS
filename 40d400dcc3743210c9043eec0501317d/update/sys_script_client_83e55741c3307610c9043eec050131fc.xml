@@ -11,20 +11,40 @@
         <name>onSubmit Vacancies Check</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-    //Type appropriate comment here, and begin script below
+    if (typeof g_form.scratchpad === 'undefined') {
+        g_form.scratchpad = {};
+        g_form.scratchpad.isFormValid = false; 
+    }
+
+	if (g_form.scratchpad.isFormValid === true) {
+        g_form.scratchpad.isFormValid = false;
+        return true;
+    }
+
     var baseId = g_form.getValue("base");
-    var gaBaseTable = new GlideAjax('BaseTableUtils');
-    gaBaseTable.addParam('sysparm_name', 'checkVacancies');
-    gaBaseTable.addParam('sysparm_baseid', baseId);
-	gaBaseTable.getXMLAnswer(function(answer) {
-            if (answer === 'false') {
-                return true;
-            } else {
-				g_form.showFieldMsg("base", "There is no spots left for this base.", "error");
-            }
-        });
-		g_form.addInfoMessage(baseId);
-		return false;
+
+    var gaBaseTable = new GlideAjax("BaseTableUtils");
+    gaBaseTable.addParam("sysparm_name", "checkVacancies");
+    gaBaseTable.addParam("sysparm_baseid", baseId);
+
+    gaBaseTable.getXML(handleResponse);
+    return false;
+}
+
+function handleResponse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+
+    if (answer === "true") {
+        g_form.clearMessages();
+        g_form.hideFieldMsg("base");
+        g_form.addErrorMessage("Invalid submission. There are no spots left for this base.");
+        g_form.showFieldMsg("base", "There is no spots left for this base.", "error");
+
+    } else {
+		g_form.scratchpad.isFormValid = true;
+		g_form.submit(g_form.getActionName());
+
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -32,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83e55741c3307610c9043eec050131fc</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>onSubmit Vacancies Check</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
@@ -40,7 +60,7 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_script_client_83e55741c3307610c9043eec050131fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 19:40:07</sys_updated_on>
+        <sys_updated_on>2025-10-24 02:41:13</sys_updated_on>
         <table>x_1092529_bms_ba_0_base_assignment</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

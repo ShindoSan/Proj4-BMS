@@ -67,12 +67,15 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     checkVacancies: function() {
         var baseId = this.getParameter("sysparm_baseid");
         var grBase = new GlideRecord("x_1092529_bms_ba_0_bases");
-        grBase.get(baseId);
 
-        if (grBase.avaible_vacancies < 1) {
+        if (grBase.get(baseId)){
+			var availableSpots = parseInt(grBase.getValue("avaible_vacancies"), 10) || 0;
+		
+        if (availableSpots < 1) {
             // gs.addErrorMessage("Invalid submission. There is no spots left for this base.");
             return "true";
         }
+	}
         return "false";
 
     },
@@ -113,14 +116,14 @@ BaseTableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-22 23:33:32</sys_created_on>
         <sys_id>49d14f7cc3b8f210c9043eec050131ed</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>BaseTableUtils</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_script_include_49d14f7cc3b8f210c9043eec050131ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 18:48:11</sys_updated_on>
+        <sys_updated_on>2025-10-24 02:29:04</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>49d14f7cc3b8f210c9043eec050131ed</id>
