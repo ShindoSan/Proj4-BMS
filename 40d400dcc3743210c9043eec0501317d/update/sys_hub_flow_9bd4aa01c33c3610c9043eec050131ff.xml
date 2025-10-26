@@ -2,13 +2,12 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=111805000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -16,21 +15,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>base_report_at_maximum_capacity</internal_name>
-        <label_cache>[]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Updated_1.current.base.base_manager.name","label":"Trigger - Record Updated➛Base Assignment Record➛Base➛Base Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]}},{"name":"db11205d-70ed-46b3-897e-2b31c9e1cc3b.item.user.name","label":"7 - For Each➛Base Assignment Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"d9388d5d-24e2-41b1-96bd-1a9faa85fcf0":["approved_list-0"]}},{"name":"flow_variable.max_reached","label":"Flow Variables➛Max Reached","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"97038e8d-f92c-43bf-9730-6bb56b462dc2":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2a249284-9c87-4bce-aa32-14beef8e310b"}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.sys_id","label":"1 - Look Up Record➛Bases Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"sys_id","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]}},{"name":"flow_variable.approved_list","label":"Flow Variables➛Approved List","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"6d6a8849-c516-4f4b-bf52-67f5a0955892":["approved_list-0"],"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null],"d9388d5d-24e2-41b1-96bd-1a9faa85fcf0":["approved_list-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"763a636b-0fef-4f78-aa6f-c00a9bb195f2"}},{"name":"Updated_1.current.base","label":"Trigger - Record Updated➛Base Assignment Record➛Base","reference":"x_1092529_bms_ba_0_bases","reference_display":"Bases","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_base_assignment","column_name":"base","usedInstances":{"409bca92-8c81-4e34-ad68-7d62464b4b8a":["conditions"],"dfd47555-deb6-4069-8ac2-cb30a98468ee":["conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Base Assignment Record","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.max_capacity","label":"1 - Look Up Record➛Bases Record➛Max. Capacity","reference":"","reference_display":"Max. Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"max_capacity","usedInstances":{"e1babdf4-b02c-4179-a656-c1ef68716a81":["max_capacity-0"]}},{"name":"dfd47555-deb6-4069-8ac2-cb30a98468ee.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"457ee8e4-3159-4797-9ba9-2633bcbea3e3":["amount_approved-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.name","label":"1 - Look Up Record➛Bases Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"name","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":["ah_subject",null]}},{"name":"flow_variable.amount_approved","label":"Flow Variables➛Amount Approved","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"72fa7b48-8e5b-43f8-b5ab-dfd4526551da"}},{"name":"flow_variable.max_capacity","label":"Flow Variables➛Max. capacity","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ed2ca2af-1659-46b7-a726-aba47d2f1c2f"}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.base_manager","label":"1 - Look Up Record➛Bases Record➛Base Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"base_manager","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":["ah_to",null]}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.base_manager.name","label":"1 - Look Up Record➛Bases Record➛Base Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"dfd47555-deb6-4069-8ac2-cb30a98468ee.Records","label":"3 - Look Up Records➛Base Assignment Records","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"records","base_type":"records","usedInstances":{"19210e12-6553-485e-b4cd-459f85c4ff4b":["items"],"db11205d-70ed-46b3-897e-2b31c9e1cc3b":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.base.sys_id","label":"Trigger - Record Updated➛Base Assignment Record➛Base➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"sys_id","usedInstances":{"ba6570a8-9fed-45d6-af17-0f9885a531b6":["conditions"]}}]</label_cache>
+        <master_snapshot>39a8cda9c33cb610c9043eec05013160</master_snapshot>
         <master_snapshot_digest/>
         <name>Base Report at Maximum Capacity</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
+        <remote_trigger_id>c2a8cda9c33cb610c9043eec050131b7</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -38,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9bd4aa01c33c3610c9043eec050131ff</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Base Report at Maximum Capacity</sys_name>
         <sys_overrides/>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
@@ -46,12 +44,52 @@
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>sys_hub_flow_9bd4aa01c33c3610c9043eec050131ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 15:05:41</sys_updated_on>
+        <sys_updated_on>2025-10-24 21:25:56</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9bd4aa01c33c3610c9043eec050131ff"/>
     <sys_variable_value action="delete_multiple" query="document_key=9bd4aa01c33c3610c9043eec050131ff"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1092529_bms_ba_0_base_assignment">stateCHANGESTO3<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2a8cda9c33cb610c9043eec050131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <table>x_1092529_bms_ba_0_base_assignment</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>9bd4aa01c33c3610c9043eec050131ff</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:56</sys_created_on>
+        <sys_id>986f4525c37cb610c9043eec050131a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:56</sys_updated_on>
+        <trigger display_value="">c2a8cda9c33cb610c9043eec050131b7</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN986f4525c37cb610c9043eec050131a9"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=9bd4aa01c33c3610c9043eec050131ff"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN5bd4ea01c33c3610c9043eec05013100"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -331,20 +369,788 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-23 15:05:41</sys_created_on>
         <sys_id>e8ce2a8dc33c3610c9043eec0501314f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-23 15:05:41</sys_updated_on>
+        <sys_updated_on>2025-10-24 18:08:33</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9bd4aa01c33c3610c9043eec050131ff"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN0518f425c3f8b610c9043eec05013175,78ea3ce5c3f8b610c9043eec050131dc,c918f425c3f8b610c9043eec05013178"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Bases table Sys ID === Base in Base Assignment on Trigger</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:44:08</sys_created_on>
+        <sys_id>0518f425c3f8b610c9043eec05013175</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:27:49</sys_updated_on>
+        <ui_id>ba6570a8-9fed-45d6-af17-0f9885a531b6</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbedhMYKNBtgCbtS7cgKJGKiaVJlaRyM/zvHYqULdiKbWEdIMG+GOBwSJ6ZOWdI+ccqZCS8DMksmuWz2XiaRNFwGEWTyTDDcZoOJ1kapXgU9kKBlxQ8DU45heED5qUdP6E4mg3GgxlKlxqlGEXwo6kGF8J0wfHzd+/5lzdnC8aJoiK8/PGzFxZYwcaGqvBytTN1KjKOU8rB9c5D20FqnovNEFVzzva5uSz44iakIhZK1Avpk6GCUMCQY65pL1xiQbCR6nljURSTG8G3hgUTBnYMrfOTZi9w7jSyfjmFqDLq5jZD5DPkzPk1NvjWqDIzpfKu2UKyDLJW5YPQHJfcXDVtzuGmMEwKt8SF7VZLXi7FF5eOcLNBXRCwlBpA0MIGapH7MPLbhXz8WqOcM1HlxE9ymWG+GWFjFEtLY/GsQsrpEjZCS1wUTNyjQskHVi0GLMv+PYdBP+fyEQ7V7F70cWaB9yGvuD8H+3Vl/o4Vs1H8DdvAYgDEODAEuRJqWaoqlQ8o46WuJhQW2u0VrnuhftZXHGu9jRxSjn6VFrfLg48YuaTZJZlihfkTtnigPrh1rxbH+CAFZ1vKZVIQZlHohkIADWLknxIWk9XqWwHBUoLiflYqyK/pW7n0ndN6vS+brss7yut4bLW8rprBtQXshbZn+9y2gRdafDahjaLoI0kNDn9/SuuuHZeCIwKKyUGSkS2ftFQGuVw2FLQvis48PwFCzfMby8wgfX4Nlad5zignbffJ3E7s3CeD/+d98i5JDoAIctVjgjNRPQ4A6Fuxf3yQemm8w7OKXo3bw9qwzvY1gAMjg5fOSjgBTq2EWzg7uHN4WiDW/b6izG6vr41eAMOzCWA4OI8AVpswN4lsyXn9HrTVrP1frD/e9QcKNhbE6zaBdToz7nrmYL0v4GEnBTfJ5mauX+HcmR+Oryiy95YtYAFL/XnI6Rc9MnJPzfb02otI84j5v23znnGoLlQV3hs8QuOD30Fp4xHKcrSEyrEC3sqKZkAOjbCiKJelIMi/krdEspXMmdLGO+83mq8U9CMCCcIMzIIGlXew8e54ER+Po07lpzyoA/Gn6QACCapAgk0g3cLu0rRGZ3ycnrtpzTHjVTXgA6holJMqJdUrjetIIQ8w4sSudiKo+Kyg/nvba5NAa/s7gvVDfE2fvzVlFKejAZ4kwziOojgiSTRNkng6SfMJTkb5VqMIaZFBN4Wdc6AKbI9qatR1jvb7j2upXRvNCahqCl5LYb+vB4kJLCyob1DDOg7cN5RUSk6x2Okod3BP/DH3+D1fx++uq3yI/5ZKdrebaWdqzfVbvRtK9k2wXyX9ZCk2pdFgGpPsYprEycUoJ5OLGcHjCzxLx8mQ0GyUn/Mp8PM3duvSLq4VAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:56:24</sys_created_on>
+        <sys_id>78ea3ce5c3f8b610c9043eec050131dc</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:27:49</sys_updated_on>
+        <ui_id>b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>State is Approved and Base === Base Sys ID on LookUp line 1</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:44:08</sys_created_on>
+        <sys_id>c918f425c3f8b610c9043eec05013178</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:27:49</sys_updated_on>
+        <ui_id>dfd47555-deb6-4069-8ac2-cb30a98468ee</ui_id>
+        <values>H4sIAAAAAAAA/+VXW0/bMBT+K5Wfqyhp2gJ9YyCkSVwkYLxszHJip7XmJpnt9ELV/77j2EmjNrB2KhJoLwifi/2dc77Pcb+vEKdohE6Tvu+TYHB64vth6PvDYRiTIIrCYRz5UT9CXZSSKYNITSLBYDkjojDrBQ78s96gd4ajqcIRwT78UQwTpfg4nbJUQzDlKhdk+eRyvkBA57wZEE+4oJKlaPT9uYtyIuEwzSQarbZc+6IVJGICQh8d3C30epnXS1z6rO26mda5tY5MUgPF7yK20CylDDAkRCjWRVOSUqIzuawtkhF6l4qNYcKhwhFCJnih+Auce+qbuIRBVTGzvnqJXa+sObkkmjxoWcS6kC40nmQ8Zsr2g7KEFEJfNG024C7XPEttii3bZmeimKa3th2o3qAaDVgKmB5luSnUIHdlJA+TbH5fobziadkT5xRZTES9IlpLHhXa4FkhJpgZMp6SPOfpGOcym/EyGbBMvbGAhZeIbA6HGkZ4JDbAPegr8a7Aflman4jkpoob2AaSARAXwBBsR6iyQpatnOFYFKp0SJIquxdad5FaqgsBpNxUDi3HvwuD2/bBVYxt00xKLHmuz2GLGXPFrbt7CWbgbygXZynlBoVqqEZpotmPAnJp+NPoxf6/Wn3LoW5GceDFhYRWa8941+tdEf3LFseUWVljJbOLZpFthTvB7diu2zZwgguOJjio4zNJDg7/eIo7XEO2BX8RUnzyJskGGz6pTGpse9lQ0q4wDub5HhAqnt8ZZnai5WuoHM0TzgRt+65cGcfWd6X3f35XPiTJARDFdno8FTwtHwkA9L3Y7799xZ5t8aykV+MrYmxExbsaIB2ddV4OVsIecColPMDZnUeLpwVidd+XlNm+6yujE0B4NAGEveMIYFWXWTeypefVu9BMs4p/MfFkOx4o2EgI1m0CO+jM4NAze+tdAYcHKbhJNuu5fIVzR35AvqLI7nteARNIdedhq18853TM9Ob0Kopmek7Erza/YxyuBlWW9w6P0f6bsh0GG4mCUrBkCobXfI0G8DzavUMCz5oPu0L2wFK144YsOvc1mFaE7hoBpbNxOZvmPfK1tjqS94/4YPywX9JqWK0arGb2KX7DHU8Iz38Acx7iOcgQAAA=</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9bd4aa01c33c3610c9043eec050131ff"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9bd4aa01c33c3610c9043eec050131ff"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9bd4aa01c33c3610c9043eec050131ff"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=9bd4aa01c33c3610c9043eec050131ff"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN0a6bb429c3f8b610c9043eec050131ac,425fc125c37cb610c9043eec0501317d,4518f425c3f8b610c9043eec0501317a,4918f425c3f8b610c9043eec05013179,4e5fc125c37cb610c9043eec0501317d,6c2dcd21c37cb610c9043eec05013170,8118f425c3f8b610c9043eec05013177,a42dcd21c37cb610c9043eec0501316e,c65fc125c37cb610c9043eec0501317e"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">426bb429c3f8b610c9043eec050131ac</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned>approved_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>db11205d-70ed-46b3-897e-2b31c9e1cc3b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:58:40</sys_created_on>
+        <sys_id>0a6bb429c3f8b610c9043eec050131ac</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>d9388d5d-24e2-41b1-96bd-1a9faa85fcf0</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4POsSHHiRPnFmAoUKBbgTXrZSgMfdCJMFlyZTlpZvi/j4qddAvQ43bKzXqk9B4fSbgjtvV165uNXTeN2hqy+vEyIcoEDL87YlgFZEVYXTu7B1lo1XgyIXum24B3XantodgzpxjXEP+V1/eTrpM8SaZ0LqMFBRnNMp5Gy3wB0ZSnicghESLlsfJQxW0DLg58fY8MUjW1Zsfnf04kdkpLB2PpNXMY8ODIqrsK+WMNhWYcNOp58k6ZLV5XEk+lzDifTXORlkueJVTkdJYCCDqnSZrkgHnni+tR+KeHwckPDA5kCDdnGutk0EQnBN48GAlIWzLdwIRUzEjmrTteEAdMPhr9DuyU8fgaCclvjfqFTy8ppSGzBCxQwBC9HIvR/gEWO6sEPNZeWTMgPjRhDFrdVubrUEZoHJSs1f7cOETQ70JCHVQHGaOm8mlnD9/OhHfKnAocg9oKpi8n5tEG3npoQldatbkyZ0AerlsDGipkLCo0F5EiOKxOLCi6ircaD/FprCSE4Y+ZCBXG6CaL7xD/fIKfx5n7gs/g5UD33ajXFu5D6xdZyrI04xEtoYxm5WIZMZaVkaCU5Zwn+byckv5kbfHahqIGk0Y7isFRTGiEU7Vfo4Q9jJX3L2HTBvZhHU/T9vHU3Nbytpa3tfwfaylBqAZVbYKE+/P/MgSOODpK/AkdrPsZ6nnH+t92uZyUeQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c65fc125c37cb610c9043eec0501317c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:47</sys_created_on>
+        <sys_id>425fc125c37cb610c9043eec0501317d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>7cdba5d3-a3a9-42f6-9834-2192bddc6c01</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8d18f425c3f8b610c9043eec05013179</block>
+        <comment>and Max Capacity greater than 0</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:44:08</sys_created_on>
+        <sys_id>4518f425c3f8b610c9043eec0501317a</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</ui_id>
+        <values>H4sIAAAAAAAA/+1UyW7bMBD9FUNnQdASG41vRooABZoGaIJc2kAYkSObKEWyJOWlhv+9Qy2O0ThoGuTYm/hme2/mQftIt9603t3rhXNiqaL5t8c4Eipg9L2PFDQYzSOmFRdeaFV2QBytQbYhsGh0q/xkYYxeI598b9O04JMb2E6uwAATfkfJXDgjYffwLzVsJSS3ODAyYGmuRxvN93+E/M5gKaFCSa3vvBVqSeWC06tOoc4uWcaKfFbkaZp/uMiqWVFlOS8AoaC8sfBqFDj53CHxi8rDPMLdOElbHmhlaRzh1qPiSKNrkA7jqAHFwWu7OyIWgd8q+QSshPLULgrJWyd+Ue98Og2JNZJGhn3w+CyHZfYwW2nB8NYEgj3ioZJDDdOybdSXXkc4A9bQSj+egZDWUT80gXRgMVCq71Z683UceC1UJ3AISs1AHl/gaQ1V69GFw6DEhhqVDRhDyymN1WvRFROXJllKeiS11BsaGtyWAAvEE9oRJNeEf+zgB7AiqLihNlTc06zACVZ2zqR23pKEQ7eW8mcbCPUCByllvw1KcMwK4xc0Z40D60P83NYnjt7vO4brgURCZynpamyF/HDovdpNf2br1xe+h7cvYVpPs3R63tsXs3PePuPqlw2d/8XQQcsr/Zym6X9DnxpauLI35qCtG/5mPz8G8/YTXO8bjkw4InIfsE/j3zwEdmQAwU6hjbY/goQn7PAb2D9soxcGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8118f425c3f8b610c9043eec05013179</block>
+        <comment>Flow Var. Amount receives LookUp line 3 &gt; Count</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned>amount_approved</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:44:08</sys_created_on>
+        <sys_id>4918f425c3f8b610c9043eec05013179</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>457ee8e4-3159-4797-9ba9-2633bcbea3e3</ui_id>
+        <values>H4sIAAAAAAAA/+1V227bMAz9lUHPseEktuPkLdhQIMC2AlvWl6EwaIlOhMmSa0tJsyD/PsqXpOjQ/cD6Zh6S4jlHFHxmxtna2XZr1m0rd5qtfj5OmNQeo+8z01AhWzGojNM2h7puzAEFm7ADKOcz57MoRbxIkiQQWKRBHKXLIAM+C3gxj2CZxWmGGH70/ZcLNQrZ1gpOD0M/IXwvlWhwGF5DQzMtNmx1fpWypxpzBQUqatxoizuqIrqCQr4QkMazhM+LrEinEV9G8RyRR0k0nU+jBdWNnetOzIf1TcybKv1ESsjrLNMIzyyaMHy2qAVVrUpQLU5YBVqANc3pijQI4l6rG7Cng3rNFTy38jedHUe+rkQSyQc/rmE+eDXaZCTH+9pKo3vEQqFGD41ylf7a6/AuYwlO2Rcuu5bOw9pz9iQGRuX3vTl+GwfeSd3JG5LKcFDXCKxtZOEstv5mnNy+9qaHPv91P6iwopl5RcZKvcu9u7KbQ7SrcKcoCEtljsTPL2EI3GsMyU0I7wj/1MEP0Egv+AsdM8z7oeWTw42//8WshEURZ0GGSRHE8zILigSKwG9nMkuTZCqAXTpz8yfnZfU2DYbkvadU0PJG1nZNFA44aL88+n3vp/fPolu5fy3O+/N4fx7/0/MQyGVLrLaewmb8f/jEibZH8pfQ0TS/vJ4bdvkDPbnwr4kGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0a5fc125c37cb610c9043eec0501317d</block>
+        <comment/>
+        <connected_to>97038e8d-f92c-43bf-9730-6bb56b462dc2</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:47</sys_created_on>
+        <sys_id>4e5fc125c37cb610c9043eec0501317d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>a99de905-09cc-4a4f-94d0-982a52d65c60</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">282dcd21c37cb610c9043eec05013170</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:16:07</sys_created_on>
+        <sys_id>6c2dcd21c37cb610c9043eec05013170</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>db11205d-70ed-46b3-897e-2b31c9e1cc3b</ui_id>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj8SL86twFCgh7ZAV/QyFAYt0YkwWdIkOaln+L+Pip106HEnm4/k43siR2b6YPvgX82d9/Kg2f7n+4pJHTH6H5mGDtmeyYCdZyt2AtXHeBxFKzbfttvtWmBTrjdpWa13wPM1b4oUqt2m3CEmL8iNE36aqFVIbxUMb//PwI9SCYeLSAuOtAV0bD9+SYXBYq2gQUWDFgbql4LCrBJtlaUVL/KyyNM0322ypiyaLBcFoCip7tr5sJj+8gaRnUJ346VPVJGnK4YfAbVAGtSC8rhiHWgBwbiB7YPrCXAI4lmr4VZxlDoQHYu1H17+Ie4sTWNhi+SI45y8hfXykDPMj0ZyfLZBGj0jARq19HCj+k4/zfLjCrCFXoXrCgjpPfGhjZqjikVS++Nozi/XgfdSX/wtSWU4qFsEITjZ9AF9XAMq7Iio7sBaqQ+1deYkL82kpUsOioKkVeZMQ+O5JcCj8ISeCJJ7wr9f4DdwMrp4JBpqni7u6999nDv7WBTXs2kq8NxJG+6I7oSLuOk93uvM5OfDEMilp4GvEXu4XnlMDLRkyf+Fzsb9ilI/sekvI0UFIi8DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8518f425c3f8b610c9043eec05013176</block>
+        <comment>Flow Var. Max. capacity receives Base Record &gt; Max. Capacity</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned>max_capacity</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:44:08</sys_created_on>
+        <sys_id>8118f425c3f8b610c9043eec05013177</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>e1babdf4-b02c-4179-a656-c1ef68716a81</ui_id>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYJnS5BkLbZvAYoABpoGSN1cikAYkSObKEUyEuWlhv+9Q0t2jLT9guameSTnLRxCR2Z6Z3vXrcxd18m1ZosfLxMmtcfo+8g0NMgWrIF9ycECl+7AJmwLqvfw8VhBnhURzIJ5jSJIM5EHUMdFENXz2SyDbBpXefiE3LQivG1yOlEbITur4PA8diOEb6QSLY46LLRE77Bli+O7JXewWCqoUNHBpXa4pl2kXFDJCwF5mmR8Ws2qPI74PEqniDzKongaRxHtu5x8gH346cbY3+16MkLllYbceFHRhOHeoRZItDWoDid0VAtwpj1ckRZBPGr1Bmyo0WCXeDr5i3qnkd9XI/njYxTXshxjuiRkJMdH66TRA+KgUpf4jOob/XUw4QPGGnrlbgLuO+qH1mv2IkZF9beN2T1dCO+lPtsbF5XhoK4VONfKqnfY+Uvp5ep9NgP05Y+rQYUNcZYNWCv1urSt2cozD8luwrWiIqyV2ZE+P4ohcO8xpDQhvCf88xl+hlZ6ww/UZuT7ruVrj0t/9SgSDgnUQZxn8yDNqyKAIqGZrCAtRFLHPKnZ6Rxu+dp7W0NMYyDlkClt6HgrrbsjCVscvZ9e/OAP7MPjOE/bP6fm45F8PJL/8pEI5LIjVSsvYXn5l/iFA42O5LfQzrQ/vZ837PQbDWkRI5UGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2c2dcd21c37cb610c9043eec0501316d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned>max_reached</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:16:07</sys_created_on>
+        <sys_id>a42dcd21c37cb610c9043eec0501316e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>35bc259b-1eda-470f-84cf-6de2fe23fcb0</ui_id>
+        <values>H4sIAAAAAAAA/+1W227TQBD9ldU+QWld5wK04SkSVCBRKtHAC6mi9XqcLKx33b20CVH+nZm1k5ZQ4AeSl3jPzu2cGY+85jaGJgY/sWPv1dzw0bebY64MYfi85kbUwEe8FsuZAyEXUPJjfid0JDTH51L5RovV10eQXChdOuiCNcJhjACOj9Z7V2HVwEyLAjR6TlyE0wuhPWAIVSLSl/1Slv2eHLyWxateLs/z4QBA5i/z3qD3so92W+dLsWSfd/U9WTQlQ7CwVoMwCFhXUlH5MYdlAFOi1aii/MfoaUoRrFvtEIxTXhn9ACyUCRiOk/HSq58Ye9AnuwqQn4T2bnecdTq1sFxYJeGqCcqiFHxA5YlCd07S6libTy0JkhgqEXXYSlx1GnXw2z8bED3mg4Y4UZFdxdX1wt5/3hZ0oUyi311qK4XenUQIThUxgKemRTXZ166FPj7VOtBQY9pZLZpGmfmscfZOpVRIrM7mGg9Zpe09lkgjlwlJMmQouMguEH+b4K/CKZLkEsOgM6X8YtRthA9pNER/eN4/G56cy7PXJ8NCwokQg/5Jb1gAVGcw6OUF3yT9Z7eRmLVCdprMkuxk4KVTTRhjCXfIMCCRLUbMH08QHv9lzE+PpuboaCwleM+Ix+k4EWNEjEWPWrCwAFaVs4TY4jvIkLHrFIDV0QfmIERnmGDpDcsYRbyiMWUm1gX+Kc9sVXkIrFixFz2mDHvnnHXsPU6sphTX0MqZirkTSpOIzKZR86ybQhYbLKxxWCr5THk25UxU+JJuyyN3WIq60TDCahzzC+sCtkayaczzQbk1zHBS5nNwmYwOBytkyZB6m3hh1jcUq2O2i0Lg6dRMDcUmmaVohFRhtR8+TQoaZY+N3rR+orYRm4kTgjMG5V9d9+zQW1XPnkja+e+ZP19PDcNfR4HajhE2UwM48L/fpdeHLvlms7mhRdkOcbtL01L723o67NTDTj3s1MNOPezU/+zUEqTyKMGEmvBh+6VKFyvcUUo+hu6t+0EVP2CbX+9F95/zCgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">825fc125c37cb610c9043eec0501317e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <parent_ui_id>a99de905-09cc-4a4f-94d0-982a52d65c60</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:47</sys_created_on>
+        <sys_id>c65fc125c37cb610c9043eec0501317e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <ui_id>56848758-59ef-4c05-b527-510ab9273922</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN013f8de1c37cb610c9043eec05013163,0e024961c33cb610c9043eec05013100,34ea3ce5c3f8b610c9043eec050131de,70ea3ce5c3f8b610c9043eec050131de,a9a8cda9c33cb610c9043eec05013127,b8ea3ce5c3f8b610c9043eec050131dd,c2024961c33cb610c9043eec05013101,f4ea3ce5c3f8b610c9043eec050131de"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.base.base_manager.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:10</sys_created_on>
+        <sys_id>013f8de1c37cb610c9043eec05013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:10</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>97aef946-8f49-47ba-ba66-6b4d0d2ce22d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.approved_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:27:37</sys_created_on>
+        <sys_id>0e024961c33cb610c9043eec05013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:27:37</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>61a5118a-5bc2-4bbc-9f7a-3841b45ba32a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.max_capacity}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:56:24</sys_created_on>
+        <sys_id>34ea3ce5c3f8b610c9043eec050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 19:56:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>75a0b7b2-293c-4054-a559-492fd43d8200</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:56:24</sys_created_on>
+        <sys_id>70ea3ce5c3f8b610c9043eec050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 19:56:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2bf74420-6566-4ebd-8561-0ee96af72202</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:32</sys_created_on>
+        <sys_id>a9a8cda9c33cb610c9043eec05013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5e4bc0be-7c96-4274-bde2-2d0be4baf264</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.base_manager}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:56:24</sys_created_on>
+        <sys_id>b8ea3ce5c3f8b610c9043eec050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 19:56:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>89b3a3f4-67dd-4983-bd36-f19fd02f1d3a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.approved_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:27:37</sys_created_on>
+        <sys_id>c2024961c33cb610c9043eec05013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:27:37</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f7d36207-3644-4fe5-ab3d-0ca7add7ca52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9bd4aa01c33c3610c9043eec050131ff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.amount_approved}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:56:24</sys_created_on>
+        <sys_id>f4ea3ce5c3f8b610c9043eec050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 19:56:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>04ac7aa3-df1b-4985-b0d5-ef44a8e178ce</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN2c2dcd21c37cb610c9043eec05013152,c7da6425c3b8b610c9043eec05013100,c7da6425c3b8b610c9043eec05013107,fd6bb429c3f8b610c9043eec0501319e"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2a249284-9c87-4bce-aa32-14beef8e310b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>max_reached</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Max Reached</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</model>
+        <model_id>9bd4aa01c33c3610c9043eec050131ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_9bd4aa01c33c3610c9043eec050131ff</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:16:07</sys_created_on>
+        <sys_id>2c2dcd21c37cb610c9043eec05013152</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=ed2ca2af-1659-46b7-a726-aba47d2f1c2f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>max_capacity</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Max. capacity</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</model>
+        <model_id>9bd4aa01c33c3610c9043eec050131ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_9bd4aa01c33c3610c9043eec050131ff</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 18:46:22</sys_created_on>
+        <sys_id>c7da6425c3b8b610c9043eec05013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 18:46:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=72fa7b48-8e5b-43f8-b5ab-dfd4526551da</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>amount_approved</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Amount Approved</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</model>
+        <model_id>9bd4aa01c33c3610c9043eec050131ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_9bd4aa01c33c3610c9043eec050131ff</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 18:46:22</sys_created_on>
+        <sys_id>c7da6425c3b8b610c9043eec05013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 18:46:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=763a636b-0fef-4f78-aa6f-c00a9bb195f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approved_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Approved List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</model>
+        <model_id>9bd4aa01c33c3610c9043eec050131ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_9bd4aa01c33c3610c9043eec050131ff</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 19:58:40</sys_created_on>
+        <sys_id>fd6bb429c3f8b610c9043eec0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 19:58:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN58ce2a8dc33c3610c9043eec05013120,5cce2a8dc33c3610c9043eec05013123,5ccea6c9c33c3610c9043eec0501311e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
@@ -418,6 +1224,1207 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9bd4aa01c33c3610c9043eec050131ff"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9bd4aa01c33c3610c9043eec050131ff"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9bd4aa01c33c3610c9043eec050131ff"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9bd4aa01c33c3610c9043eec050131ff"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>base_report_at_maximum_capacity</internal_name>
+        <label_cache>[{"name":"Updated_1.current.base.base_manager.name","label":"Trigger - Record Updated➛Base Assignment Record➛Base➛Base Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]}},{"name":"db11205d-70ed-46b3-897e-2b31c9e1cc3b.item.user.name","label":"7 - For Each➛Base Assignment Record➛User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"d9388d5d-24e2-41b1-96bd-1a9faa85fcf0":["approved_list-0"]}},{"name":"flow_variable.max_reached","label":"Flow Variables➛Max Reached","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"97038e8d-f92c-43bf-9730-6bb56b462dc2":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2a249284-9c87-4bce-aa32-14beef8e310b"}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.sys_id","label":"1 - Look Up Record➛Bases Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"sys_id","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]}},{"name":"flow_variable.approved_list","label":"Flow Variables➛Approved List","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"6d6a8849-c516-4f4b-bf52-67f5a0955892":["approved_list-0"],"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null],"d9388d5d-24e2-41b1-96bd-1a9faa85fcf0":["approved_list-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"763a636b-0fef-4f78-aa6f-c00a9bb195f2"}},{"name":"Updated_1.current.base","label":"Trigger - Record Updated➛Base Assignment Record➛Base","reference":"x_1092529_bms_ba_0_bases","reference_display":"Bases","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_base_assignment","column_name":"base","usedInstances":{"409bca92-8c81-4e34-ad68-7d62464b4b8a":["conditions"],"dfd47555-deb6-4069-8ac2-cb30a98468ee":["conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Base Assignment Record","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.max_capacity","label":"1 - Look Up Record➛Bases Record➛Max. Capacity","reference":"","reference_display":"Max. Capacity","type":"integer","base_type":"integer","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"max_capacity","usedInstances":{"e1babdf4-b02c-4179-a656-c1ef68716a81":["max_capacity-0"]}},{"name":"dfd47555-deb6-4069-8ac2-cb30a98468ee.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"457ee8e4-3159-4797-9ba9-2633bcbea3e3":["amount_approved-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.name","label":"1 - Look Up Record➛Bases Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"name","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":["ah_subject",null]}},{"name":"flow_variable.amount_approved","label":"Flow Variables➛Amount Approved","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"72fa7b48-8e5b-43f8-b5ab-dfd4526551da"}},{"name":"flow_variable.max_capacity","label":"Flow Variables➛Max. capacity","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":[null]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ed2ca2af-1659-46b7-a726-aba47d2f1c2f"}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.base_manager","label":"1 - Look Up Record➛Bases Record➛Base Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"base_manager","usedInstances":{"b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5":["ah_to",null]}},{"name":"ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.base_manager.name","label":"1 - Look Up Record➛Bases Record➛Base Manager➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"dfd47555-deb6-4069-8ac2-cb30a98468ee.Records","label":"3 - Look Up Records➛Base Assignment Records","reference":"x_1092529_bms_ba_0_base_assignment","reference_display":"Base Assignment","type":"records","base_type":"records","usedInstances":{"19210e12-6553-485e-b4cd-459f85c4ff4b":["items"],"db11205d-70ed-46b3-897e-2b31c9e1cc3b":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.base.sys_id","label":"Trigger - Record Updated➛Base Assignment Record➛Base➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1092529_bms_ba_0_bases","column_name":"sys_id","usedInstances":{"ba6570a8-9fed-45d6-af17-0f9885a531b6":["conditions"]}}]</label_cache>
+        <master>true</master>
+        <name>Base Report at Maximum Capacity</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Base Report at Maximum Capacity">9bd4aa01c33c3610c9043eec050131ff</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39a8cda9c33cb610c9043eec05013160</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=39a8cda9c33cb610c9043eec05013160"/>
+    <sys_variable_value action="delete_multiple" query="document_key=39a8cda9c33cb610c9043eec05013160"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=39a8cda9c33cb610c9043eec05013160"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN39a8cda9c33cb610c9043eec05013161"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>39a8cda9c33cb610c9043eec05013160</id>
+        <name>Base Report at Maximum Capacity</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>39a8cda9c33cb610c9043eec05013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=39a8cda9c33cb610c9043eec05013161"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN3da8cda9c33cb610c9043eec05013170,b9a8cda9c33cb610c9043eec05013177,f9a8cda9c33cb610c9043eec05013162"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>3da8cda9c33cb610c9043eec05013170</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:00:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3da8cda9c33cb610c9043eec05013170"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>b9a8cda9c33cb610c9043eec05013177</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9a8cda9c33cb610c9043eec05013177"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>f9a8cda9c33cb610c9043eec05013162</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f9a8cda9c33cb610c9043eec05013162"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=39a8cda9c33cb610c9043eec05013160"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=39a8cda9c33cb610c9043eec05013160"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN86a8cda9c33cb610c9043eec0501319e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>86a8cda9c33cb610c9043eec0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN0aa8cda9c33cb610c9043eec05013199,4ea8cda9c33cb610c9043eec0501319a,cea8cda9c33cb610c9043eec0501319c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Bases table Sys ID === Base in Base Assignment on Trigger</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>0aa8cda9c33cb610c9043eec05013199</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:16:13</sys_updated_on>
+        <ui_id>ba6570a8-9fed-45d6-af17-0f9885a531b6</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbedhMYKNBtgCbtS7cgKJGKiaVJlaRyM/zvHYqULdiKbWEdIMG+GOBwSJ6ZOWdI+ccqZCS8DMksmuWz2XiaRNFwGEWTyTDDcZoOJ1kapXgU9kKBlxQ8DU45heED5qUdP6E4mg3GgxlKlxqlGEXwo6kGF8J0wfHzd+/5lzdnC8aJoiK8/PGzFxZYwcaGqvBytTN1KjKOU8rB9c5D20FqnovNEFVzzva5uSz44iakIhZK1Avpk6GCUMCQY65pL1xiQbCR6nljURSTG8G3hgUTBnYMrfOTZi9w7jSyfjmFqDLq5jZD5DPkzPk1NvjWqDIzpfKu2UKyDLJW5YPQHJfcXDVtzuGmMEwKt8SF7VZLXi7FF5eOcLNBXRCwlBpA0MIGapH7MPLbhXz8WqOcM1HlxE9ymWG+GWFjFEtLY/GsQsrpEjZCS1wUTNyjQskHVi0GLMv+PYdBP+fyEQ7V7F70cWaB9yGvuD8H+3Vl/o4Vs1H8DdvAYgDEODAEuRJqWaoqlQ8o46WuJhQW2u0VrnuhftZXHGu9jRxSjn6VFrfLg48YuaTZJZlihfkTtnigPrh1rxbH+CAFZ1vKZVIQZlHohkIADWLknxIWk9XqWwHBUoLiflYqyK/pW7n0ndN6vS+brss7yut4bLW8rprBtQXshbZn+9y2gRdafDahjaLoI0kNDn9/SuuuHZeCIwKKyUGSkS2ftFQGuVw2FLQvis48PwFCzfMby8wgfX4Nlad5zignbffJ3E7s3CeD/+d98i5JDoAIctVjgjNRPQ4A6Fuxf3yQemm8w7OKXo3bw9qwzvY1gAMjg5fOSjgBTq2EWzg7uHN4WiDW/b6izG6vr41eAMOzCWA4OI8AVpswN4lsyXn9HrTVrP1frD/e9QcKNhbE6zaBdToz7nrmYL0v4GEnBTfJ5mauX+HcmR+Oryiy95YtYAFL/XnI6Rc9MnJPzfb02otI84j5v23znnGoLlQV3hs8QuOD30Fp4xHKcrSEyrEC3sqKZkAOjbCiKJelIMi/krdEspXMmdLGO+83mq8U9CMCCcIMzIIGlXew8e54ER+Po07lpzyoA/Gn6QACCapAgk0g3cLu0rRGZ3ycnrtpzTHjVTXgA6holJMqJdUrjetIIQ8w4sSudiKo+Kyg/nvba5NAa/s7gvVDfE2fvzVlFKejAZ4kwziOojgiSTRNkng6SfMJTkb5VqMIaZFBN4Wdc6AKbI9qatR1jvb7j2upXRvNCahqCl5LYb+vB4kJLCyob1DDOg7cN5RUSk6x2Okod3BP/DH3+D1fx++uq3yI/5ZKdrebaWdqzfVbvRtK9k2wXyX9ZCk2pdFgGpPsYprEycUoJ5OLGcHjCzxLx8mQ0GyUn/Mp8PM3duvSLq4VAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>State is Approved and Base === Base Sys ID on LookUp line 1</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>4ea8cda9c33cb610c9043eec0501319a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:16:13</sys_updated_on>
+        <ui_id>dfd47555-deb6-4069-8ac2-cb30a98468ee</ui_id>
+        <values>H4sIAAAAAAAA/+VXW0/bMBT+K5Wfqyhp2gJ9YyCkSVwkYLxszHJip7XmJpnt9ELV/77j2EmjNrB2KhJoLwifi/2dc77Pcb+vEKdohE6Tvu+TYHB64vth6PvDYRiTIIrCYRz5UT9CXZSSKYNITSLBYDkjojDrBQ78s96gd4ajqcIRwT78UQwTpfg4nbJUQzDlKhdk+eRyvkBA57wZEE+4oJKlaPT9uYtyIuEwzSQarbZc+6IVJGICQh8d3C30epnXS1z6rO26mda5tY5MUgPF7yK20CylDDAkRCjWRVOSUqIzuawtkhF6l4qNYcKhwhFCJnih+Auce+qbuIRBVTGzvnqJXa+sObkkmjxoWcS6kC40nmQ8Zsr2g7KEFEJfNG024C7XPEttii3bZmeimKa3th2o3qAaDVgKmB5luSnUIHdlJA+TbH5fobziadkT5xRZTES9IlpLHhXa4FkhJpgZMp6SPOfpGOcym/EyGbBMvbGAhZeIbA6HGkZ4JDbAPegr8a7Aflman4jkpoob2AaSARAXwBBsR6iyQpatnOFYFKp0SJIquxdad5FaqgsBpNxUDi3HvwuD2/bBVYxt00xKLHmuz2GLGXPFrbt7CWbgbygXZynlBoVqqEZpotmPAnJp+NPoxf6/Wn3LoW5GceDFhYRWa8941+tdEf3LFseUWVljJbOLZpFthTvB7diu2zZwgguOJjio4zNJDg7/eIo7XEO2BX8RUnzyJskGGz6pTGpse9lQ0q4wDub5HhAqnt8ZZnai5WuoHM0TzgRt+65cGcfWd6X3f35XPiTJARDFdno8FTwtHwkA9L3Y7799xZ5t8aykV+MrYmxExbsaIB2ddV4OVsIecColPMDZnUeLpwVidd+XlNm+6yujE0B4NAGEveMIYFWXWTeypefVu9BMs4p/MfFkOx4o2EgI1m0CO+jM4NAze+tdAYcHKbhJNuu5fIVzR35AvqLI7nteARNIdedhq18853TM9Ob0Kopmek7Erza/YxyuBlWW9w6P0f6bsh0GG4mCUrBkCobXfI0G8DzavUMCz5oPu0L2wFK144YsOvc1mFaE7hoBpbNxOZvmPfK1tjqS94/4YPywX9JqWK0arGb2KX7DHU8Iz38Acx7iOcgQAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>cea8cda9c33cb610c9043eec0501319c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:16</sys_updated_on>
+        <ui_id>b0ca5e25-a4ba-4b56-9bfe-e6f939fee0d5</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=39a8cda9c33cb610c9043eec05013160"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN046f4525c37cb610c9043eec0501314c,086f4525c37cb610c9043eec0501314b,0a2d0161c37cb610c9043eec050131d1,0c6f4525c37cb610c9043eec0501314a,4ea8cda9c33cb610c9043eec05013195,4ea8cda9c33cb610c9043eec05013196,712d0161c37cb610c9043eec050131cf,82a8cda9c33cb610c9043eec05013194,82a8cda9c33cb610c9043eec05013195"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">825fc125c37cb610c9043eec0501317e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <parent_ui_id>a99de905-09cc-4a4f-94d0-982a52d65c60</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:55</sys_created_on>
+        <sys_id>046f4525c37cb610c9043eec0501314c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>56848758-59ef-4c05-b527-510ab9273922</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0a5fc125c37cb610c9043eec0501317d</block>
+        <comment/>
+        <connected_to>97038e8d-f92c-43bf-9730-6bb56b462dc2</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:55</sys_created_on>
+        <sys_id>086f4525c37cb610c9043eec0501314b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>a99de905-09cc-4a4f-94d0-982a52d65c60</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">282dcd21c37cb610c9043eec05013170</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:16:13</sys_created_on>
+        <sys_id>0a2d0161c37cb610c9043eec050131d1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>db11205d-70ed-46b3-897e-2b31c9e1cc3b</ui_id>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miEDCJXmrWlWq1F6ltOrLqYoWe0msMzbnj6Qcyn+/dSC06uM9wY53Z2cG0zMTfBu8ezU3zsm9Zptf7wmTOmL03jMNDbINkx4bxxJ2BBVi3feiFosfy+VyJrAqZ4usXM9WwPMZr4oM1qtFuUJMt8iNFe58plEhXauge/t/Bn6QSlgcRbZgSZtHyzb9tyMpaMF8Ler1PFvzIi+LPMvy1WJelUU1z0UBKEoiVFChotaH0d03s75rY2kHCSPwOM5sJ5QeUUSeJQw/PGqBtL4G5TBhDWgB3tiObbwNBFgE8axVN3UcpPZEx2Lvh5N/aeM8y2JjjWSI43A4lbsxxwGu78DDC1FzH+zYyg9GcnRDFAJrCMrffsWGhufWS6OHEQ+Vuk4bFRr9c0iCTQTXz0ZIcCQC22g0Sh991C8Hc9peVd5LfQllPFSGg5oq8N7KKviop2eosCGiXQNtK/V+11pzlJdh0tKke0VFWitzoqXxiqbAo/CUcoX0nvC7C/wGVkYXT0RDw+eEuc7dKnDu0wuFuPsTopLB2ehhN8QQR7iVrb+hBUcc5Z7f460fuKdMuXQk4TViD9d/JR50dIMk/wqdjP0dxX9i5380ylTDdQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c65fc125c37cb610c9043eec0501317c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:55</sys_created_on>
+        <sys_id>0c6f4525c37cb610c9043eec0501314a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>7cdba5d3-a3a9-42f6-9834-2192bddc6c01</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8d18f425c3f8b610c9043eec05013179</block>
+        <comment>and Max Capacity greater than 0</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>4ea8cda9c33cb610c9043eec05013195</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>97038e8d-f92c-43bf-9730-6bb56b462dc2</ui_id>
+        <values>H4sIAAAAAAAA/+1VW2vbMBj9K0HPJvjShLVvIaUwaFdYS1+2Yj5LciImS5olJfFM/vs++ZKENWMN2+PeoqPvcs6xDmmJ9s54Z5/1wlqxUuTmy2tEhAoY/m6JgoqTG0K1YsIJrfIOiMgGpA8Xi0p75SYLY/SGs8lXH8cZmzzAbrIEA1S4BouZsEZC83JJD10LyWo+MDJQ417Ha3LT/nIlGI4sYyiTa5rQLJ1naRynH66SYp4VScoy4JDhQAkFl1i6HKVM7jsk+q1G15iAW1cLtRrO98OUpxHUNQuskjgifOe4Yhz5lCAtj0gFioHTdXNAag7sUckjsBbK4TgSindW/MCF6WwWCkuOEinvLw/HfPCyh8tbcIBUPHW+HkrpWgvKbW8O4yV46ZanWF/waILUvsVBIcduLX2lPvWOkMOA8dMh4i2S4CYoDdQHHeXTWm8/jyzvhOpcGS6lpiAPJ3DoXeFd4NMSLnmFg/IKjEFHc1PrjeiakUs1XUk8TEupt7g0vNAp0EB8isbC9A7x2w5+gVoEFQ84Bpt7mgVYQfPuNeM4tImTfURsY5cSrD2KRHfz7z5Q7CUP4vLen9BCa2HcAjdv+KBjH70Nx0ku2rbjvBloTfHr5vjx6Zqz/b5/8R2fN+F4f+NlCbmGWTlL4tn5hFzNzyXkTDYujEX6h1gEKe9MRRzH/2Px17EQNu8f86CtW/4PU/EaItDvPHhNhUVqzwH7OP6zhIsGH5egp9BW19+CqCO2/wlDVo3PowYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">426bb429c3f8b610c9043eec050131ac</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned>approved_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>db11205d-70ed-46b3-897e-2b31c9e1cc3b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>4ea8cda9c33cb610c9043eec05013196</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>d9388d5d-24e2-41b1-96bd-1a9faa85fcf0</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4POtiHHiRPnVrQoUKBbgbXrZSgMfVCJMPmjkpw2M/zfR8VO0nXYcZehN/ORFB8fSbgnTefbzruH5sI5vanJ+vtTRHQdMPzuiZZkTUhEalYBfrG2tc0OZGm08wjvmOkC3vfKNC/ljlnNuIHkt7hhiPpe8jSd0YWMlxRkPM95Fq+KJcQznqWigFSIjCfaQ5V0DmwS6g0DVpDatYbtH/95IbHVRlqYJGiZRYcHS9b9O9dBEiVzzuezQmRqxfOUioLOMwBBFzTN0gLwQcM4GAy9mCh+uh01+4uUft8G2Hmr681k305P3B/BxspAiUYEXj3UEpCLYsZBRCpWS+Ybuz8hFpi8q80Z2Oraj+Os2KvTP7HeilIaIhVgfwJG78ksJ/VHWF0xz5BKJ3xnp1CxbbQANyojQbHO+Mu32Bhw13rd1GOKD4ObshvTVfWXURByeuA4bERwRqWENrQauE+NqPtt8/L1yPJa1wdVJqdpBDMni3nUjnc+8OlJpx/eyTwifwgNBiqsWFY4JkTKMCt9qIKkq2Rj0EgOqyghHE7CROgwwRGw5BrxqwP8OO3pZ3wGk0O5b7V+7uAmLNEyz1ie5TymClQ8V8tVzFiuYkEpKzhPi4WakSEibu8uDXPuLBROqHzuQpujbJNA5ahxSBFWt/4CSe1g0mJ4Cvc68vk47o/j/jju/+y4JQjtkOdDIHVz/IcHxx7XUou30Etjf4QOz9jwCzq0s74NCAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2c2dcd21c37cb610c9043eec0501316d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned>max_reached</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:16:13</sys_created_on>
+        <sys_id>712d0161c37cb610c9043eec050131cf</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>35bc259b-1eda-470f-84cf-6de2fe23fcb0</ui_id>
+        <values>H4sIAAAAAAAA/+1WS08bMRD+K5ZPLQ3L5kEL6QmVoiK1RQLaS4Mir3c2ceu1Fz+ANMp/74x3EyCiPfcQLqw/z/P7xqMsuY2hicFf2xPv1czw8Y+bHleGMPxeclXyMec9bkQN+FWLh6kDIedQIngndCQ0x+9S+UaLxfcOqoT2gLCcK1066AI3wmGcAI6Pl1tXKdFADkpZDvpy+E4Wb/u5PM5HQwCZH+b9Yf9wgAG1KECj6RfxwC43lbxYXlg0BBbWahCmAz53/tcuwsFZV6V1JdWU9zg8BDAluo9TBz0MaUoRrFtsEExQXhj9CMyVCS1LmN+r35h0OCC7CrA9Ce3d5jjtqGrh6lQEcRVclCG6zlTOrZLgW2JKqETU4cNTrDW4aIKySB8fUm+i0Gt3q2NtvraU8E2EbWk6+PS5cKRl9FgkNEQEdda1WV3N7f3luoszZRJn3aW2UujNSYTgVBED1bvkUV1vK9FCL2oBGmpMO61F0ygzmzbO3qmUChurs5nGQ1Zpe48l0shmQhINGaoksjPETxP8XThFlHzBMOhMKb8ZdRvhPA2aGIyOB0ej/WN59G5/VEjYF2I42O+PCoDqCIb9vOCrHvcL/0EL7x/JRBmnt5F6bantWJomIZKLdKoJJ1jUHbqgsLDGiIunE4rHfxnzg72J2ds7kSi7Z9TZwUlqlVGrLHpkh4U5sKqcJsQWP0GGjF2lAKyOPjAHOFaGCZbeasYo4gVNOzOxLvCf8sxWlYfAigV702fKsI/OWcc+4eBrSnEFLcGpmDuhNNHKbBo+z7phZrHBwhqHpZLPhGcTzkSFT31dHrnDg6gbDWOsxjE/ty6gWJJNYp4Py7VhhrMzm4HLZHQ4aiFLhqR26guzvqdYXWebKAQeTMzEUGyiWYpGSBUW2+HT7KBR9tTofesnahtRTJwZnDoo/+q6ZYfeqnr1QtLOf8v89XJiGP51LZDsGGE1MYBP4PldelB0yVer1Q2t3Hasd9t5t51323m3nXfb+X/aziVI5ZGCaxLhfP0rmi4WuAOVfArdW/eLKn7EVn8Aawywto8LAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8518f425c3f8b610c9043eec05013176</block>
+        <comment>Flow Var. Max. capacity receives Base Record &gt; Max. Capacity</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned>max_capacity</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>82a8cda9c33cb610c9043eec05013194</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>e1babdf4-b02c-4179-a656-c1ef68716a81</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnS5BkPWzfggQBDDQNkLi5FIGwIimbKPUIH7ZVwf/epSU/kPTam2/ikJydGe5CPWmsaa3Rq+ZOa7GuyeLX+4SI2mH43RPByIKQCamh4vhVwT6n0AIVpkN0C9I6uO8LSJMsgJk3Lznz4oSlHpRh5gXlfDZLIJmGReq/cNoo5l+THA5Iw4RuJXRvIxsidCMkU3zU04LC8oYrsug/bR310YxBGkcJnRazIg0DOg/iKec0SIJwGgYBEkoouMSjT7D3v105+Lcv07UOFbXha6w6AN9HiuUZRTNOUzAhfG94zTiKKUFqPkHCmoFpVHdGFAf2XMsLsEH6wS1W1+IPVowDd67kaI+OSZyX+ZjSAJcPYODVKEuNVefQGkG5HoJhvAQrzf01Nhx4bo1o6uGKgUKebjfSVvWPIQ9yJrh6FKtRBG+dUad8tFG+bprdy0nlo6iPmYybsqEgzyswRonCGqenJ1asPsc8QF+D5pJXWDOvoG1Fvc5b1WzFsQ7Krvy1xIVfymaH+lwb+0CdRx+fAPxHxB+O8Bso4Qw/Ic1Y72ctPixfui7iLKIQQemFaTL34rTIPMgi7OMC4oxFZUijkhwmRHf6XoLWl6jwjfIP64wOwY0R5UPK7gpVojV3KGrLxzQO7258Bj23UbuN2m3U/uuoMU6FRp0rJ2p5+r+5jQ77UtBraNeo387hBTv8BZMoERUpBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8118f425c3f8b610c9043eec05013179</block>
+        <comment>Flow Var. Amount receives LookUp line 3 &gt; Count</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</flow>
+        <flow_variables_assigned>amount_approved</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>82a8cda9c33cb610c9043eec05013195</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:55</sys_updated_on>
+        <ui_id>457ee8e4-3159-4797-9ba9-2633bcbea3e3</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4POseEktuPmFrQoUGBbgbXrZSgCWqJTYbLk6qNtZuS/j4qdD7TYcbferEeRfO9RhHtmgu+Cd/dm5ZzcaLb89ThhUkeMvnsmBVsyNmEaWqQvaE3Qfg1dZ80LCgq8gAox0veiEfmiKIpEYF0meVZeJBXwWcLreQYXVV5WiOllzN/tKFFI1ynYPoz5hPAnqYTFkUQHlnp6tGzZvwvtSfGFgDKfFXxeV3U5zfhFls8ReVZk0/k0W1BBBTUqurras/6yOrH+pxy/7WJAao8baj0AX8c6N0fUWBGJZROGbx61oNxlA8rhhLWgBXhjt0fEIohbrU7AE5UfJLfw5uQf6phn8V6DpJGPdhyP69GqAW6uwMOdt4H7YI/OGcnRDe4IbCAof3mODRduOy+NHlI81OqQbVRo9ffBEnYscDaZ4IgEdlFoZD7KaO6ezOuPA8trqfeejEFlOKjjCby3sg4+8ulZkPfvbR6gj0ajwpZ6rluakdSbdRyU3Pch2m26UXRIG2VeiV98wCnwqDGlEUB6TfjVHn4AK6Pgb1Rm7PdTy+eAN/EpLWYNLOq8Sios6iSfN1VSF1An8UUXs7IopgLYbsLc1l0qcO5kFc1o/Ryi0MG40aL14HJM4VZ2fkWkXnB0Y/cYt2bg87lkn0v2uWT/ackEcumI530kdXP4p8XAlp6m5OfQq7G/o8ITtvsLgKAswR0HAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN02a8cda9c33cb610c9043eec0501319f,06a8cda9c33cb610c9043eec0501319f,0aa8cda9c33cb610c9043eec0501319f,0ea8cda9c33cb610c9043eec0501319e,82a8cda9c33cb610c9043eec0501319f,86a8cda9c33cb610c9043eec0501319f,8ea8cda9c33cb610c9043eec0501319e,a63fcde1c37cb610c9043eec050131dd"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>02a8cda9c33cb610c9043eec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5e4bc0be-7c96-4274-bde2-2d0be4baf264</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.amount_approved}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>06a8cda9c33cb610c9043eec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>04ac7aa3-df1b-4985-b0d5-ef44a8e178ce</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.approved_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>0aa8cda9c33cb610c9043eec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>61a5118a-5bc2-4bbc-9f7a-3841b45ba32a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>0ea8cda9c33cb610c9043eec0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2bf74420-6566-4ebd-8561-0ee96af72202</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.max_capacity}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>82a8cda9c33cb610c9043eec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>75a0b7b2-293c-4054-a559-492fd43d8200</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.approved_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>86a8cda9c33cb610c9043eec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f7d36207-3644-4fe5-ab3d-0ca7add7ca52</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ba6570a8-9fed-45d6-af17-0f9885a531b6.Record.base_manager}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_id>8ea8cda9c33cb610c9043eec0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>89b3a3f4-67dd-4983-bd36-f19fd02f1d3a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>39a8cda9c33cb610c9043eec05013160</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.base.base_manager.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:25:16</sys_created_on>
+        <sys_id>a63fcde1c37cb610c9043eec050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:25:16</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>97aef946-8f49-47ba-ba66-6b4d0d2ce22d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=39a8cda9c33cb610c9043eec05013160^sys_idNOT IN0ea8cda9c33cb610c9043eec0501318e,4ea8cda9c33cb610c9043eec0501318b,cea8cda9c33cb610c9043eec05013187,f12d0161c37cb610c9043eec050131a7"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=763a636b-0fef-4f78-aa6f-c00a9bb195f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approved_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Approved List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>0ea8cda9c33cb610c9043eec0501318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=72fa7b48-8e5b-43f8-b5ab-dfd4526551da</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>amount_approved</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Amount Approved</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>4ea8cda9c33cb610c9043eec0501318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=ed2ca2af-1659-46b7-a726-aba47d2f1c2f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>max_capacity</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Max. capacity</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>cea8cda9c33cb610c9043eec05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2a249284-9c87-4bce-aa32-14beef8e310b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>max_reached</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Max Reached</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Base Report at Maximum Capacity">39a8cda9c33cb610c9043eec05013160</model>
+        <model_id>39a8cda9c33cb610c9043eec05013160</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_39a8cda9c33cb610c9043eec05013160</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 21:16:13</sys_created_on>
+        <sys_id>f12d0161c37cb610c9043eec050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:16:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160^sys_idNOT IN75a8cda9c33cb610c9043eec0501316e,f1a8cda9c33cb610c9043eec05013175,fda8cda9c33cb610c9043eec0501317b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>75a8cda9c33cb610c9043eec0501316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>f1a8cda9c33cb610c9043eec05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:33</sys_created_on>
+        <sys_id>fda8cda9c33cb610c9043eec0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:56:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_39a8cda9c33cb610c9043eec05013160"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_39a8cda9c33cb610c9043eec05013160"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_39a8cda9c33cb610c9043eec05013160"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>9bd4aa01c33c3610c9043eec050131ff</sys_id>
+        <latest_snapshot>39a8cda9c33cb610c9043eec05013160</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch9a-06-23-2025_07-23-2025_2226.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9bd4aa01c33c3610c9043eec050131ff^sys_idNOT IN42a8cda9c33cb610c9043eec050131b9"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"42a8cda9c33cb610c9043eec050131b9","name":"plan","plan_signature":null}}</plan>
+        <plan_id>9bd4aa01c33c3610c9043eec050131ff</plan_id>
+        <snapshot>73cf0165c37cb610c9043eec050131bb</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:56:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42a8cda9c33cb610c9043eec050131b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 21:22:04</sys_updated_on>
+        <trigger display_value="">c2a8cda9c33cb610c9043eec050131b7</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9bd4aa01c33c3610c9043eec050131ff"/>
 </record_update>

@@ -58,8 +58,10 @@
         <record/>
         <record_producer_table>x_1092529_bms_ba_0_base_assignment</record_producer_table>
         <reference>x_1092529_bms_ba_0_functions</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>sys_id!=e4bdba50c3347210c9043eec05013129^EQ</reference_qual>
+        <reference_qual_condition table="x_1092529_bms_ba_0_functions">sys_id!=e4bdba50c3347210c9043eec05013129^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="!=" or="false" value="e4bdba50c3347210c9043eec05013129"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,14 +81,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-20 21:22:15</sys_created_on>
         <sys_id>572860d8c3383210c9043eec05013123</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Function</sys_name>
         <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
         <sys_policy/>
         <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
         <sys_update_name>item_option_new_572860d8c3383210c9043eec05013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 17:08:14</sys_updated_on>
+        <sys_updated_on>2025-10-24 16:05:14</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

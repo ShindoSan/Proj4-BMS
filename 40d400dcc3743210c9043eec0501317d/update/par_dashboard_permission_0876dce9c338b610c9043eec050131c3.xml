@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Database Administration Panel">cd2a15d1c3b87610c9043eec050131a8</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 17:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0876dce9c338b610c9043eec050131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cd2a15d1c3b87610c9043eec050131a8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BMS - Base Management System" source="x_1092529_bms_ba_0">40d400dcc3743210c9043eec0501317d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BMS - Base Management System">40d400dcc3743210c9043eec0501317d</sys_scope>
+        <sys_update_name>par_dashboard_permission_0876dce9c338b610c9043eec050131c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 17:17:09</sys_updated_on>
+        <user display_value="BMS  Administrator">928b3454c3b83210c9043eec050131a7</user>
+    </par_dashboard_permission>
+</record_update>
